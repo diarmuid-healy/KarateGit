@@ -1,11 +1,9 @@
 Feature: Create token
 
-    Scenario: Create a new article
-        Given url apiUrl
+    Scenario: Create Token Feature
+        Given url 'https://conduit.productionready.io/api/'
         Given path 'users/login'
-        #Logging in via POST request
-        And request {"user":{"email":"#(userEmail)", "password":"#(userPassword)"}}
+        And request {"user":{"email":"jackbuzzhealy1996@gmail.com","password":"password"}}
         When method POST
         Then status 200
-        #Retrieve unique user token
-        * def authToken = response.user.token
+        * def token = response.user.token

@@ -1,9 +1,10 @@
 Feature: Articles
 
     Background: Define url
-        Given url apiUrl
+        Given url 'http://conduit.productionready.io/api/'
         * def tokenResponse = callonce read('classpath:helpers/CreateToken.feature')
         * def token = tokenResponse.authToken
+        
     Scenario: Create and Delete new article
         #User token provides authorisation
         Given header Authorization = 'Token ' + token
@@ -23,7 +24,7 @@ Feature: Articles
 
         #Deletes article
         Given header Authorization = 'Token ' + token
-        Given path 'articles',articleId
+        Given path 'articles', articleId
         When method DELETE
         Then status 200
 

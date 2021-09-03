@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="conduitApp.ConduitTest" time="86.331" tests="4" errors="0" skipped="0" failures="4">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="conduitApp.ConduitTest" time="40.048" tests="5" errors="0" skipped="0" failures="4">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="GB"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\DIARMU~1.HEA\AppData\Local\Temp\surefire3232587198279600297\surefirebooter7707687286189572073.jar C:\Users\diarmuid.healy\AppData\Local\Temp\surefire3232587198279600297 2021-09-01T14-05-54_176-jvmRun1 surefire7146837222896474970tmp surefire_06850679102069014534tmp"/>
+    <property name="sun.java.command" value="C:\Users\DIARMU~1.HEA\AppData\Local\Temp\surefire8117759874953237146\surefirebooter8775699665558412964.jar C:\Users\diarmuid.healy\AppData\Local\Temp\surefire8117759874953237146 2021-09-03T18-09-54_207-jvmRun1 surefire4915190046343943213tmp surefire_08567343571834039858tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\diarmuid.healy\OneDrive - Accenture\Desktop\KarateGit\Udemy\myproject\target\test-classes;C:\Users\diarmuid.healy\OneDrive - Accenture\Desktop\KarateGit\Udemy\myproject\target\classes;C:\Users\diarmuid.healy\.m2\repository\com\intuit\karate\karate-junit5\1.1.0\karate-junit5-1.1.0.jar;C:\Users\diarmuid.healy\.m2\repository\com\intuit\karate\karate-core\1.1.0\karate-core-1.1.0.jar;C:\Users\diarmuid.healy\.m2\repository\org\graalvm\js\js-scriptengine\21.2.0\js-scriptengine-21.2.0.jar;C:\Users\diarmuid.healy\.m2\repository\org\graalvm\sdk\graal-sdk\21.2.0\graal-sdk-21.2.0.jar;C:\Users\diarmuid.healy\.m2\repository\org\graalvm\js\js\21.2.0\js-21.2.0.jar;C:\Users\diarmuid.healy\.m2\repository\org\graalvm\regex\regex\21.2.0\regex-21.2.0.jar;C:\Users\diarmuid.healy\.m2\repository\org\graalvm\truffle\truffle-api\21.2.0\truffle-api-21.2.0.jar;C:\Users\diarmuid.healy\.m2\repository\com\ibm\icu\icu4j\69.1\icu4j-69.1.jar;C:\Users\diarmuid.healy\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\diarmuid.healy\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\diarmuid.healy\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\diarmuid.healy\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\diarmuid.healy\.m2\repository\com\jayway\jsonpath\json-path\2.6.0\json-path-2.6.0.jar;C:\Users\diarmuid.healy\.m2\repository\net\minidev\json-smart\2.4.7\json-smart-2.4.7.jar;C:\Users\diarmuid.healy\.m2\repository\net\minidev\accessors-smart\2.4.7\accessors-smart-2.4.7.jar;C:\Users\diarmuid.healy\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar;C:\Users\diarmuid.healy\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\diarmuid.healy\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\diarmuid.healy\.m2\repository\org\yaml\snakeyaml\1.29\snakeyaml-1.29.jar;C:\Users\diarmuid.healy\.m2\repository\de\siegmar\fastcsv\2.0.0\fastcsv-2.0.0.jar;C:\Users\diarmuid.healy\.m2\repository\info\picocli\picocli\4.6.1\picocli-4.6.1.jar;C:\Users\diarmuid.healy\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\diarmuid.healy\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\diarmuid.healy\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\diarmuid.healy\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\diarmuid.healy\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\diarmuid.healy\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\diarmuid.healy"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\DIARMU~1.HEA\AppData\Local\Temp\surefire3232587198279600297\surefirebooter7707687286189572073.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\DIARMU~1.HEA\AppData\Local\Temp\surefire8117759874953237146\surefirebooter8775699665558412964.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_291\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,17 +60,16 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testAll[1][1]" classname="conduitApp.ConduitTest" time="10.44">
-    <failure message="status code was: 503, expected: 200, response time in milliseconds: 1048, url: https://conduit.productionready.io/api/users/login, response: &#10;&lt;h1&gt;This website is under heavy load&lt;/h1&gt;&lt;p&gt;We&apos;re sorry, too many people are accessing this website at the same time. We&apos;re working on this problem. Please try again later.&lt;/p&gt;&#10;classpath:helpers/CreateToken.feature:9&#10;classpath:conduitApp/feature/Articles.feature:5" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
-status code was: 503, expected: 200, response time in milliseconds: 1048, url: https://conduit.productionready.io/api/users/login, response: 
-<h1>This website is under heavy load</h1><p>We're sorry, too many people are accessing this website at the same time. We're working on this problem. Please try again later.</p>
-classpath:helpers/CreateToken.feature:9
-classpath:conduitApp/feature/Articles.feature:5
-]]></failure>
-    <system-out><![CDATA[14:06:01.002 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-14:06:04.927 [main] INFO  com.intuit.karate - karate.env system property was: null 
-14:06:05.113 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:helpers/CreateToken.feature')
-14:06:07.495 [main] DEBUG com.intuit.karate - request:
+  <testcase name="testAll[1][1]" classname="conduitApp.ConduitTest" time="11">
+    <failure message="status code was: 401, expected: 200, response time in milliseconds: 6667, url: http://conduit.productionready.io/api/articles, response: &#10;&#10;classpath:conduitApp/feature/Articles.feature:15" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: 
+status code was: 401, expected: 200, response time in milliseconds: 6667, url: http://conduit.productionready.io/api/articles, response: 
+
+classpath:conduitApp/feature/Articles.feature:15
+</failure>
+    <system-out><![CDATA[18:09:56.685 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:09:58.020 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:09:58.103 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:helpers/CreateToken.feature')
+18:09:59.023 [main] DEBUG com.intuit.karate - request:
 1 > POST https://conduit.productionready.io/api/users/login
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 70
@@ -80,49 +79,85 @@ classpath:conduitApp/feature/Articles.feature:5
 1 > Accept-Encoding: gzip,deflate
 {"user":{"email":"jackbuzzhealy1996@gmail.com","password":"password"}}
 
-14:06:08.546 [main] DEBUG com.intuit.karate - response time in milliseconds: 1048
-1 < 503
-1 < Date: Wed, 01 Sep 2021 13:06:08 GMT
-1 < Content-Type: text/html; charset=UTF-8
+18:09:59.832 [main] DEBUG com.intuit.karate - response time in milliseconds: 807
+1 < 200
+1 < Date: Fri, 03 Sep 2021 17:09:59 GMT
+1 < Content-Type: application/json; charset=utf-8
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
-1 < cache-control: no-cache, no-store, must-revalidate
-1 < status: 503 Service Unavailable
+1 < cache-control: max-age=0, private, must-revalidate
+1 < etag: W/"556bad833caee5267cd4e4191b643574"
+1 < status: 200 OK
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-frame-options: SAMEORIGIN
+1 < x-powered-by: Phusion Passenger 4.0.60
+1 < x-request-id: 4c653b31-ad5b-427e-b407-19158ebb16e6
+1 < x-runtime: 0.089622
+1 < x-xss-protection: 1; mode=block
 1 < CF-Cache-Status: DYNAMIC
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ylnggNChdbnBbD3BBb5ZipMVy%2BJRa2ebOQBb%2FsQAgikb5Hl37fyhrNmN9bkg%2B591Lcm3FHCVZ16Mu2F2SraBBfT1jLHV23ziNTocm5epEdxCqVkDTOiXCHqekuvT7klZWCzNhkLuWmRi3PScKA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=VelIORJ%2BRDZMP92etdUB2pXheSvLD6B9s6kOB8X%2Blrw%2FMZy1jL%2BFjg%2BD260quMDYVFuhw%2BbX%2FT0SxeN9b%2BDSTECe1lKyi3Mk5Caw3IgitF7KuCDiKK8XgZprP4gCiQiFNxDFrE%2FHaGnDTF8GWg%3D%3D"}],"group":"cf-nel","max_age":604800}
 1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 1 < Server: cloudflare
-1 < CF-RAY: 687eb6d05f0ae64c-LHR
+1 < CF-RAY: 689096c62cd00070-LHR
 1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
-<h1>This website is under heavy load</h1><p>We're sorry, too many people are accessing this website at the same time. We're working on this problem. Please try again later.</p>
-14:06:08.552 [main] ERROR com.intuit.karate - classpath:helpers/CreateToken.feature:9
+{"user":{"id":217246,"email":"jackbuzzhealy1996@gmail.com","createdAt":"2021-08-31T10:11:53.157Z","updatedAt":"2021-08-31T10:32:42.058Z","username":"jack-healy-001","bio":null,"image":null,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MjE3MjQ2LCJ1c2VybmFtZSI6ImphY2staGVhbHktMDAxIiwiZXhwIjoxNjM1ODcyOTk5fQ.wAJMO1QkuT_ZiBWgncY8AznHepy90hgfnI3-aTsNx4g"}}
+18:09:59.847 [main] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:helpers/CreateToken.feature')
+18:09:59.887 [main] DEBUG com.intuit.karate - request:
+1 > POST http://conduit.productionready.io/api/articles
+1 > Authorization: Token null
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 137
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+{"article":{"tagList":[],"title":"Another Article","description":"This is another article","body":"This is the body of another article"}}
+
+18:10:06.554 [main] DEBUG com.intuit.karate - response time in milliseconds: 6667
+1 < 401
+1 < Date: Fri, 03 Sep 2021 17:10:06 GMT
+1 < Content-Type: text/html
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < cache-control: no-cache
+1 < status: 401 Unauthorized
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-frame-options: SAMEORIGIN
+1 < x-powered-by: Phusion Passenger 4.0.60
+1 < x-request-id: f5ca3b24-f7bc-45f5-85bf-64d2dc3c9a65
+1 < x-runtime: 0.003750
+1 < x-xss-protection: 1; mode=block
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=CAXsIytDogUHd10ES9cLD71MIIS6sGbekm5c%2FnW4YF8lukgGLJtIiYBlHAoNW%2FHTemJOn0An8Wi%2BNkyU9lXcHcoEroEWjwKaSuWB9KJq%2B%2BBUnSah9IReHqraPp0dapVWu4Fa6Z0cL0ZHbOw4ew%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 689096c96e63e680-LHR
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+
+18:10:06.556 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/Articles.feature:15
 Then status 200
-status code was: 503, expected: 200, response time in milliseconds: 1048, url: https://conduit.productionready.io/api/users/login, response: 
-<h1>This website is under heavy load</h1><p>We're sorry, too many people are accessing this website at the same time. We're working on this problem. Please try again later.</p>
-classpath:helpers/CreateToken.feature:9
-14:06:08.554 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/Articles.feature:5
-* def tokenResponse = callonce read('classpath:helpers/CreateToken.feature')
-status code was: 503, expected: 200, response time in milliseconds: 1048, url: https://conduit.productionready.io/api/users/login, response: 
-<h1>This website is under heavy load</h1><p>We're sorry, too many people are accessing this website at the same time. We're working on this problem. Please try again later.</p>
-classpath:helpers/CreateToken.feature:9
-classpath:conduitApp/feature/Articles.feature:5
+status code was: 401, expected: 200, response time in milliseconds: 6667, url: http://conduit.productionready.io/api/articles, response: 
+
+classpath:conduitApp/feature/Articles.feature:15
 ---------------------------------------------------------
 feature: classpath:conduitApp/feature/Articles.feature
-scenarios:  1 | passed:  0 | failed:  1 | time: 3.4731
+scenarios:  1 | passed:  0 | failed:  1 | time: 8.4644
 ---------------------------------------------------------
 
 ]]></system-out>
   </testcase>
-  <testcase name="testAll[2][1]" classname="conduitApp.ConduitTest" time="30.968">
-    <failure message="http call failed after 30178 milliseconds for url: https://conduit.productionready.io/api/users/login&#10;classpath:helpers/CreateToken.feature:8&#10;classpath:conduitApp/feature/DeleteArticle.feature:5" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: 
-http call failed after 30178 milliseconds for url: https://conduit.productionready.io/api/users/login
-classpath:helpers/CreateToken.feature:8
-classpath:conduitApp/feature/DeleteArticle.feature:5
+  <testcase name="testAll[2][1]" classname="conduitApp.ConduitTest" time="1.219">
+    <failure message="status code was: 401, expected: 200, response time in milliseconds: 365, url: http://conduit.productionready.io/api/articles, response: &#10;&#10;classpath:conduitApp/feature/DeleteArticle.feature:15" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: 
+status code was: 401, expected: 200, response time in milliseconds: 365, url: http://conduit.productionready.io/api/articles, response: 
+
+classpath:conduitApp/feature/DeleteArticle.feature:15
 </failure>
-    <system-out><![CDATA[14:06:11.626 [main] INFO  com.intuit.karate - karate.env system property was: null 
-14:06:11.637 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:helpers/CreateToken.feature')
-14:06:11.673 [main] DEBUG com.intuit.karate - request:
+    <system-out><![CDATA[18:10:07.755 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:10:07.761 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:helpers/CreateToken.feature')
+18:10:07.773 [main] DEBUG com.intuit.karate - request:
 1 > POST https://conduit.productionready.io/api/users/login
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 70
@@ -132,80 +167,168 @@ classpath:conduitApp/feature/DeleteArticle.feature:5
 1 > Accept-Encoding: gzip,deflate
 {"user":{"email":"jackbuzzhealy1996@gmail.com","password":"password"}}
 
-14:06:41.849 [main] ERROR com.intuit.karate - java.net.SocketTimeoutException: Read timed out, http call failed after 30178 milliseconds for url: https://conduit.productionready.io/api/users/login
-14:06:41.850 [main] ERROR com.intuit.karate - classpath:helpers/CreateToken.feature:8
-When method POST
-http call failed after 30178 milliseconds for url: https://conduit.productionready.io/api/users/login
-classpath:helpers/CreateToken.feature:8
-14:06:41.851 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/DeleteArticle.feature:5
-* def tokenResponse = callonce read('classpath:helpers/CreateToken.feature')
-http call failed after 30178 milliseconds for url: https://conduit.productionready.io/api/users/login
-classpath:helpers/CreateToken.feature:8
-classpath:conduitApp/feature/DeleteArticle.feature:5
----------------------------------------------------------
-feature: classpath:conduitApp/feature/DeleteArticle.feature
-scenarios:  1 | passed:  0 | failed:  1 | time: 30.2209
----------------------------------------------------------
-
-]]></system-out>
-  </testcase>
-  <testcase name="testAll[3][1]" classname="conduitApp.ConduitTest" time="5.78">
-    <failure message="status code was: 503, expected: 200, response time in milliseconds: 510, url: https://conduit.productionready.io/api/users/login, response: &#10;&lt;h1&gt;This website is under heavy load&lt;/h1&gt;&lt;p&gt;We&apos;re sorry, too many people are accessing this website at the same time. We&apos;re working on this problem. Please try again later.&lt;/p&gt;&#10;classpath:helpers/CreateToken.feature:9&#10;classpath:conduitApp/feature/HomePage.feature:5" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
-status code was: 503, expected: 200, response time in milliseconds: 510, url: https://conduit.productionready.io/api/users/login, response: 
-<h1>This website is under heavy load</h1><p>We're sorry, too many people are accessing this website at the same time. We're working on this problem. Please try again later.</p>
-classpath:helpers/CreateToken.feature:9
-classpath:conduitApp/feature/HomePage.feature:5
-]]></failure>
-    <system-out><![CDATA[14:06:42.492 [main] INFO  com.intuit.karate - karate.env system property was: null 
-14:06:42.501 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:helpers/CreateToken.feature')
-14:06:42.544 [main] DEBUG com.intuit.karate - request:
-1 > POST https://conduit.productionready.io/api/users/login
-1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 70
-1 > Host: conduit.productionready.io
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
-1 > Accept-Encoding: gzip,deflate
-{"user":{"email":"jackbuzzhealy1996@gmail.com","password":"password"}}
-
-14:06:43.054 [main] DEBUG com.intuit.karate - response time in milliseconds: 510
-1 < 503
-1 < Date: Wed, 01 Sep 2021 13:06:42 GMT
-1 < Content-Type: text/html; charset=UTF-8
+18:10:08.250 [main] DEBUG com.intuit.karate - response time in milliseconds: 474
+1 < 200
+1 < Date: Fri, 03 Sep 2021 17:10:08 GMT
+1 < Content-Type: application/json; charset=utf-8
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
-1 < cache-control: no-cache, no-store, must-revalidate
-1 < status: 503 Service Unavailable
+1 < cache-control: max-age=0, private, must-revalidate
+1 < etag: W/"08a000aad201e1a2ec0003fb10eda7c5"
+1 < status: 200 OK
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-frame-options: SAMEORIGIN
+1 < x-powered-by: Phusion Passenger 4.0.60
+1 < x-request-id: 4b956db3-f2bb-4928-b9e7-7a97b0938e11
+1 < x-runtime: 0.088893
+1 < x-xss-protection: 1; mode=block
 1 < CF-Cache-Status: DYNAMIC
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=sr4LPBPsH%2F%2BypLz%2BPuW7luiXA4zhHXCARRTr0kTePh%2FvP44odGvYaAkYCweEEQl3ILlqpf8%2BZiU58qLgAVyfPBmx6Hzb76ht0Rq%2B9vuVK5pM21lTOuhBLfzy0EHYGlerJGOt3UGWUnUapBsRtg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=PGGsHtK2E2U1SdggKOXXyzdim2l0LaoM%2FaLhGQZc6TfAnP7r0hp4fAgW8PZpw6VDHpQeda63CgpRQ65L0z%2BFcG%2Fc0D3MWJNHcuea9Nys4mLz0ahjFcP8FgndSxiL4IZn9DVi5dwIBx%2BadegD4A%3D%3D"}],"group":"cf-nel","max_age":604800}
 1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 1 < Server: cloudflare
-1 < CF-RAY: 687eb7a7fb94002a-LHR
+1 < CF-RAY: 689096fadd336580-LHR
 1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
-<h1>This website is under heavy load</h1><p>We're sorry, too many people are accessing this website at the same time. We're working on this problem. Please try again later.</p>
-14:06:43.057 [main] ERROR com.intuit.karate - classpath:helpers/CreateToken.feature:9
+{"user":{"id":217246,"email":"jackbuzzhealy1996@gmail.com","createdAt":"2021-08-31T10:11:53.157Z","updatedAt":"2021-08-31T10:32:42.058Z","username":"jack-healy-001","bio":null,"image":null,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MjE3MjQ2LCJ1c2VybmFtZSI6ImphY2staGVhbHktMDAxIiwiZXhwIjoxNjM1ODczMDA4fQ.CSKdlfVOmHAXn7W64MOzERQi05hkFbINAbSN_oce09E"}}
+18:10:08.253 [main] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:helpers/CreateToken.feature')
+18:10:08.255 [main] DEBUG com.intuit.karate - request:
+1 > POST http://conduit.productionready.io/api/articles
+1 > Authorization: Token null
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 180
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+{"article":{"tagList":[],"title":"Delete Article","description":"This is another article which will be deleted","body":"This is the body of another article which will be deleted"}}
+
+18:10:08.621 [main] DEBUG com.intuit.karate - response time in milliseconds: 365
+1 < 401
+1 < Date: Fri, 03 Sep 2021 17:10:08 GMT
+1 < Content-Type: text/html
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < cache-control: no-cache
+1 < status: 401 Unauthorized
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-frame-options: SAMEORIGIN
+1 < x-powered-by: Phusion Passenger 4.0.60
+1 < x-request-id: b6e11ea2-3f24-4cf8-b8af-18302ee56983
+1 < x-runtime: 0.003829
+1 < x-xss-protection: 1; mode=block
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Ulkv9YFvag3l9PEbjC%2FAbMoqUHe98zSUggkU%2FcEc3WaG4Gv9sYWzFMCwAUQYn%2FcxxODcKnwfn19vDapbrY0H5LqGshcAVXWpXky7r%2FwRSXBrKP5qoI5mmjk3mBZIH4Tdq9KfVb2E5P4xh%2Bw7uw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 689096fdbcf10712-LHR
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+
+18:10:08.623 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/DeleteArticle.feature:15
 Then status 200
-status code was: 503, expected: 200, response time in milliseconds: 510, url: https://conduit.productionready.io/api/users/login, response: 
-<h1>This website is under heavy load</h1><p>We're sorry, too many people are accessing this website at the same time. We're working on this problem. Please try again later.</p>
-classpath:helpers/CreateToken.feature:9
-14:06:43.057 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/HomePage.feature:5
-* def tokenResponse = callonce read('classpath:helpers/CreateToken.feature')
-status code was: 503, expected: 200, response time in milliseconds: 510, url: https://conduit.productionready.io/api/users/login, response: 
-<h1>This website is under heavy load</h1><p>We're sorry, too many people are accessing this website at the same time. We're working on this problem. Please try again later.</p>
-classpath:helpers/CreateToken.feature:9
-classpath:conduitApp/feature/HomePage.feature:5
+status code was: 401, expected: 200, response time in milliseconds: 365, url: http://conduit.productionready.io/api/articles, response: 
+
+classpath:conduitApp/feature/DeleteArticle.feature:15
+---------------------------------------------------------
+feature: classpath:conduitApp/feature/DeleteArticle.feature
+scenarios:  1 | passed:  0 | failed:  1 | time: 0.8657
+---------------------------------------------------------
+
 ]]></system-out>
   </testcase>
-  <testcase name="testAll[3][2]" classname="conduitApp.ConduitTest" time="36.051">
-    <failure message="http call failed after 30132 milliseconds for url: https://conduit.productionready.io/api/users/login&#10;classpath:helpers/CreateToken.feature:8&#10;classpath:conduitApp/feature/HomePage.feature:5" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: 
-http call failed after 30132 milliseconds for url: https://conduit.productionready.io/api/users/login
-classpath:helpers/CreateToken.feature:8
-classpath:conduitApp/feature/HomePage.feature:5
+  <testcase name="testAll[3][1]" classname="conduitApp.ConduitTest" time="16.682">
+    <failure message="match failed: CONTAINS&#10;  $ | actual does not contain expected | actual array does not contain expected item - public (LIST:STRING)&#10;  [&quot;Аmаtеur&quot;,&quot;аnаl&quot;,&quot;Jаpаnеsе&quot;,&quot;hеntаі&quot;,&quot;Оld/Yоung&quot;,&quot;МІLF&quot;,&quot;Mаturе&quot;,&quot;bоndаgе&quot;,&quot;Віg Аss&quot;,&quot;Thrееsоmе&quot;,&quot;gау&quot;,&quot;Tееn&quot;,&quot;Fеmаlе Оrgаsm&quot;,&quot;рublіс&quot;,&quot;Bіg Тіts&quot;,&quot;Віg Dісk&quot;,&quot;Еbоnу&quot;,&quot;Lеsbіаn&quot;,&quot;Сartооn&quot;,&quot;russіаn&quot;]&#10;  &apos;public&apos;&#10;&#10;    $[19] | not equal (STRING:STRING)&#10;    &apos;russіаn&apos;&#10;    &apos;public&apos;&#10;&#10;    $[18] | not equal (STRING:STRING)&#10;    &apos;Сartооn&apos;&#10;    &apos;public&apos;&#10;&#10;    $[17] | not equal (STRING:STRING)&#10;    &apos;Lеsbіаn&apos;&#10;    &apos;public&apos;&#10;&#10;    $[16] | not equal (STRING:STRING)&#10;    &apos;Еbоnу&apos;&#10;    &apos;public&apos;&#10;&#10;    $[15] | not equal (STRING:STRING)&#10;    &apos;Віg Dісk&apos;&#10;    &apos;public&apos;&#10;&#10;    $[14] | not equal (STRING:STRING)&#10;    &apos;Bіg Тіts&apos;&#10;    &apos;public&apos;&#10;&#10;    $[13] | not equal (STRING:STRING)&#10;    &apos;рublіс&apos;&#10;    &apos;public&apos;&#10;&#10;    $[12] | not equal (STRING:STRING)&#10;    &apos;Fеmаlе Оrgаsm&apos;&#10;    &apos;public&apos;&#10;&#10;    $[11] | not equal (STRING:STRING)&#10;    &apos;Tееn&apos;&#10;    &apos;public&apos;&#10;&#10;    $[10] | not equal (STRING:STRING)&#10;    &apos;gау&apos;&#10;    &apos;public&apos;&#10;&#10;    $[9] | not equal (STRING:STRING)&#10;    &apos;Thrееsоmе&apos;&#10;    &apos;public&apos;&#10;&#10;    $[8] | not equal (STRING:STRING)&#10;    &apos;Віg Аss&apos;&#10;    &apos;public&apos;&#10;&#10;    $[7] | not equal (STRING:STRING)&#10;    &apos;bоndаgе&apos;&#10;    &apos;public&apos;&#10;&#10;    $[6] | not equal (STRING:STRING)&#10;    &apos;Mаturе&apos;&#10;    &apos;public&apos;&#10;&#10;    $[5] | not equal (STRING:STRING)&#10;    &apos;МІLF&apos;&#10;    &apos;public&apos;&#10;&#10;    $[4] | not equal (STRING:STRING)&#10;    &apos;Оld/Yоung&apos;&#10;    &apos;public&apos;&#10;&#10;    $[3] | not equal (STRING:STRING)&#10;    &apos;hеntаі&apos;&#10;    &apos;public&apos;&#10;&#10;    $[2] | not equal (STRING:STRING)&#10;    &apos;Jаpаnеsе&apos;&#10;    &apos;public&apos;&#10;&#10;    $[1] | not equal (STRING:STRING)&#10;    &apos;аnаl&apos;&#10;    &apos;public&apos;&#10;&#10;    $[0] | not equal (STRING:STRING)&#10;    &apos;Аmаtеur&apos;&#10;    &apos;public&apos;&#10;&#10;classpath:conduitApp/feature/HomePage.feature:14" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: 
+match failed: CONTAINS
+  $ | actual does not contain expected | actual array does not contain expected item - public (LIST:STRING)
+  ["Аmаtеur","аnаl","Jаpаnеsе","hеntаі","Оld/Yоung","МІLF","Mаturе","bоndаgе","Віg Аss","Thrееsоmе","gау","Tееn","Fеmаlе Оrgаsm","рublіс","Bіg Тіts","Віg Dісk","Еbоnу","Lеsbіаn","Сartооn","russіаn"]
+  'public'
+
+    $[19] | not equal (STRING:STRING)
+    'russіаn'
+    'public'
+
+    $[18] | not equal (STRING:STRING)
+    'Сartооn'
+    'public'
+
+    $[17] | not equal (STRING:STRING)
+    'Lеsbіаn'
+    'public'
+
+    $[16] | not equal (STRING:STRING)
+    'Еbоnу'
+    'public'
+
+    $[15] | not equal (STRING:STRING)
+    'Віg Dісk'
+    'public'
+
+    $[14] | not equal (STRING:STRING)
+    'Bіg Тіts'
+    'public'
+
+    $[13] | not equal (STRING:STRING)
+    'рublіс'
+    'public'
+
+    $[12] | not equal (STRING:STRING)
+    'Fеmаlе Оrgаsm'
+    'public'
+
+    $[11] | not equal (STRING:STRING)
+    'Tееn'
+    'public'
+
+    $[10] | not equal (STRING:STRING)
+    'gау'
+    'public'
+
+    $[9] | not equal (STRING:STRING)
+    'Thrееsоmе'
+    'public'
+
+    $[8] | not equal (STRING:STRING)
+    'Віg Аss'
+    'public'
+
+    $[7] | not equal (STRING:STRING)
+    'bоndаgе'
+    'public'
+
+    $[6] | not equal (STRING:STRING)
+    'Mаturе'
+    'public'
+
+    $[5] | not equal (STRING:STRING)
+    'МІLF'
+    'public'
+
+    $[4] | not equal (STRING:STRING)
+    'Оld/Yоung'
+    'public'
+
+    $[3] | not equal (STRING:STRING)
+    'hеntаі'
+    'public'
+
+    $[2] | not equal (STRING:STRING)
+    'Jаpаnеsе'
+    'public'
+
+    $[1] | not equal (STRING:STRING)
+    'аnаl'
+    'public'
+
+    $[0] | not equal (STRING:STRING)
+    'Аmаtеur'
+    'public'
+
+classpath:conduitApp/feature/HomePage.feature:14
 </failure>
-    <system-out><![CDATA[14:06:43.067 [main] INFO  com.intuit.karate - karate.env system property was: null 
-14:06:43.072 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:helpers/CreateToken.feature')
-14:06:43.081 [main] DEBUG com.intuit.karate - request:
+    <system-out><![CDATA[18:10:08.898 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:10:08.903 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:helpers/CreateToken.feature')
+18:10:08.914 [main] DEBUG com.intuit.karate - request:
 1 > POST https://conduit.productionready.io/api/users/login
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 70
@@ -215,48 +338,237 @@ classpath:conduitApp/feature/HomePage.feature:5
 1 > Accept-Encoding: gzip,deflate
 {"user":{"email":"jackbuzzhealy1996@gmail.com","password":"password"}}
 
-14:07:13.211 [main] ERROR com.intuit.karate - java.net.SocketTimeoutException: Read timed out, http call failed after 30132 milliseconds for url: https://conduit.productionready.io/api/users/login
-14:07:13.212 [main] ERROR com.intuit.karate - classpath:helpers/CreateToken.feature:8
-When method POST
-http call failed after 30132 milliseconds for url: https://conduit.productionready.io/api/users/login
-classpath:helpers/CreateToken.feature:8
-14:07:13.212 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/HomePage.feature:5
-* def tokenResponse = callonce read('classpath:helpers/CreateToken.feature')
-http call failed after 30132 milliseconds for url: https://conduit.productionready.io/api/users/login
-classpath:helpers/CreateToken.feature:8
-classpath:conduitApp/feature/HomePage.feature:5
+18:10:09.436 [main] DEBUG com.intuit.karate - response time in milliseconds: 522
+1 < 200
+1 < Date: Fri, 03 Sep 2021 17:10:09 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < cache-control: max-age=0, private, must-revalidate
+1 < etag: W/"2a40a393c93a878eaa6c963725fd1e55"
+1 < status: 200 OK
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-frame-options: SAMEORIGIN
+1 < x-powered-by: Phusion Passenger 4.0.60
+1 < x-request-id: d91640df-2087-4155-b5d4-53649809d7c0
+1 < x-runtime: 0.082508
+1 < x-xss-protection: 1; mode=block
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=APLtO0gHb1EVMPamx2aYZWC6wgxk2O4RdXBHpROyapU46yUwKd5zgoQAwwiFOrz%2Fg%2BGYKGo1JnrvZVSvtT%2B09fdHs15eYCYzC31iYytMNIkojC7dB%2FC%2F0J3AH7np5s5OmPMIUupGa%2Bf3mwZzPA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 689097022cde540a-LHR
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{"user":{"id":217246,"email":"jackbuzzhealy1996@gmail.com","createdAt":"2021-08-31T10:11:53.157Z","updatedAt":"2021-08-31T10:32:42.058Z","username":"jack-healy-001","bio":null,"image":null,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MjE3MjQ2LCJ1c2VybmFtZSI6ImphY2staGVhbHktMDAxIiwiZXhwIjoxNjM1ODczMDA5fQ.k11c1e2ih5eEb_N9zSiNupRyb_B4B5ma6Qr_a0nudCI"}}
+18:10:09.439 [main] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:helpers/CreateToken.feature')
+18:10:09.442 [main] DEBUG com.intuit.karate - request:
+1 > GET http://conduit.productionready.io/api/tags
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:10:25.444 [main] DEBUG com.intuit.karate - response time in milliseconds: 16002
+1 < 200
+1 < Date: Fri, 03 Sep 2021 17:10:25 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < cache-control: max-age=0, private, must-revalidate
+1 < etag: W/"dc4cdaf6ec5a96ea203c31eb02848d77"
+1 < status: 200 OK
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-frame-options: SAMEORIGIN
+1 < x-powered-by: Phusion Passenger 4.0.60
+1 < x-request-id: 8f1c9fcc-fd2d-42b5-9360-cadf266da888
+1 < x-runtime: 6.728478
+1 < x-xss-protection: 1; mode=block
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Zw3EBIXy%2BpSfHy6jCYsN2O28zKYIAT%2Fvqz6EwIdbxO1as4gKhi%2Bx41K2btCamQ0RtKh9BCoRKQJTCq92TuRHEcJRf9AjSm0dS7CYwI%2BWYx956gCdn37ADHk2pTSELaGcrGDrin3r%2B7hriDNJIw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 689097057cfb5452-LHR
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{"tags":["?m?t?ur","?n?l","J?p?n?s?","h?nt??","?ld/Y?ung","??LF","M?tur?","b?nd?g?","??g ?ss","Thr??s?m?","g??","T??n","F?m?l? ?rg?sm","?ubl??","B?g ??ts","??g D??k","?b?n?","L?sb??n","?art??n","russ??n"]}
+18:10:25.464 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/HomePage.feature:14
+And match response.tags contains 'public'
+match failed: CONTAINS
+  $ | actual does not contain expected | actual array does not contain expected item - public (LIST:STRING)
+  ["?m?t?ur","?n?l","J?p?n?s?","h?nt??","?ld/Y?ung","??LF","M?tur?","b?nd?g?","??g ?ss","Thr??s?m?","g??","T??n","F?m?l? ?rg?sm","?ubl??","B?g ??ts","??g D??k","?b?n?","L?sb??n","?art??n","russ??n"]
+  'public'
+
+    $[19] | not equal (STRING:STRING)
+    'russ??n'
+    'public'
+
+    $[18] | not equal (STRING:STRING)
+    '?art??n'
+    'public'
+
+    $[17] | not equal (STRING:STRING)
+    'L?sb??n'
+    'public'
+
+    $[16] | not equal (STRING:STRING)
+    '?b?n?'
+    'public'
+
+    $[15] | not equal (STRING:STRING)
+    '??g D??k'
+    'public'
+
+    $[14] | not equal (STRING:STRING)
+    'B?g ??ts'
+    'public'
+
+    $[13] | not equal (STRING:STRING)
+    '?ubl??'
+    'public'
+
+    $[12] | not equal (STRING:STRING)
+    'F?m?l? ?rg?sm'
+    'public'
+
+    $[11] | not equal (STRING:STRING)
+    'T??n'
+    'public'
+
+    $[10] | not equal (STRING:STRING)
+    'g??'
+    'public'
+
+    $[9] | not equal (STRING:STRING)
+    'Thr??s?m?'
+    'public'
+
+    $[8] | not equal (STRING:STRING)
+    '??g ?ss'
+    'public'
+
+    $[7] | not equal (STRING:STRING)
+    'b?nd?g?'
+    'public'
+
+    $[6] | not equal (STRING:STRING)
+    'M?tur?'
+    'public'
+
+    $[5] | not equal (STRING:STRING)
+    '??LF'
+    'public'
+
+    $[4] | not equal (STRING:STRING)
+    '?ld/Y?ung'
+    'public'
+
+    $[3] | not equal (STRING:STRING)
+    'h?nt??'
+    'public'
+
+    $[2] | not equal (STRING:STRING)
+    'J?p?n?s?'
+    'public'
+
+    $[1] | not equal (STRING:STRING)
+    '?n?l'
+    'public'
+
+    $[0] | not equal (STRING:STRING)
+    '?m?t?ur'
+    'public'
+
+classpath:conduitApp/feature/HomePage.feature:14
+]]></system-out>
+  </testcase>
+  <testcase name="testAll[3][2]" classname="conduitApp.ConduitTest" time="8.521">
+    <failure message="match failed: EACH_EQUALS&#10;  $ | match each failed at index 0 (LIST:MAP)&#10;  [{&quot;title&quot;:&quot;df&quot;,&quot;slug&quot;:&quot;df-lzs6wx&quot;,&quot;body&quot;:&quot;fdsf&quot;,&quot;createdAt&quot;:&quot;2021-09-03T16:55:07.818Z&quot;,&quot;updatedAt&quot;:&quot;2021-09-03T16:55:07.818Z&quot;,&quot;tagList&quot;:[],&quot;description&quot;:&quot;df&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;aaa71&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;iPhone 13&quot;,&quot;slug&quot;:&quot;iphone-13-dm10ze&quot;,&quot;body&quot;:&quot;hello world React =&gt; Redux&quot;,&quot;createdAt&quot;:&quot;2021-09-03T16:53:01.928Z&quot;,&quot;updatedAt&quot;:&quot;2021-09-03T16:56:10.948Z&quot;,&quot;tagList&quot;:[],&quot;description&quot;:&quot;iPhone 13 with 4 back camera &quot;,&quot;author&quot;:{&quot;username&quot;:&quot;aaa71&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;bubalo gansito&quot;,&quot;slug&quot;:&quot;bubalo-gansito-nkbiks&quot;,&quot;body&quot;:&quot;muy ricas, quieroooooo!&quot;,&quot;createdAt&quot;:&quot;2021-09-03T16:50:53.019Z&quot;,&quot;updatedAt&quot;:&quot;2021-09-03T16:50:53.019Z&quot;,&quot;tagList&quot;:[],&quot;description&quot;:&quot;golosinas&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;Diana Rubi&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;bubalo gansito&quot;,&quot;slug&quot;:&quot;bubalo-gansito-auxfu7&quot;,&quot;body&quot;:&quot;muy ricas, quieroooooo!&quot;,&quot;createdAt&quot;:&quot;2021-09-03T16:42:08.283Z&quot;,&quot;updatedAt&quot;:&quot;2021-09-03T16:42:08.283Z&quot;,&quot;tagList&quot;:[],&quot;description&quot;:&quot;golosinas&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;Diana Rubi&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;da-da&quot;,&quot;slug&quot;:&quot;da-da-3mve4e&quot;,&quot;body&quot;:&quot;bla-bla&quot;,&quot;createdAt&quot;:&quot;2021-09-03T16:33:23.350Z&quot;,&quot;updatedAt&quot;:&quot;2021-09-03T16:33:23.350Z&quot;,&quot;tagList&quot;:[&quot;red&quot;,&quot;gerl&quot;,&quot;beer&quot;],&quot;description&quot;:&quot;who-who&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;Cat-Pimp&quot;,&quot;bio&quot;:&quot;tra-ta-ta&quot;,&quot;image&quot;:&quot;data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFBcRFBUUFBcZFxQRERcXEBEXFxEUFxcYGBcXFxcaICwjGhwoHRcXJDUkKC0vMjIyGSI4PTgxPCwxMi8BCwsLDw4PGhERHDEgIygxMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMf/AABEIAKgBLAMBIgACEQEDEQH/xAAbAAEAAQUBAAAAAAAAAAAAAAAABAECAwUGB//EADYQAAIBAwMDAgQEBQMFAAAAAAABAgMEERIhMQUGQVFhEyJxgTKRocEjQrHR8BRy4TNSYpLx/8QAGgEBAAMBAQEAAAAAAAAAAAAAAAIEBQMBBv/EAC4RAAICAQQABAQGAwEAAAAAAAABAhEDBBIhMRMiQVEFYYGRMnGhwdHhsfDxFf/aAAwDAQACEQMRAD8A8ZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKlAAVyMgzVaEopNppPgmoyatI9pmEFARs8AAPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACqQBQGSFNt4Jz6RV0qeiTT84O0NPlmrjGyUYSl0rNaSbSznUeIps3HSu3Jzl86cY+TtrDpkKaSivvjkv6f4c+8vHy9TpDC2+TS9E7VSxKe79DJ3xbxjCMEkml+52ltS0rU+fBxPd/T5SzUk3vuv7Gg4rw5RguK6NfHp2sE6Xa6OABXBQ+aMIAFQCgK4B7QKAuwUPdoKArgoRYAAAAAAAAAAAAAAAAAAAAAAKgAoVSJlp0+pUfyRcvsdV0fs6Uvmq/LHHHnJew6DJk5fC+ZGc4x7ZyVKxnP8ABFy+iyXy6ZVTxol/6s9YsLGjSXyRSeMe7JNWySjrwsv2ND/zsHrf3OUdTBujy227cqy3ktK9zd2vakcZlP8AI3DdTXpa429vYy04PdNNen0LePSYcf4Y/fkuRhyv+kGz6DShNZTl5WTsbfQ4KOlY4xhGkoQkqkc8c5NtKeEmvcnNeiNTDBXwSF02PjbJmhYJC3ukTYzTKk5zRa216EOrFLnhHC943iaaU9vT0PQblLS9snlHd8G6jUVjc9jJ+HJruieWbWGTS5o5CUShma+XHo2YsGHKFM+aYwMFSuD1RPCmCuCuCuCewFuCjRdgYGwFmBguaKEHEFgAOAAAAAAAAAAAAAB0/athQrKcaqbkt44eMo5gm9Lu3SqRqLxz7ryi1o8ihlW7p8EMibi0nTOtqdr0ZfgbX1ZrLztacd4/MvbJ1dvVU4qpHiSzj0JVOob8tNhl3FfYprVZI98/n/R5pU6bKLw019iZYdE1vd4Xl+PzO9q2kJ8pFKVhBNbLC8EI6LBF3tJLWJrqiT0Hp1OMUklt5wbypTWMGG3gkkuDPKJKbtlN5U5W1/v6kCduk1gz1Kjxp5Faajlt4Sy229kly2cR1fvZpuFvGOFt8Sabz/tj6e7/ACPJzUUnInjg8j8qOuqUE92aTqVxplo88xa/c4+XdV293Vz7fDp4/SJdb9e1zzWwnjaS4z4yjyGrx2lJ1+fX3NTBFwfmZ0lt1R6nGTRtrTqEZwcW91wef/PJzqR/DHGt59XhJerJfRriSms7JvCl4z6Mm88N21m3pp3JJ+pv+qdddt41P+VZ2+/scredzXVV5dacF4jTbgv03f3LO47lzqtPhb/X0/Q06kZ2q1L3tXSK+u1M/FcIukjdUO47qm8xr1NuVKWtP6qWTrOg9Uo3rdKtGMKu7WNoz+no/Y831EmzuZU5wqx/FCSmvszji1jUuGcsGtyYpW3a9U+Tsu4e1nFOUWlH6HFzpYe256B3Jdu4s41tbpTb3t9spatm+HvFp5OB+G1z/wAnbUpNrj6nb4hGG9OMfTl/16GEqkZakfK/xlYU9tT48e5WUOaKG13Rao4WfXgtwZpzz4X5FuCTXsSaXoY8FMGXBRobTzaYmi0yNFuCDRBowgAongAAAAAAAAAAAAKooVTPUDo+g9W+G8VJNwe2nnB19CbklKmk4vfJ5hCeDo+i9wTUo0mlofy4Xg3tJrYSSjN0+irnw7vNHs7aE1w5LP1JlKHua626emnJZfobC3puOzNCzNk16GwpzwsFfisjutGMXKb0peWayp1mE6kaNONSc5KbilHnTFyaXnhHLaeRg5dIjd41Z/6dviGcTlnl/wAsPu937I8xcju+9L2r8FW/w/4TVK6+LqTeJpYjKK/Dv67+x582ZOszrdSNnDHbiiqp8t/d/tRc5luShckZzlKR0Ons9ErSUnHTJShBNSX8RrU9488Pl7EztzRJTpz4ksL2fqjnba6cacqXiUoy900mtvzOh6PY03hSVSjPZxlltS+xu4Lk0/lybGjzKUodcKvazR9ww01XFRUcYjtnfH82/lmnO77g7ZrSXxIfxf8Ayjz9GjiKtNxbjJNNcpmXrcbjkb9PT+CnrsLx5XKuG+P4MZIpQzt5exgTO17G7fnVqxrzjilF6llf9SS4SXpnyR0sLlZww4nlntX1+SPSbTpsfgwhKMXKMIxeYp7qKRwfd3Q8TcoRfr7I9Qo/kQes9P1waRqwyJvbLpn0FxneOfTPEXbtZ1bLZkepPL22S2SN/wBctJ03LUmt8L6HPpHHNDY9qMrU4/DlsKYKpGV0vXb28l7cVwssgo+5xUPfgwaCjiXuRa0eNL0PGkY2i3Be0WkGjk0RQAZpzAAAAAAAAAAAAAAABntk9S085WPr4MCOw7F6bGrU1Sf4eEW9Hi8TIuarkhOahFyZ3nQrdqnCUvxaVqRPqRzwsEmnRUflRk0extuduzDbt2Qo2iksSSa90Q7y1jHOEl9EbuMCLd6fqIZHuCds4XqFtnV8vKafun4/oef16TjJxaaw8brD+57TO0jLfBoes9BpVFmUcPxJPD+5DV6ZahJrho0cOqaioS6XXys8vwXQOkr9sNZcZNr3wjN0ztyMn87+yM+Hw3NuV0vqW3kildkTtjpnxqqcvwxab9zse46lKlBLH+1Llv6+CBbW1SlN6VFJLETVdavK02nKEEotJvLepeya2NaOPwcdRt/rb9zlDz5oyvhHUdrdUck018mMvMnt92VqWFvcTy4xnFvnho5lXEHH4MG95KS8Z2w0zr+j01FaU8Pb8jnjluTun7+1n20Nsoe/CsU+07aOJRpxz4zl/wBTf2VLSvH5GWknhbr9CQl6/wBGcXKlSRyc6jtXX0X+DNTnsZITztgwfFilyVt5rPP6nFx4sruPDdGq6/0iNWD+Xfw/Q8s6nZypTaxj3/sj3GqotbHE90dIck5xR3xS8RbH9CSXiw2vhro8wcscZ92+SxRfoTLmlKMmsGDD8s4yg06ZmSxtOmY9Ja0ZZSMcmRZzaSMckWl7LTmzm0QgAZZXAAAAAAAAAAAAAKpGWjRcnhE4Y5TaUUC61t3Ukox5bwj1rtLt6NGKnhubSyzVdo9FhFKbinL19Dvrd44RuYsC00K7k+3+xmavUX5YmSNv5wVdPBnVxsYKsyKcmZ6bMUkRakCVzyQ6z32OsDrBWUeEiBWjlmedT1MSmnwWIqi3DDZAvLTKwiPZWbhPUk9tucLc39Oin+LZe/ki3tNcyliK2wvPsSU/QsRwzb2o1XU3GDzvKTeUktv+TnrihUa1zxvwn6HRPjEINtvlrBdT6W3LNR6uGl4RJuka+g0cVJWcx/p8ONRrDz6HUdDw5ZNT1mtCU1ThhqOza9fJve37aSw+U+Dm+Ez6SMYqLo6ahTTM83GC4RTVpjnyay9uJS2ZRUXNlSMXN/Iy1LnU8Ik0DWWuzwzc0IbEsiUeCeVKCpGamiNfW6lFomQ+hjq4OEXTtFaMmpHlHcnT6kJPyvBy04npfddBuOUed3Mdy5mW6KkNZC0p+5FKMvZYyozOZZIsL5FDm0cmQAAZZWAAAAAAAAAAAAKo23Q7JzqRWG1nc1UeTtey6Kcs8s0/huGMp736HPLLbBs7/pVmoQSSxsT9bRdbwxEv0eTRlK3yYbdsvpz2IdzW9Cdo2NVfyaWxHGk5CKVl8a3qzDcZ5X5Gpd3plvksurqpJZjlL/OEWljpliEOSt7WcOZ49lj/ABEVdZ0PlY9lu/oIWEqi1TysrO/Jmn0SnjbPu/LZJ0auGS/D2SLHq8ZySSeSfUvKTeHJZW79vU1jsJQjppJLP4n5Rbb9Ka5ePovPrn0RFpGljwR7J066x8rTfHjl/wBjW3casnpzpi+Sy6Xw2tMnJZw/r5Mn+tcsJo8NHFjmvwkay6Rma22T59TtemWmmP0NVYPCNs7xaHGO7Zwzbnwi1Le40i6/vIpYTTNRTm5PzgkUunym8t4z7k12ejZIhFwgqRKLx41tTtl9lbJk9RUdjDZ7ExpPkrZJO+Snlk93JjhPJZd0sxyhXi47rc03U+ufDi8rdbnuPHKT8ohBydxNB3HTm08Pjx6nn9wt91+p0vWO6te2lHMXNwp7+S3lkttXye6rLCUavlEeWC1l2otkyozNZjZQqyhzOLIAAMorAAAAAAAAAAAAGSmtz0bsWltqa8nnlFnqHaMJaFnb0N74dFLHJorat1jOzgZKZZQRna2DfNGMWTkay8RsZEOrDJ0xumTiaS5orOcEm0zKejCUUsfVkh22ZZfBmpKKeSw58UWIyIN5Takki23pSllZx7vkk3Es7kWnX0PH5bnqvaaOHJSNrShGKxjPuZJqLXp4NY7r0Ik7/fk5+G3zZp4Jtk2p02CUVH/ucn9X+xko9IjnUyLTvMmztq+TyW9I01NpdmG5tmsKK2w+EYY6l+5uPiIrOimuDkstdo6xyUuSJa1N+d/c3NKOUav4UU9uf6E621LhnHLT5RDMk+UZ5U8F6kXwg/JWNMrWVnIsiajrvTqdSEspZwb5xNT1Kk2nhnTDKpWnRPDLz8OjxjrNhKnJp8I0zOx7jsaqk290cjVptPcs6mFStdENbi2ztLgtAKMrFMtZQMtIs5shAAyysAAAAAAAAAAAAZ6Et0ej9p15OK1ySXhHm1NG/wCjVKzkowzj13N34dJ7XFnHPDfCj2S2qJrZktROc6FSqJLW8vydLBbE80dsqRiTVMtUEYa1MmKJjnB44OakRTNfV2WCFV2RsLmi8Z4Ite3Tim2/bcswkjtGRpZ3bTaexDrVk/JOurPU8Zz9uTU3HT5Q3fC9Cyi7hlyZJTcVnO/7ESvcPJHqXCTWc49c8Mtr3Sk1jf7Hpq4JNMnW9Z5R0NpcLC9jl7dSe6TwvJMq3WhPHLf/ANIyRqY7lwdTSrambiEvl3OK6Vfamjqo1G8LJVzQ6osuFUisqe+STb1cGKL9S6MV4K75VMk+VTNjTqGWNUhUyTEruKKk4ozr1I9aKZmjNYMUyK7Ix4ZznW7JSi9vDPLuqrTJrHk9h6hHMWeT9xUmpyW/JpY5N4mXpNywM56TMbZcyxspMxpMoy0qyhA5shAAzCuAAAAAAAAADLSpOTwlkAsaXFHJlUZdHj4VnR9J7dnPDksI73o3R4U0lhAH0biscdsFRlajLKTpnS20EifBbFAUMhQZngjHcTwVByXZ5Hs1N1W8GuuJvbLeOOOfoAaGNJIsxM06OHnbhbN+TU31bU3GWy4/xlATxc8nbF2c7dUsvCX6ltG2y8Ya90Ad6NOE2SY5g8PHtvkyTpavmbW22OWwDyRsaabST9yRYpLdpfudLY3MWuQDlOKaLsm32T6k87IshNoAptJcE4exLp1fczqqAcWlZGUVZdCs/wDEXufqAQaOUkkYK8E0cf3H0qE05YwwCzpn5ixgPPL6zUW8M1bAI6qKjLgztZGMZ8Ki1lpUFQos/9k=&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;Grupo Primo&quot;,&quot;slug&quot;:&quot;grupo-primo-i3ksl6&quot;,&quot;body&quot;:&quot;Follow @thiago.nigro on Instagram&quot;,&quot;createdAt&quot;:&quot;2021-09-03T16:31:29.371Z&quot;,&quot;updatedAt&quot;:&quot;2021-09-03T16:31:29.371Z&quot;,&quot;tagList&quot;:[],&quot;description&quot;:&quot;Best investment and entrepreneur content&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;Grupo Primo&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;test&quot;,&quot;slug&quot;:&quot;test-cx0qju&quot;,&quot;body&quot;:&quot;test&quot;,&quot;createdAt&quot;:&quot;2021-09-03T16:30:41.764Z&quot;,&quot;updatedAt&quot;:&quot;2021-09-03T16:30:41.764Z&quot;,&quot;tagList&quot;:[&quot;test&quot;],&quot;description&quot;:&quot;test&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;Cat-Pimp&quot;,&quot;bio&quot;:&quot;tra-ta-ta&quot;,&quot;image&quot;:&quot;data:image/jpeg;base64,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&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;My post title&quot;,&quot;slug&quot;:&quot;my-post-title-jm8bt2&quot;,&quot;body&quot;:&quot;Simple automation project https://github.com/helenanull/cypress-example&quot;,&quot;createdAt&quot;:&quot;2021-09-03T16:06:28.605Z&quot;,&quot;updatedAt&quot;:&quot;2021-09-03T16:06:28.605Z&quot;,&quot;tagList&quot;:[&quot;test-automation&quot;,&quot;cypress&quot;],&quot;description&quot;:&quot;Cypress&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;cy950868076&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;My post title&quot;,&quot;slug&quot;:&quot;my-post-title-zt9fm2&quot;,&quot;body&quot;:&quot;Simple automation project https://github.com/helenanull/cypress-example&quot;,&quot;createdAt&quot;:&quot;2021-09-03T16:06:00.985Z&quot;,&quot;updatedAt&quot;:&quot;2021-09-03T16:06:00.985Z&quot;,&quot;tagList&quot;:[],&quot;description&quot;:&quot;Cypress&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;cy980796948&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;I need more rust in my life&quot;,&quot;slug&quot;:&quot;i-need-more-rust-in-my-life-918ovl&quot;,&quot;body&quot;:&quot;I need more rust in my life since my car is full of it. &quot;,&quot;createdAt&quot;:&quot;2021-09-03T15:48:55.970Z&quot;,&quot;updatedAt&quot;:&quot;2021-09-03T15:48:55.970Z&quot;,&quot;tagList&quot;:[],&quot;description&quot;:&quot;Rust&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;tonyqt&quot;,&quot;bio&quot;:&quot;is me... Mario&quot;,&quot;image&quot;:&quot;&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0}]&#10;  {&quot;title&quot;:&quot;#string&quot;,&quot;slug&quot;:&quot;#string&quot;,&quot;body&quot;:&quot;#string&quot;,&quot;//\&quot;createdAt\&quot;&quot;:&quot;#? isValueTime(_)&quot;,&quot;//\&quot;updatedAt\&quot;&quot;:&quot;#? isValueTime(_)&quot;,&quot;tagList&quot;:&quot;#array&quot;,&quot;description&quot;:&quot;#string&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;#string&quot;,&quot;bio&quot;:&quot;##string&quot;,&quot;image&quot;:&quot;#string&quot;,&quot;following&quot;:&quot;#boolean&quot;},&quot;favourited&quot;:&quot;#boolean&quot;,&quot;favouritesCount&quot;:&quot;#number&quot;}&#10;&#10;    $[0] | not equal | actual does not contain key - &apos;//&quot;createdAt&quot;&apos; (MAP:MAP)&#10;    {&quot;title&quot;:&quot;df&quot;,&quot;slug&quot;:&quot;df-lzs6wx&quot;,&quot;body&quot;:&quot;fdsf&quot;,&quot;createdAt&quot;:&quot;2021-09-03T16:55:07.818Z&quot;,&quot;updatedAt&quot;:&quot;2021-09-03T16:55:07.818Z&quot;,&quot;tagList&quot;:[],&quot;description&quot;:&quot;df&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;aaa71&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0}&#10;    {&quot;title&quot;:&quot;#string&quot;,&quot;slug&quot;:&quot;#string&quot;,&quot;body&quot;:&quot;#string&quot;,&quot;tagList&quot;:&quot;#array&quot;,&quot;description&quot;:&quot;#string&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;#string&quot;,&quot;bio&quot;:&quot;##string&quot;,&quot;image&quot;:&quot;#string&quot;,&quot;following&quot;:&quot;#boolean&quot;},&quot;//\&quot;createdAt\&quot;&quot;:&quot;#? isValueTime(_)&quot;,&quot;//\&quot;updatedAt\&quot;&quot;:&quot;#? isValueTime(_)&quot;,&quot;favourited&quot;:&quot;#boolean&quot;,&quot;favouritesCount&quot;:&quot;#number&quot;}&#10;&#10;&#10;classpath:conduitApp/feature/HomePage.feature:38" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: 
+match failed: EACH_EQUALS
+  $ | match each failed at index 0 (LIST:MAP)
+  [{"title":"df","slug":"df-lzs6wx","body":"fdsf","createdAt":"2021-09-03T16:55:07.818Z","updatedAt":"2021-09-03T16:55:07.818Z","tagList":[],"description":"df","author":{"username":"aaa71","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"iPhone 13","slug":"iphone-13-dm10ze","body":"hello world React => Redux","createdAt":"2021-09-03T16:53:01.928Z","updatedAt":"2021-09-03T16:56:10.948Z","tagList":[],"description":"iPhone 13 with 4 back camera ","author":{"username":"aaa71","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"bubalo gansito","slug":"bubalo-gansito-nkbiks","body":"muy ricas, quieroooooo!","createdAt":"2021-09-03T16:50:53.019Z","updatedAt":"2021-09-03T16:50:53.019Z","tagList":[],"description":"golosinas","author":{"username":"Diana Rubi","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"bubalo gansito","slug":"bubalo-gansito-auxfu7","body":"muy ricas, quieroooooo!","createdAt":"2021-09-03T16:42:08.283Z","updatedAt":"2021-09-03T16:42:08.283Z","tagList":[],"description":"golosinas","author":{"username":"Diana Rubi","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"da-da","slug":"da-da-3mve4e","body":"bla-bla","createdAt":"2021-09-03T16:33:23.350Z","updatedAt":"2021-09-03T16:33:23.350Z","tagList":["red","gerl","beer"],"description":"who-who","author":{"username":"Cat-Pimp","bio":"tra-ta-ta","image":"data:image/jpeg;base64,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","following":false},"favorited":false,"favoritesCount":0},{"title":"Grupo Primo","slug":"grupo-primo-i3ksl6","body":"Follow @thiago.nigro on Instagram","createdAt":"2021-09-03T16:31:29.371Z","updatedAt":"2021-09-03T16:31:29.371Z","tagList":[],"description":"Best investment and entrepreneur content","author":{"username":"Grupo Primo","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"test","slug":"test-cx0qju","body":"test","createdAt":"2021-09-03T16:30:41.764Z","updatedAt":"2021-09-03T16:30:41.764Z","tagList":["test"],"description":"test","author":{"username":"Cat-Pimp","bio":"tra-ta-ta","image":"data:image/jpeg;base64,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","following":false},"favorited":false,"favoritesCount":0},{"title":"My post title","slug":"my-post-title-jm8bt2","body":"Simple automation project https://github.com/helenanull/cypress-example","createdAt":"2021-09-03T16:06:28.605Z","updatedAt":"2021-09-03T16:06:28.605Z","tagList":["test-automation","cypress"],"description":"Cypress","author":{"username":"cy950868076","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"My post title","slug":"my-post-title-zt9fm2","body":"Simple automation project https://github.com/helenanull/cypress-example","createdAt":"2021-09-03T16:06:00.985Z","updatedAt":"2021-09-03T16:06:00.985Z","tagList":[],"description":"Cypress","author":{"username":"cy980796948","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"I need more rust in my life","slug":"i-need-more-rust-in-my-life-918ovl","body":"I need more rust in my life since my car is full of it. ","createdAt":"2021-09-03T15:48:55.970Z","updatedAt":"2021-09-03T15:48:55.970Z","tagList":[],"description":"Rust","author":{"username":"tonyqt","bio":"is me... Mario","image":"","following":false},"favorited":false,"favoritesCount":0}]
+  {"title":"#string","slug":"#string","body":"#string","//\"createdAt\"":"#? isValueTime(_)","//\"updatedAt\"":"#? isValueTime(_)","tagList":"#array","description":"#string","author":{"username":"#string","bio":"##string","image":"#string","following":"#boolean"},"favourited":"#boolean","favouritesCount":"#number"}
+
+    $[0] | not equal | actual does not contain key - '//"createdAt"' (MAP:MAP)
+    {"title":"df","slug":"df-lzs6wx","body":"fdsf","createdAt":"2021-09-03T16:55:07.818Z","updatedAt":"2021-09-03T16:55:07.818Z","tagList":[],"description":"df","author":{"username":"aaa71","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0}
+    {"title":"#string","slug":"#string","body":"#string","tagList":"#array","description":"#string","author":{"username":"#string","bio":"##string","image":"#string","following":"#boolean"},"//\"createdAt\"":"#? isValueTime(_)","//\"updatedAt\"":"#? isValueTime(_)","favourited":"#boolean","favouritesCount":"#number"}
+
+
+classpath:conduitApp/feature/HomePage.feature:38
+</failure>
+    <system-out><![CDATA[18:10:25.472 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:10:25.510 [main] DEBUG com.intuit.karate - request:
+1 > GET http://conduit.productionready.io/api/articles?offset=0&limit=10
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:10:26.239 [main] DEBUG com.intuit.karate - response time in milliseconds: 729
+1 < 200
+1 < Date: Fri, 03 Sep 2021 17:10:26 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < cache-control: max-age=0, private, must-revalidate
+1 < etag: W/"1818c55b4204d3e54e5d44910ebe54e4"
+1 < status: 200 OK
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-frame-options: SAMEORIGIN
+1 < x-powered-by: Phusion Passenger 4.0.60
+1 < x-request-id: 7cc1083a-1695-4ad6-81ca-4f19d3144c1d
+1 < x-runtime: 0.519427
+1 < x-xss-protection: 1; mode=block
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=BW22cq9k7iHOPxe2i687P759AL1nni1Oirl50JX4itjh4JU1U0FFUFg2O6bHDsh9%2FpgopY04Nj1Z36Mg%2Fc9IvWc5EVmLUXHKtQZXFOM0oRtdsSAXAUuAGDjs5d8E0rhKZbGFQlj7khzewm9Lfg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 689097698f9b5719-LHR
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{"articles":[{"title":"df","slug":"df-lzs6wx","body":"fdsf","createdAt":"2021-09-03T16:55:07.818Z","updatedAt":"2021-09-03T16:55:07.818Z","tagList":[],"description":"df","author":{"username":"aaa71","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"iPhone 13","slug":"iphone-13-dm10ze","body":"hello world React =\u003e Redux","createdAt":"2021-09-03T16:53:01.928Z","updatedAt":"2021-09-03T16:56:10.948Z","tagList":[],"description":"iPhone 13 with 4 back camera ","author":{"username":"aaa71","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"bubalo gansito","slug":"bubalo-gansito-nkbiks","body":"muy ricas, quieroooooo!","createdAt":"2021-09-03T16:50:53.019Z","updatedAt":"2021-09-03T16:50:53.019Z","tagList":[],"description":"golosinas","author":{"username":"Diana Rubi","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"bubalo gansito","slug":"bubalo-gansito-auxfu7","body":"muy ricas, quieroooooo!","createdAt":"2021-09-03T16:42:08.283Z","updatedAt":"2021-09-03T16:42:08.283Z","tagList":[],"description":"golosinas","author":{"username":"Diana Rubi","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"da-da","slug":"da-da-3mve4e","body":"bla-bla","createdAt":"2021-09-03T16:33:23.350Z","updatedAt":"2021-09-03T16:33:23.350Z","tagList":["red","gerl","beer"],"description":"who-who","author":{"username":"Cat-Pimp","bio":"tra-ta-ta","image":"data:image/jpeg;base64,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","following":false},"favorited":false,"favoritesCount":0},{"title":"Grupo Primo","slug":"grupo-primo-i3ksl6","body":"Follow @thiago.nigro on Instagram","createdAt":"2021-09-03T16:31:29.371Z","updatedAt":"2021-09-03T16:31:29.371Z","tagList":[],"description":"Best investment and entrepreneur content","author":{"username":"Grupo Primo","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"test","slug":"test-cx0qju","body":"test","createdAt":"2021-09-03T16:30:41.764Z","updatedAt":"2021-09-03T16:30:41.764Z","tagList":["test"],"description":"test","author":{"username":"Cat-Pimp","bio":"tra-ta-ta","image":"data:image/jpeg;base64,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","following":false},"favorited":false,"favoritesCount":0},{"title":"My post title","slug":"my-post-title-jm8bt2","body":"Simple automation project https://github.com/helenanull/cypress-example","createdAt":"2021-09-03T16:06:28.605Z","updatedAt":"2021-09-03T16:06:28.605Z","tagList":["test-automation","cypress"],"description":"Cypress","author":{"username":"cy950868076","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"My post title","slug":"my-post-title-zt9fm2","body":"Simple automation project https://github.com/helenanull/cypress-example","createdAt":"2021-09-03T16:06:00.985Z","updatedAt":"2021-09-03T16:06:00.985Z","tagList":[],"description":"Cypress","author":{"username":"cy980796948","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"I need more rust in my life","slug":"i-need-more-rust-in-my-life-918ovl","body":"I need more rust in my life since my car is full of it. ","createdAt":"2021-09-03T15:48:55.970Z","updatedAt":"2021-09-03T15:48:55.970Z","tagList":[],"description":"Rust","author":{"username":"tonyqt","bio":"is me... Mario","image":"","following":false},"favorited":false,"favoritesCount":0}],"articlesCount":500}
+18:10:26.254 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/HomePage.feature:38
+And match each response.articles ==
+"""
+{
+    "title":"#string",
+    "slug":"#string",
+    "body":"#string",
+    //"createdAt":"#? isValueTime(_)",
+    //"updatedAt":"#? isValueTime(_)",
+    "tagList":"#array",
+    "description":"#string",
+    "author":
+    {
+        "username":"#string",
+        "bio":"##string",
+        "image":"#string",
+        "following":"#boolean"
+    },
+    "favourited":"#boolean",
+    "favouritesCount":"#number",
+}
+"""
+match failed: EACH_EQUALS
+  $ | match each failed at index 0 (LIST:MAP)
+  [{"title":"df","slug":"df-lzs6wx","body":"fdsf","createdAt":"2021-09-03T16:55:07.818Z","updatedAt":"2021-09-03T16:55:07.818Z","tagList":[],"description":"df","author":{"username":"aaa71","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"iPhone 13","slug":"iphone-13-dm10ze","body":"hello world React => Redux","createdAt":"2021-09-03T16:53:01.928Z","updatedAt":"2021-09-03T16:56:10.948Z","tagList":[],"description":"iPhone 13 with 4 back camera ","author":{"username":"aaa71","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"bubalo gansito","slug":"bubalo-gansito-nkbiks","body":"muy ricas, quieroooooo!","createdAt":"2021-09-03T16:50:53.019Z","updatedAt":"2021-09-03T16:50:53.019Z","tagList":[],"description":"golosinas","author":{"username":"Diana Rubi","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"bubalo gansito","slug":"bubalo-gansito-auxfu7","body":"muy ricas, quieroooooo!","createdAt":"2021-09-03T16:42:08.283Z","updatedAt":"2021-09-03T16:42:08.283Z","tagList":[],"description":"golosinas","author":{"username":"Diana Rubi","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"da-da","slug":"da-da-3mve4e","body":"bla-bla","createdAt":"2021-09-03T16:33:23.350Z","updatedAt":"2021-09-03T16:33:23.350Z","tagList":["red","gerl","beer"],"description":"who-who","author":{"username":"Cat-Pimp","bio":"tra-ta-ta","image":"data:image/jpeg;base64,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","following":false},"favorited":false,"favoritesCount":0},{"title":"Grupo Primo","slug":"grupo-primo-i3ksl6","body":"Follow @thiago.nigro on Instagram","createdAt":"2021-09-03T16:31:29.371Z","updatedAt":"2021-09-03T16:31:29.371Z","tagList":[],"description":"Best investment and entrepreneur content","author":{"username":"Grupo Primo","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"test","slug":"test-cx0qju","body":"test","createdAt":"2021-09-03T16:30:41.764Z","updatedAt":"2021-09-03T16:30:41.764Z","tagList":["test"],"description":"test","author":{"username":"Cat-Pimp","bio":"tra-ta-ta","image":"data:image/jpeg;base64,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","following":false},"favorited":false,"favoritesCount":0},{"title":"My post title","slug":"my-post-title-jm8bt2","body":"Simple automation project https://github.com/helenanull/cypress-example","createdAt":"2021-09-03T16:06:28.605Z","updatedAt":"2021-09-03T16:06:28.605Z","tagList":["test-automation","cypress"],"description":"Cypress","author":{"username":"cy950868076","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"My post title","slug":"my-post-title-zt9fm2","body":"Simple automation project https://github.com/helenanull/cypress-example","createdAt":"2021-09-03T16:06:00.985Z","updatedAt":"2021-09-03T16:06:00.985Z","tagList":[],"description":"Cypress","author":{"username":"cy980796948","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"I need more rust in my life","slug":"i-need-more-rust-in-my-life-918ovl","body":"I need more rust in my life since my car is full of it. ","createdAt":"2021-09-03T15:48:55.970Z","updatedAt":"2021-09-03T15:48:55.970Z","tagList":[],"description":"Rust","author":{"username":"tonyqt","bio":"is me... Mario","image":"","following":false},"favorited":false,"favoritesCount":0}]
+  {"title":"#string","slug":"#string","body":"#string","//\"createdAt\"":"#? isValueTime(_)","//\"updatedAt\"":"#? isValueTime(_)","tagList":"#array","description":"#string","author":{"username":"#string","bio":"##string","image":"#string","following":"#boolean"},"favourited":"#boolean","favouritesCount":"#number"}
+
+    $[0] | not equal | actual does not contain key - '//"createdAt"' (MAP:MAP)
+    {"title":"df","slug":"df-lzs6wx","body":"fdsf","createdAt":"2021-09-03T16:55:07.818Z","updatedAt":"2021-09-03T16:55:07.818Z","tagList":[],"description":"df","author":{"username":"aaa71","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0}
+    {"title":"#string","slug":"#string","body":"#string","tagList":"#array","description":"#string","author":{"username":"#string","bio":"##string","image":"#string","following":"#boolean"},"//\"createdAt\"":"#? isValueTime(_)","//\"updatedAt\"":"#? isValueTime(_)","favourited":"#boolean","favouritesCount":"#number"}
+
+
+classpath:conduitApp/feature/HomePage.feature:38
 ---------------------------------------------------------
 feature: classpath:conduitApp/feature/HomePage.feature
-scenarios:  2 | passed:  0 | failed:  2 | time: 30.7043
+scenarios:  2 | passed:  0 | failed:  2 | time: 17.3424
 ---------------------------------------------------------
-
-Karate version: 1.1.0
-======================================================
-elapsed:  73.42 | threads:    1 | thread time: 64.40 
-features:     3 | skipped:    0 | efficiency: 0.88
-scenarios:    4 | passed:     0 | failed: 4
-======================================================
->>> failed features:
-status code was: 503, expected: 200, response time in milliseconds: 1048, url: https://conduit.productionready.io/api/users/login, response: 
-<h1>This website is under heavy load</h1><p>We're sorry, too many people are accessing this website at the same time. We're working on this problem. Please try again later.</p>
-classpath:helpers/CreateToken.feature:9
-classpath:conduitApp/feature/Articles.feature:5
-status code was: 503, expected: 200, response time in milliseconds: 510, url: https://conduit.productionready.io/api/users/login, response: 
-<h1>This website is under heavy load</h1><p>We're sorry, too many people are accessing this website at the same time. We're working on this problem. Please try again later.</p>
-classpath:helpers/CreateToken.feature:9
-classpath:conduitApp/feature/HomePage.feature:5
-http call failed after 30132 milliseconds for url: https://conduit.productionready.io/api/users/login
-classpath:helpers/CreateToken.feature:8
-classpath:conduitApp/feature/HomePage.feature:5
-http call failed after 30178 milliseconds for url: https://conduit.productionready.io/api/users/login
-classpath:helpers/CreateToken.feature:8
-classpath:conduitApp/feature/DeleteArticle.feature:5
-<<<
-
-HTML report: (paste into browser to view) | Karate version: 1.1.0
-file:///C:/Users/diarmuid.healy/OneDrive%20-%20Accenture/Desktop/KarateGit/Udemy/myproject/target/karate-reports/karate-summary.html
-===================================================================
 
 ]]></system-out>
   </testcase>
+  <testcase name="testAll[4][1]" classname="conduitApp.ConduitTest" time="1.458"/>
 </testsuite>

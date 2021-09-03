@@ -30,16 +30,16 @@
     <div>Scenarios</div>
   </div>         
   <div id="nav-date">
-    <div>2021-09-01 02:07:13 PM</div>
+    <div>2021-09-03 06:10:26 PM</div>
   </div>        
 </div>
 
         <div class="nav-container">
           <div class="nav-item failed">
-            <a href="#[1:7]"><span>[1:7]</span> <span>Get all tags</span></a>
+            <a href="#[1:8]"><span>[1:8]</span> <span>Get all tags</span></a>
           </div>
           <div class="nav-item failed">
-            <a href="#[2:19]"><span>[2:19]</span> <span>Get 10 articles from the API</span></a>
+            <a href="#[2:24]"><span>[2:24]</span> <span>Get 10 articles from the API</span></a>
           </div>
         </div>
       </div>
@@ -53,29 +53,29 @@
           <span class="feature-description"></span>
         </div>
         <div class="scenario">
-          <div class="scenario-heading" id="[1:7]">
+          <div class="scenario-heading" id="[1:8]">
             <div class="heading-container">
               <div class="scenario-tags">
                 
               </div>
               <div class="scenario-keyword">
-                Scenario: <span>[1:7]</span>
+                Scenario: <span>[1:8]</span>
                 <span class="scenario-name">Get all tags</span>
                 <span></span>
               </div>
             </div>
             <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>561</span>
+              <span>ms:</span>&nbsp;<span>16565</span>
             </div>
           </div>
           <div class="step-row">
-            <div class="step-container" id="[1:7]bg">
+            <div class="step-container" id="[1:8]bg">
               <div class="step-ref bg-step">&gt;&gt;</div>
               <div class="step-cell passed">Background:</div>
             </div>
             <div class="time-cell passed"></div>
           </div>
-          <div data-parent="[1:7]bg"><div>
+          <div data-parent="[1:8]bg"><div>
   
 
   
@@ -85,7 +85,7 @@
       <div class="step-ref bg-step">4</div>
       
       <div class="step-cell passed">
-        <span>Given</span>&nbsp;<span>url apiUrl</span>
+        <span>Given</span>&nbsp;<span>url &#39;http://conduit.productionready.io/api/&#39;</span>
       </div>
     </div>
     <div class="time-cell passed">0</div>
@@ -97,14 +97,14 @@
 
   
 
-  <div class="preformatted" data-parent="0.4">14:06:42.493 karate.env system property was: null 
+  <div class="preformatted" data-parent="0.4">18:10:08.899 karate.env system property was: null 
 </div>   
 
   
 
 </div>
 </div>
-          <div data-parent="[1:7]bg"><div>
+          <div data-parent="[1:8]bg"><div>
   
 
   
@@ -113,11 +113,11 @@
     <div class="step-container" id="0.5">
       <div class="step-ref bg-step">5</div>
       
-      <div class="step-cell failed">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>def tokenResponse = callonce read(&#39;classpath:helpers/CreateToken.feature&#39;)</span>
       </div>
     </div>
-    <div class="time-cell failed">561</div>
+    <div class="time-cell passed">540</div>
   </div>
 
    
@@ -126,12 +126,7 @@
 
   
 
-  <div class="preformatted" data-parent="0.5">14:06:43.057 classpath:conduitApp/feature/HomePage.feature:5
-* def tokenResponse = callonce read(&#39;classpath:helpers/CreateToken.feature&#39;)
-status code was: 503, expected: 200, response time in milliseconds: 510, url: https://conduit.productionready.io/api/users/login, response: 
-&lt;h1&gt;This website is under heavy load&lt;/h1&gt;&lt;p&gt;We&#39;re sorry, too many people are accessing this website at the same time. We&#39;re working on this problem. Please try again later.&lt;/p&gt;
-classpath:helpers/CreateToken.feature:9
-classpath:conduitApp/feature/HomePage.feature:5
+  <div class="preformatted" data-parent="0.5">18:10:09.439 &lt;&lt; lock released, cached callonce: read(&#39;classpath:helpers/CreateToken.feature&#39;)
 </div>   
 
   <div>
@@ -142,7 +137,7 @@ classpath:conduitApp/feature/HomePage.feature:5
         <div class="step-indent"></div>
         <div class="step-cell passed">helpers.CreateToken</div>
       </div>
-      <div class="time-cell passed">526</div>
+      <div class="time-cell passed">527</div>
     </div>
     <div>
       <div><div>
@@ -155,7 +150,7 @@ classpath:conduitApp/feature/HomePage.feature:5
       <div class="step-ref bg-step">4</div>
       <div class="step-indent"></div>
       <div class="step-cell passed">
-        <span>Given</span>&nbsp;<span>url apiUrl</span>
+        <span>Given</span>&nbsp;<span>url &#39;https://conduit.productionready.io/api/&#39;</span>
       </div>
     </div>
     <div class="time-cell passed">0</div>
@@ -167,7 +162,7 @@ classpath:conduitApp/feature/HomePage.feature:5
 
   
 
-  <div class="preformatted" data-parent="0.5.0.call.0.4">14:06:42.501 &gt;&gt; lock acquired, begin callonce: read(&#39;classpath:helpers/CreateToken.feature&#39;)
+  <div class="preformatted" data-parent="0.5.0.call.0.4">18:10:08.903 &gt;&gt; lock acquired, begin callonce: read(&#39;classpath:helpers/CreateToken.feature&#39;)
 </div>   
 
   
@@ -205,21 +200,14 @@ classpath:conduitApp/feature/HomePage.feature:5
       <div><div>
   
 
-  <div class="step-row" data-parent="0.5.0.call">
-    <div class="step-container">
-      <div class="step-ref passed"></div>
-      <div class="step-indent"></div>
-      <div class="step-cell comment">#Logging in via POST request</div>
-    </div>
-    <div class="time-cell comment"></div>            
-  </div>
+  
 
   <div class="step-row" data-parent="0.5.0.call">
-    <div class="step-container" id="0.5.0.call.0.7">
-      <div class="step-ref bg-step">7</div>
+    <div class="step-container" id="0.5.0.call.0.6">
+      <div class="step-ref bg-step">6</div>
       <div class="step-indent"></div>
       <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>request {&quot;user&quot;:{&quot;email&quot;:&quot;#(userEmail)&quot;, &quot;password&quot;:&quot;#(userPassword)&quot;}}</span>
+        <span>And</span>&nbsp;<span>request {&quot;user&quot;:{&quot;email&quot;:&quot;jackbuzzhealy1996@gmail.com&quot;,&quot;password&quot;:&quot;password&quot;}}</span>
       </div>
     </div>
     <div class="time-cell passed">0</div>
@@ -243,14 +231,14 @@ classpath:conduitApp/feature/HomePage.feature:5
   
 
   <div class="step-row" data-parent="0.5.0.call">
-    <div class="step-container" id="0.5.0.call.0.8">
-      <div class="step-ref bg-step">8</div>
+    <div class="step-container" id="0.5.0.call.0.7">
+      <div class="step-ref bg-step">7</div>
       <div class="step-indent"></div>
       <div class="step-cell passed">
         <span>When</span>&nbsp;<span>method POST</span>
       </div>
     </div>
-    <div class="time-cell passed">525</div>
+    <div class="time-cell passed">526</div>
   </div>
 
    
@@ -259,7 +247,7 @@ classpath:conduitApp/feature/HomePage.feature:5
 
   
 
-  <div class="preformatted" data-parent="0.5.0.call.0.8">14:06:42.544 request:
+  <div class="preformatted" data-parent="0.5.0.call.0.7">18:10:08.914 request:
 1 &gt; POST https://conduit.productionready.io/api/users/login
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 70
@@ -269,23 +257,59 @@ classpath:conduitApp/feature/HomePage.feature:5
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;user&quot;:{&quot;email&quot;:&quot;jackbuzzhealy1996@gmail.com&quot;,&quot;password&quot;:&quot;password&quot;}}
 
-14:06:43.055 response time in milliseconds: 510
-1 &lt; 503
-1 &lt; Date: Wed, 01 Sep 2021 13:06:42 GMT
-1 &lt; Content-Type: text/html; charset=UTF-8
+18:10:09.437 response time in milliseconds: 522
+1 &lt; 200
+1 &lt; Date: Fri, 03 Sep 2021 17:10:09 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Connection: keep-alive
-1 &lt; cache-control: no-cache, no-store, must-revalidate
-1 &lt; status: 503 Service Unavailable
+1 &lt; cache-control: max-age=0, private, must-revalidate
+1 &lt; etag: W/&quot;2a40a393c93a878eaa6c963725fd1e55&quot;
+1 &lt; status: 200 OK
+1 &lt; vary: Origin
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; x-powered-by: Phusion Passenger 4.0.60
+1 &lt; x-request-id: d91640df-2087-4155-b5d4-53649809d7c0
+1 &lt; x-runtime: 0.082508
+1 &lt; x-xss-protection: 1; mode=block
 1 &lt; CF-Cache-Status: DYNAMIC
 1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
-1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=sr4LPBPsH%2F%2BypLz%2BPuW7luiXA4zhHXCARRTr0kTePh%2FvP44odGvYaAkYCweEEQl3ILlqpf8%2BZiU58qLgAVyfPBmx6Hzb76ht0Rq%2B9vuVK5pM21lTOuhBLfzy0EHYGlerJGOt3UGWUnUapBsRtg%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=APLtO0gHb1EVMPamx2aYZWC6wgxk2O4RdXBHpROyapU46yUwKd5zgoQAwwiFOrz%2Fg%2BGYKGo1JnrvZVSvtT%2B09fdHs15eYCYzC31iYytMNIkojC7dB%2FC%2F0J3AH7np5s5OmPMIUupGa%2Bf3mwZzPA%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; Server: cloudflare
-1 &lt; CF-RAY: 687eb7a7fb94002a-LHR
+1 &lt; CF-RAY: 689097022cde540a-LHR
 1 &lt; alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400, h3=&quot;:443&quot;; ma=86400
-&lt;h1&gt;This website is under heavy load&lt;/h1&gt;&lt;p&gt;We&#39;re sorry, too many people are accessing this website at the same time. We&#39;re working on this problem. Please try again later.&lt;/p&gt;
+{&quot;user&quot;:{&quot;id&quot;:217246,&quot;email&quot;:&quot;jackbuzzhealy1996@gmail.com&quot;,&quot;createdAt&quot;:&quot;2021-08-31T10:11:53.157Z&quot;,&quot;updatedAt&quot;:&quot;2021-08-31T10:32:42.058Z&quot;,&quot;username&quot;:&quot;jack-healy-001&quot;,&quot;bio&quot;:null,&quot;image&quot;:null,&quot;token&quot;:&quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MjE3MjQ2LCJ1c2VybmFtZSI6ImphY2staGVhbHktMDAxIiwiZXhwIjoxNjM1ODczMDA5fQ.k11c1e2ih5eEb_N9zSiNupRyb_B4B5ma6Qr_a0nudCI&quot;}}
 </div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.8">
+      <div class="step-ref bg-step">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
 
   
 
@@ -300,51 +324,11 @@ classpath:conduitApp/feature/HomePage.feature:5
     <div class="step-container" id="0.5.0.call.0.9">
       <div class="step-ref bg-step">9</div>
       <div class="step-indent"></div>
-      <div class="step-cell failed">
-        <span>Then</span>&nbsp;<span>status 200</span>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def token = response.user.token</span>
       </div>
     </div>
-    <div class="time-cell failed">0</div>
-  </div>
-
-   
-  
-  
-
-  
-
-  <div class="preformatted" data-parent="0.5.0.call.0.9">14:06:43.057 classpath:helpers/CreateToken.feature:9
-Then status 200
-status code was: 503, expected: 200, response time in milliseconds: 510, url: https://conduit.productionready.io/api/users/login, response: 
-&lt;h1&gt;This website is under heavy load&lt;/h1&gt;&lt;p&gt;We&#39;re sorry, too many people are accessing this website at the same time. We&#39;re working on this problem. Please try again later.&lt;/p&gt;
-classpath:helpers/CreateToken.feature:9
-</div>   
-
-  
-
-</div>
-</div>
-      <div><div>
-  
-
-  <div class="step-row" data-parent="0.5.0.call">
-    <div class="step-container">
-      <div class="step-ref passed"></div>
-      <div class="step-indent"></div>
-      <div class="step-cell comment">#Retrieve unique user token</div>
-    </div>
-    <div class="time-cell comment"></div>            
-  </div>
-
-  <div class="step-row" data-parent="0.5.0.call">
-    <div class="step-container" id="0.5.0.call.0.11">
-      <div class="step-ref bg-step">11</div>
-      <div class="step-indent"></div>
-      <div class="step-cell skipped">
-        <span>*</span>&nbsp;<span>def authToken = response.user.token</span>
-      </div>
-    </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -364,7 +348,7 @@ classpath:helpers/CreateToken.feature:9
 
 </div>
 </div>
-          <div data-parent="[1:7]bg"><div>
+          <div data-parent="[1:8]bg"><div>
   
 
   
@@ -373,39 +357,11 @@ classpath:helpers/CreateToken.feature:9
     <div class="step-container" id="0.6">
       <div class="step-ref bg-step">6</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>def token = tokenResponse.authToken</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="0.8">
-      <div class="step-ref skipped">8</div>
-      
-      <div class="step-cell skipped">
-        <span>Given</span>&nbsp;<span>path &#39;tags&#39;</span>
-      </div>
-    </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -427,13 +383,13 @@ classpath:helpers/CreateToken.feature:9
 
   <div class="step-row">
     <div class="step-container" id="0.9">
-      <div class="step-ref skipped">9</div>
+      <div class="step-ref passed">9</div>
       
-      <div class="step-cell skipped">
-        <span>When</span>&nbsp;<span>method Get</span>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;tags&#39;</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -455,13 +411,72 @@ classpath:helpers/CreateToken.feature:9
 
   <div class="step-row">
     <div class="step-container" id="0.10">
-      <div class="step-ref skipped">10</div>
+      <div class="step-ref passed">10</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method Get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">16004</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.10">18:10:09.442 request:
+1 &gt; GET http://conduit.productionready.io/api/tags
+1 &gt; Host: conduit.productionready.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+18:10:25.445 response time in milliseconds: 16002
+1 &lt; 200
+1 &lt; Date: Fri, 03 Sep 2021 17:10:25 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; cache-control: max-age=0, private, must-revalidate
+1 &lt; etag: W/&quot;dc4cdaf6ec5a96ea203c31eb02848d77&quot;
+1 &lt; status: 200 OK
+1 &lt; vary: Origin
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; x-powered-by: Phusion Passenger 4.0.60
+1 &lt; x-request-id: 8f1c9fcc-fd2d-42b5-9360-cadf266da888
+1 &lt; x-runtime: 6.728478
+1 &lt; x-xss-protection: 1; mode=block
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=Zw3EBIXy%2BpSfHy6jCYsN2O28zKYIAT%2Fvqz6EwIdbxO1as4gKhi%2Bx41K2btCamQ0RtKh9BCoRKQJTCq92TuRHEcJRf9AjSm0dS7CYwI%2BWYx956gCdn37ADHk2pTSELaGcrGDrin3r%2B7hriDNJIw%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 689097057cfb5452-LHR
+1 &lt; alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400, h3=&quot;:443&quot;; ma=86400
+{&quot;tags&quot;:[&quot;Аmаtеur&quot;,&quot;аnаl&quot;,&quot;Jаpаnеsе&quot;,&quot;hеntаі&quot;,&quot;Оld/Yоung&quot;,&quot;МІLF&quot;,&quot;Mаturе&quot;,&quot;bоndаgе&quot;,&quot;Віg Аss&quot;,&quot;Thrееsоmе&quot;,&quot;gау&quot;,&quot;Tееn&quot;,&quot;Fеmаlе Оrgаsm&quot;,&quot;рublіс&quot;,&quot;Bіg Тіts&quot;,&quot;Віg Dісk&quot;,&quot;Еbоnу&quot;,&quot;Lеsbіаn&quot;,&quot;Сartооn&quot;,&quot;russіаn&quot;]}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
         <span>Then</span>&nbsp;<span>status 200</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -492,17 +507,140 @@ classpath:helpers/CreateToken.feature:9
     <div class="step-container">
       <div class="step-ref passed"></div>
       
-      <div class="step-cell comment">#Do tags contain &#39;Ebony&#39;? = Y</div>
+      <div class="step-cell comment">#Do tags contain &#39;public&#39;? = Y</div>
     </div>
     <div class="time-cell comment"></div>            
   </div>
 
   <div class="step-row">
-    <div class="step-container" id="0.13">
-      <div class="step-ref skipped">13</div>
+    <div class="step-container" id="0.14">
+      <div class="step-ref failed">14</div>
+      
+      <div class="step-cell failed">
+        <span>And</span>&nbsp;<span>match response.tags contains &#39;public&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell failed">20</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.14">18:10:25.465 classpath:conduitApp/feature/HomePage.feature:14
+And match response.tags contains &#39;public&#39;
+match failed: CONTAINS
+  $ | actual does not contain expected | actual array does not contain expected item - public (LIST:STRING)
+  [&quot;Аmаtеur&quot;,&quot;аnаl&quot;,&quot;Jаpаnеsе&quot;,&quot;hеntаі&quot;,&quot;Оld/Yоung&quot;,&quot;МІLF&quot;,&quot;Mаturе&quot;,&quot;bоndаgе&quot;,&quot;Віg Аss&quot;,&quot;Thrееsоmе&quot;,&quot;gау&quot;,&quot;Tееn&quot;,&quot;Fеmаlе Оrgаsm&quot;,&quot;рublіс&quot;,&quot;Bіg Тіts&quot;,&quot;Віg Dісk&quot;,&quot;Еbоnу&quot;,&quot;Lеsbіаn&quot;,&quot;Сartооn&quot;,&quot;russіаn&quot;]
+  &#39;public&#39;
+
+    $[19] | not equal (STRING:STRING)
+    &#39;russіаn&#39;
+    &#39;public&#39;
+
+    $[18] | not equal (STRING:STRING)
+    &#39;Сartооn&#39;
+    &#39;public&#39;
+
+    $[17] | not equal (STRING:STRING)
+    &#39;Lеsbіаn&#39;
+    &#39;public&#39;
+
+    $[16] | not equal (STRING:STRING)
+    &#39;Еbоnу&#39;
+    &#39;public&#39;
+
+    $[15] | not equal (STRING:STRING)
+    &#39;Віg Dісk&#39;
+    &#39;public&#39;
+
+    $[14] | not equal (STRING:STRING)
+    &#39;Bіg Тіts&#39;
+    &#39;public&#39;
+
+    $[13] | not equal (STRING:STRING)
+    &#39;рublіс&#39;
+    &#39;public&#39;
+
+    $[12] | not equal (STRING:STRING)
+    &#39;Fеmаlе Оrgаsm&#39;
+    &#39;public&#39;
+
+    $[11] | not equal (STRING:STRING)
+    &#39;Tееn&#39;
+    &#39;public&#39;
+
+    $[10] | not equal (STRING:STRING)
+    &#39;gау&#39;
+    &#39;public&#39;
+
+    $[9] | not equal (STRING:STRING)
+    &#39;Thrееsоmе&#39;
+    &#39;public&#39;
+
+    $[8] | not equal (STRING:STRING)
+    &#39;Віg Аss&#39;
+    &#39;public&#39;
+
+    $[7] | not equal (STRING:STRING)
+    &#39;bоndаgе&#39;
+    &#39;public&#39;
+
+    $[6] | not equal (STRING:STRING)
+    &#39;Mаturе&#39;
+    &#39;public&#39;
+
+    $[5] | not equal (STRING:STRING)
+    &#39;МІLF&#39;
+    &#39;public&#39;
+
+    $[4] | not equal (STRING:STRING)
+    &#39;Оld/Yоung&#39;
+    &#39;public&#39;
+
+    $[3] | not equal (STRING:STRING)
+    &#39;hеntаі&#39;
+    &#39;public&#39;
+
+    $[2] | not equal (STRING:STRING)
+    &#39;Jаpаnеsе&#39;
+    &#39;public&#39;
+
+    $[1] | not equal (STRING:STRING)
+    &#39;аnаl&#39;
+    &#39;public&#39;
+
+    $[0] | not equal (STRING:STRING)
+    &#39;Аmаtеur&#39;
+    &#39;public&#39;
+
+classpath:conduitApp/feature/HomePage.feature:14
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Do tags contain &#39;public&#39; AND &#39;Mature&#39;? = Y</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref skipped">16</div>
       
       <div class="step-cell skipped">
-        <span>And</span>&nbsp;<span>match response.tags contains &#39;Ebony&#39;</span>
+        <span>And</span>&nbsp;<span>match response.tags contains [&#39;public&#39;,&#39;Mature&#39;]</span>
       </div>
     </div>
     <div class="time-cell skipped">0</div>
@@ -527,17 +665,52 @@ classpath:helpers/CreateToken.feature:9
     <div class="step-container">
       <div class="step-ref passed"></div>
       
-      <div class="step-cell comment">#Do tags NOT contain &#39;Ebony2&#39;? = Y</div>
+      <div class="step-cell comment">#Do tags contain &#39;public&#39; OR &#39;Fred&#39;? = Y</div>
     </div>
     <div class="time-cell comment"></div>            
   </div>
 
   <div class="step-row">
-    <div class="step-container" id="0.15">
-      <div class="step-ref skipped">15</div>
+    <div class="step-container" id="0.18">
+      <div class="step-ref skipped">18</div>
       
       <div class="step-cell skipped">
-        <span>And</span>&nbsp;<span>match response.tags !contains &#39;Ebony2&#39;</span>
+        <span>And</span>&nbsp;<span>match response.tags contains any [&#39;public&#39;,&#39;Fred&#39;]</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Do tags NOT contain &#39;public2&#39;? = Y</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.20">
+      <div class="step-ref skipped">20</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response.tags !contains &#39;public2&#39;</span>
       </div>
     </div>
     <div class="time-cell skipped">0</div>
@@ -568,8 +741,8 @@ classpath:helpers/CreateToken.feature:9
   </div>
 
   <div class="step-row">
-    <div class="step-container" id="0.17">
-      <div class="step-ref skipped">17</div>
+    <div class="step-container" id="0.22">
+      <div class="step-ref skipped">22</div>
       
       <div class="step-cell skipped">
         <span>And</span>&nbsp;<span>match response.tags ==&quot;#string&quot;</span>
@@ -592,29 +765,29 @@ classpath:helpers/CreateToken.feature:9
 </div>
         </div>
         <div class="scenario">
-          <div class="scenario-heading" id="[2:19]">
+          <div class="scenario-heading" id="[2:24]">
             <div class="heading-container">
               <div class="scenario-tags">
                 
               </div>
               <div class="scenario-keyword">
-                Scenario: <span>[2:19]</span>
+                Scenario: <span>[2:24]</span>
                 <span class="scenario-name">Get 10 articles from the API</span>
                 <span></span>
               </div>
             </div>
             <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>30143</span>
+              <span>ms:</span>&nbsp;<span>777</span>
             </div>
           </div>
           <div class="step-row">
-            <div class="step-container" id="[2:19]bg">
+            <div class="step-container" id="[2:24]bg">
               <div class="step-ref bg-step">&gt;&gt;</div>
               <div class="step-cell passed">Background:</div>
             </div>
             <div class="time-cell passed"></div>
           </div>
-          <div data-parent="[2:19]bg"><div>
+          <div data-parent="[2:24]bg"><div>
   
 
   
@@ -624,7 +797,7 @@ classpath:helpers/CreateToken.feature:9
       <div class="step-ref bg-step">4</div>
       
       <div class="step-cell passed">
-        <span>Given</span>&nbsp;<span>url apiUrl</span>
+        <span>Given</span>&nbsp;<span>url &#39;http://conduit.productionready.io/api/&#39;</span>
       </div>
     </div>
     <div class="time-cell passed">0</div>
@@ -636,14 +809,14 @@ classpath:helpers/CreateToken.feature:9
 
   
 
-  <div class="preformatted" data-parent="0.4">14:06:43.067 karate.env system property was: null 
+  <div class="preformatted" data-parent="0.4">18:10:25.473 karate.env system property was: null 
 </div>   
 
   
 
 </div>
 </div>
-          <div data-parent="[2:19]bg"><div>
+          <div data-parent="[2:24]bg"><div>
   
 
   
@@ -652,80 +825,11 @@ classpath:helpers/CreateToken.feature:9
     <div class="step-container" id="0.5">
       <div class="step-ref bg-step">5</div>
       
-      <div class="step-cell failed">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>def tokenResponse = callonce read(&#39;classpath:helpers/CreateToken.feature&#39;)</span>
       </div>
     </div>
-    <div class="time-cell failed">30143</div>
-  </div>
-
-   
-  
-  
-
-  
-
-  <div class="preformatted" data-parent="0.5">14:07:13.213 classpath:conduitApp/feature/HomePage.feature:5
-* def tokenResponse = callonce read(&#39;classpath:helpers/CreateToken.feature&#39;)
-http call failed after 30132 milliseconds for url: https://conduit.productionready.io/api/users/login
-classpath:helpers/CreateToken.feature:8
-classpath:conduitApp/feature/HomePage.feature:5
-</div>   
-
-  <div>
-        
-    <div class="step-row">
-      <div class="step-container" id="0.5.0.call">
-        <div class="step-ref bg-step">&gt;&gt;</div>
-        <div class="step-indent"></div>
-        <div class="step-cell passed">helpers.CreateToken</div>
-      </div>
-      <div class="time-cell passed">30133</div>
-    </div>
-    <div>
-      <div><div>
-  
-
-  
-
-  <div class="step-row" data-parent="0.5.0.call">
-    <div class="step-container" id="0.5.0.call.0.4">
-      <div class="step-ref bg-step">4</div>
-      <div class="step-indent"></div>
-      <div class="step-cell passed">
-        <span>Given</span>&nbsp;<span>url apiUrl</span>
-      </div>
-    </div>
-    <div class="time-cell passed">0</div>
-  </div>
-
-   
-  
-  
-
-  
-
-  <div class="preformatted" data-parent="0.5.0.call.0.4">14:06:43.072 &gt;&gt; lock acquired, begin callonce: read(&#39;classpath:helpers/CreateToken.feature&#39;)
-</div>   
-
-  
-
-</div>
-</div>
-      <div><div>
-  
-
-  
-
-  <div class="step-row" data-parent="0.5.0.call">
-    <div class="step-container" id="0.5.0.call.0.5">
-      <div class="step-ref bg-step">5</div>
-      <div class="step-indent"></div>
-      <div class="step-cell passed">
-        <span>Given</span>&nbsp;<span>path &#39;users/login&#39;</span>
-      </div>
-    </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -740,153 +844,7 @@ classpath:conduitApp/feature/HomePage.feature:5
 
 </div>
 </div>
-      <div><div>
-  
-
-  <div class="step-row" data-parent="0.5.0.call">
-    <div class="step-container">
-      <div class="step-ref passed"></div>
-      <div class="step-indent"></div>
-      <div class="step-cell comment">#Logging in via POST request</div>
-    </div>
-    <div class="time-cell comment"></div>            
-  </div>
-
-  <div class="step-row" data-parent="0.5.0.call">
-    <div class="step-container" id="0.5.0.call.0.7">
-      <div class="step-ref bg-step">7</div>
-      <div class="step-indent"></div>
-      <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>request {&quot;user&quot;:{&quot;email&quot;:&quot;#(userEmail)&quot;, &quot;password&quot;:&quot;#(userPassword)&quot;}}</span>
-      </div>
-    </div>
-    <div class="time-cell passed">0</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-      <div><div>
-  
-
-  
-
-  <div class="step-row" data-parent="0.5.0.call">
-    <div class="step-container" id="0.5.0.call.0.8">
-      <div class="step-ref bg-step">8</div>
-      <div class="step-indent"></div>
-      <div class="step-cell failed">
-        <span>When</span>&nbsp;<span>method POST</span>
-      </div>
-    </div>
-    <div class="time-cell failed">30132</div>
-  </div>
-
-   
-  
-  
-
-  
-
-  <div class="preformatted" data-parent="0.5.0.call.0.8">14:06:43.081 request:
-1 &gt; POST https://conduit.productionready.io/api/users/login
-1 &gt; Content-Type: application/json; charset=UTF-8
-1 &gt; Content-Length: 70
-1 &gt; Host: conduit.productionready.io
-1 &gt; Connection: Keep-Alive
-1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
-1 &gt; Accept-Encoding: gzip,deflate
-{&quot;user&quot;:{&quot;email&quot;:&quot;jackbuzzhealy1996@gmail.com&quot;,&quot;password&quot;:&quot;password&quot;}}
-
-14:07:13.212 java.net.SocketTimeoutException: Read timed out, http call failed after 30132 milliseconds for url: https://conduit.productionready.io/api/users/login
-14:07:13.212 classpath:helpers/CreateToken.feature:8
-When method POST
-http call failed after 30132 milliseconds for url: https://conduit.productionready.io/api/users/login
-classpath:helpers/CreateToken.feature:8
-</div>   
-
-  
-
-</div>
-</div>
-      <div><div>
-  
-
-  
-
-  <div class="step-row" data-parent="0.5.0.call">
-    <div class="step-container" id="0.5.0.call.0.9">
-      <div class="step-ref bg-step">9</div>
-      <div class="step-indent"></div>
-      <div class="step-cell skipped">
-        <span>Then</span>&nbsp;<span>status 200</span>
-      </div>
-    </div>
-    <div class="time-cell skipped">0</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-      <div><div>
-  
-
-  <div class="step-row" data-parent="0.5.0.call">
-    <div class="step-container">
-      <div class="step-ref passed"></div>
-      <div class="step-indent"></div>
-      <div class="step-cell comment">#Retrieve unique user token</div>
-    </div>
-    <div class="time-cell comment"></div>            
-  </div>
-
-  <div class="step-row" data-parent="0.5.0.call">
-    <div class="step-container" id="0.5.0.call.0.11">
-      <div class="step-ref bg-step">11</div>
-      <div class="step-indent"></div>
-      <div class="step-cell skipped">
-        <span>*</span>&nbsp;<span>def authToken = response.user.token</span>
-      </div>
-    </div>
-    <div class="time-cell skipped">0</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-    </div>    
-  </div>
-
-</div>
-</div>
-          <div data-parent="[2:19]bg"><div>
+          <div data-parent="[2:24]bg"><div>
   
 
   
@@ -895,11 +853,11 @@ classpath:helpers/CreateToken.feature:8
     <div class="step-container" id="0.6">
       <div class="step-ref bg-step">6</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>def token = tokenResponse.authToken</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -920,14 +878,42 @@ classpath:helpers/CreateToken.feature:8
   
 
   <div class="step-row">
-    <div class="step-container" id="0.20">
-      <div class="step-ref skipped">20</div>
+    <div class="step-container" id="0.25">
+      <div class="step-ref passed">25</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def timeValidator = read(&#39;classpath:helpers/timeValidator.js&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">24</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.26">
+      <div class="step-ref passed">26</div>
+      
+      <div class="step-cell passed">
         <span>Given</span>&nbsp;<span>params {limit : 10, offset : 0}</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -948,14 +934,14 @@ classpath:helpers/CreateToken.feature:8
   
 
   <div class="step-row">
-    <div class="step-container" id="0.21">
-      <div class="step-ref skipped">21</div>
+    <div class="step-container" id="0.27">
+      <div class="step-ref passed">27</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>Given</span>&nbsp;<span>path &#39;articles&#39;</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -976,14 +962,14 @@ classpath:helpers/CreateToken.feature:8
   
 
   <div class="step-row">
-    <div class="step-container" id="0.22">
-      <div class="step-ref skipped">22</div>
+    <div class="step-container" id="0.28">
+      <div class="step-ref passed">28</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>When</span>&nbsp;<span>method Get</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">737</div>
   </div>
 
    
@@ -992,7 +978,38 @@ classpath:helpers/CreateToken.feature:8
 
   
 
-     
+  <div class="preformatted" data-parent="0.28">18:10:25.510 request:
+1 &gt; GET http://conduit.productionready.io/api/articles?offset=0&amp;limit=10
+1 &gt; Host: conduit.productionready.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+18:10:26.240 response time in milliseconds: 729
+1 &lt; 200
+1 &lt; Date: Fri, 03 Sep 2021 17:10:26 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; cache-control: max-age=0, private, must-revalidate
+1 &lt; etag: W/&quot;1818c55b4204d3e54e5d44910ebe54e4&quot;
+1 &lt; status: 200 OK
+1 &lt; vary: Origin
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; x-powered-by: Phusion Passenger 4.0.60
+1 &lt; x-request-id: 7cc1083a-1695-4ad6-81ca-4f19d3144c1d
+1 &lt; x-runtime: 0.519427
+1 &lt; x-xss-protection: 1; mode=block
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=BW22cq9k7iHOPxe2i687P759AL1nni1Oirl50JX4itjh4JU1U0FFUFg2O6bHDsh9%2FpgopY04Nj1Z36Mg%2Fc9IvWc5EVmLUXHKtQZXFOM0oRtdsSAXAUuAGDjs5d8E0rhKZbGFQlj7khzewm9Lfg%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 689097698f9b5719-LHR
+1 &lt; alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400, h3=&quot;:443&quot;; ma=86400
+{&quot;articles&quot;:[{&quot;title&quot;:&quot;df&quot;,&quot;slug&quot;:&quot;df-lzs6wx&quot;,&quot;body&quot;:&quot;fdsf&quot;,&quot;createdAt&quot;:&quot;2021-09-03T16:55:07.818Z&quot;,&quot;updatedAt&quot;:&quot;2021-09-03T16:55:07.818Z&quot;,&quot;tagList&quot;:[],&quot;description&quot;:&quot;df&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;aaa71&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;iPhone 13&quot;,&quot;slug&quot;:&quot;iphone-13-dm10ze&quot;,&quot;body&quot;:&quot;hello world React =\u003e Redux&quot;,&quot;createdAt&quot;:&quot;2021-09-03T16:53:01.928Z&quot;,&quot;updatedAt&quot;:&quot;2021-09-03T16:56:10.948Z&quot;,&quot;tagList&quot;:[],&quot;description&quot;:&quot;iPhone 13 with 4 back camera &quot;,&quot;author&quot;:{&quot;username&quot;:&quot;aaa71&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;bubalo gansito&quot;,&quot;slug&quot;:&quot;bubalo-gansito-nkbiks&quot;,&quot;body&quot;:&quot;muy ricas, quieroooooo!&quot;,&quot;createdAt&quot;:&quot;2021-09-03T16:50:53.019Z&quot;,&quot;updatedAt&quot;:&quot;2021-09-03T16:50:53.019Z&quot;,&quot;tagList&quot;:[],&quot;description&quot;:&quot;golosinas&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;Diana Rubi&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;bubalo gansito&quot;,&quot;slug&quot;:&quot;bubalo-gansito-auxfu7&quot;,&quot;body&quot;:&quot;muy ricas, quieroooooo!&quot;,&quot;createdAt&quot;:&quot;2021-09-03T16:42:08.283Z&quot;,&quot;updatedAt&quot;:&quot;2021-09-03T16:42:08.283Z&quot;,&quot;tagList&quot;:[],&quot;description&quot;:&quot;golosinas&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;Diana Rubi&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;da-da&quot;,&quot;slug&quot;:&quot;da-da-3mve4e&quot;,&quot;body&quot;:&quot;bla-bla&quot;,&quot;createdAt&quot;:&quot;2021-09-03T16:33:23.350Z&quot;,&quot;updatedAt&quot;:&quot;2021-09-03T16:33:23.350Z&quot;,&quot;tagList&quot;:[&quot;red&quot;,&quot;gerl&quot;,&quot;beer&quot;],&quot;description&quot;:&quot;who-who&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;Cat-Pimp&quot;,&quot;bio&quot;:&quot;tra-ta-ta&quot;,&quot;image&quot;:&quot;data:image/jpeg;base64,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&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;Grupo Primo&quot;,&quot;slug&quot;:&quot;grupo-primo-i3ksl6&quot;,&quot;body&quot;:&quot;Follow @thiago.nigro on Instagram&quot;,&quot;createdAt&quot;:&quot;2021-09-03T16:31:29.371Z&quot;,&quot;updatedAt&quot;:&quot;2021-09-03T16:31:29.371Z&quot;,&quot;tagList&quot;:[],&quot;description&quot;:&quot;Best investment and entrepreneur content&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;Grupo Primo&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;test&quot;,&quot;slug&quot;:&quot;test-cx0qju&quot;,&quot;body&quot;:&quot;test&quot;,&quot;createdAt&quot;:&quot;2021-09-03T16:30:41.764Z&quot;,&quot;updatedAt&quot;:&quot;2021-09-03T16:30:41.764Z&quot;,&quot;tagList&quot;:[&quot;test&quot;],&quot;description&quot;:&quot;test&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;Cat-Pimp&quot;,&quot;bio&quot;:&quot;tra-ta-ta&quot;,&quot;image&quot;:&quot;data:image/jpeg;base64,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&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;My post title&quot;,&quot;slug&quot;:&quot;my-post-title-jm8bt2&quot;,&quot;body&quot;:&quot;Simple automation project https://github.com/helenanull/cypress-example&quot;,&quot;createdAt&quot;:&quot;2021-09-03T16:06:28.605Z&quot;,&quot;updatedAt&quot;:&quot;2021-09-03T16:06:28.605Z&quot;,&quot;tagList&quot;:[&quot;test-automation&quot;,&quot;cypress&quot;],&quot;description&quot;:&quot;Cypress&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;cy950868076&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;My post title&quot;,&quot;slug&quot;:&quot;my-post-title-zt9fm2&quot;,&quot;body&quot;:&quot;Simple automation project https://github.com/helenanull/cypress-example&quot;,&quot;createdAt&quot;:&quot;2021-09-03T16:06:00.985Z&quot;,&quot;updatedAt&quot;:&quot;2021-09-03T16:06:00.985Z&quot;,&quot;tagList&quot;:[],&quot;description&quot;:&quot;Cypress&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;cy980796948&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;I need more rust in my life&quot;,&quot;slug&quot;:&quot;i-need-more-rust-in-my-life-918ovl&quot;,&quot;body&quot;:&quot;I need more rust in my life since my car is full of it. &quot;,&quot;createdAt&quot;:&quot;2021-09-03T15:48:55.970Z&quot;,&quot;updatedAt&quot;:&quot;2021-09-03T15:48:55.970Z&quot;,&quot;tagList&quot;:[],&quot;description&quot;:&quot;Rust&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;tonyqt&quot;,&quot;bio&quot;:&quot;is me... Mario&quot;,&quot;image&quot;:&quot;&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0}],&quot;articlesCount&quot;:500}
+</div>   
 
   
 
@@ -1004,14 +1021,14 @@ classpath:helpers/CreateToken.feature:8
   
 
   <div class="step-row">
-    <div class="step-container" id="0.23">
-      <div class="step-ref skipped">23</div>
+    <div class="step-container" id="0.29">
+      <div class="step-ref passed">29</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>Then</span>&nbsp;<span>status 200</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -1048,14 +1065,14 @@ classpath:helpers/CreateToken.feature:8
   </div>
 
   <div class="step-row">
-    <div class="step-container" id="0.26">
-      <div class="step-ref skipped">26</div>
+    <div class="step-container" id="0.32">
+      <div class="step-ref passed">32</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>And</span>&nbsp;<span>match response.articles == &#39;#[10]&#39;</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">5</div>
   </div>
 
    
@@ -1077,20 +1094,20 @@ classpath:helpers/CreateToken.feature:8
     <div class="step-container">
       <div class="step-ref passed"></div>
       
-      <div class="step-cell comment">#Are there &#39;500&#39; articles? = N</div>
+      <div class="step-cell comment">#Are there &#39;500&#39; articles? = Y</div>
     </div>
     <div class="time-cell comment"></div>            
   </div>
 
   <div class="step-row">
-    <div class="step-container" id="0.28">
-      <div class="step-ref skipped">28</div>
+    <div class="step-container" id="0.34">
+      <div class="step-ref passed">34</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>And</span>&nbsp;<span>match response.articlesCount == 500</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -1100,6 +1117,126 @@ classpath:helpers/CreateToken.feature:8
   
 
      
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Are there &#39;100&#39; articles? = Y</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.36">
+      <div class="step-ref passed">36</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.articlesCount != 100</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Scehma Validation</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.38">
+      <div class="step-ref failed">38</div>
+      
+      <div class="step-cell failed">
+        <span>And</span>&nbsp;<span>match each response.articles ==</span>
+      </div>
+    </div>
+    <div class="time-cell failed">5</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.38">{
+    &quot;title&quot;:&quot;#string&quot;,
+    &quot;slug&quot;:&quot;#string&quot;,
+    &quot;body&quot;:&quot;#string&quot;,
+    //&quot;createdAt&quot;:&quot;#? isValueTime(_)&quot;,
+    //&quot;updatedAt&quot;:&quot;#? isValueTime(_)&quot;,
+    &quot;tagList&quot;:&quot;#array&quot;,
+    &quot;description&quot;:&quot;#string&quot;,
+    &quot;author&quot;:
+    {
+        &quot;username&quot;:&quot;#string&quot;,
+        &quot;bio&quot;:&quot;##string&quot;,
+        &quot;image&quot;:&quot;#string&quot;,
+        &quot;following&quot;:&quot;#boolean&quot;
+    },
+    &quot;favourited&quot;:&quot;#boolean&quot;,
+    &quot;favouritesCount&quot;:&quot;#number&quot;,
+}</div>
+
+  
+
+  <div class="preformatted" data-parent="0.38">18:10:26.256 classpath:conduitApp/feature/HomePage.feature:38
+And match each response.articles ==
+&quot;&quot;&quot;
+{
+    &quot;title&quot;:&quot;#string&quot;,
+    &quot;slug&quot;:&quot;#string&quot;,
+    &quot;body&quot;:&quot;#string&quot;,
+    //&quot;createdAt&quot;:&quot;#? isValueTime(_)&quot;,
+    //&quot;updatedAt&quot;:&quot;#? isValueTime(_)&quot;,
+    &quot;tagList&quot;:&quot;#array&quot;,
+    &quot;description&quot;:&quot;#string&quot;,
+    &quot;author&quot;:
+    {
+        &quot;username&quot;:&quot;#string&quot;,
+        &quot;bio&quot;:&quot;##string&quot;,
+        &quot;image&quot;:&quot;#string&quot;,
+        &quot;following&quot;:&quot;#boolean&quot;
+    },
+    &quot;favourited&quot;:&quot;#boolean&quot;,
+    &quot;favouritesCount&quot;:&quot;#number&quot;,
+}
+&quot;&quot;&quot;
+match failed: EACH_EQUALS
+  $ | match each failed at index 0 (LIST:MAP)
+  [{&quot;title&quot;:&quot;df&quot;,&quot;slug&quot;:&quot;df-lzs6wx&quot;,&quot;body&quot;:&quot;fdsf&quot;,&quot;createdAt&quot;:&quot;2021-09-03T16:55:07.818Z&quot;,&quot;updatedAt&quot;:&quot;2021-09-03T16:55:07.818Z&quot;,&quot;tagList&quot;:[],&quot;description&quot;:&quot;df&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;aaa71&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;iPhone 13&quot;,&quot;slug&quot;:&quot;iphone-13-dm10ze&quot;,&quot;body&quot;:&quot;hello world React =&gt; Redux&quot;,&quot;createdAt&quot;:&quot;2021-09-03T16:53:01.928Z&quot;,&quot;updatedAt&quot;:&quot;2021-09-03T16:56:10.948Z&quot;,&quot;tagList&quot;:[],&quot;description&quot;:&quot;iPhone 13 with 4 back camera &quot;,&quot;author&quot;:{&quot;username&quot;:&quot;aaa71&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;bubalo gansito&quot;,&quot;slug&quot;:&quot;bubalo-gansito-nkbiks&quot;,&quot;body&quot;:&quot;muy ricas, quieroooooo!&quot;,&quot;createdAt&quot;:&quot;2021-09-03T16:50:53.019Z&quot;,&quot;updatedAt&quot;:&quot;2021-09-03T16:50:53.019Z&quot;,&quot;tagList&quot;:[],&quot;description&quot;:&quot;golosinas&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;Diana Rubi&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;bubalo gansito&quot;,&quot;slug&quot;:&quot;bubalo-gansito-auxfu7&quot;,&quot;body&quot;:&quot;muy ricas, quieroooooo!&quot;,&quot;createdAt&quot;:&quot;2021-09-03T16:42:08.283Z&quot;,&quot;updatedAt&quot;:&quot;2021-09-03T16:42:08.283Z&quot;,&quot;tagList&quot;:[],&quot;description&quot;:&quot;golosinas&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;Diana Rubi&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;da-da&quot;,&quot;slug&quot;:&quot;da-da-3mve4e&quot;,&quot;body&quot;:&quot;bla-bla&quot;,&quot;createdAt&quot;:&quot;2021-09-03T16:33:23.350Z&quot;,&quot;updatedAt&quot;:&quot;2021-09-03T16:33:23.350Z&quot;,&quot;tagList&quot;:[&quot;red&quot;,&quot;gerl&quot;,&quot;beer&quot;],&quot;description&quot;:&quot;who-who&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;Cat-Pimp&quot;,&quot;bio&quot;:&quot;tra-ta-ta&quot;,&quot;image&quot;:&quot;data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFBcRFBUUFBcZFxQRERcXEBEXFxEUFxcYGBcXFxcaICwjGhwoHRcXJDUkKC0vMjIyGSI4PTgxPCwxMi8BCwsLDw4PGhERHDEgIygxMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMf/AABEIAKgBLAMBIgACEQEDEQH/xAAbAAEAAQUBAAAAAAAAAAAAAAAABAECAwUGB//EADYQAAIBAwMDAgQEBQMFAAAAAAABAgMEERIhMQUGQVFhEyJxgTKRocEjQrHR8BRy4TNSYpLx/8QAGgEBAAMBAQEAAAAAAAAAAAAAAAIEBQMBBv/EAC4RAAICAQQABAQGAwEAAAAAAAABAhEDBBIhMRMiQVEFYYGRMnGhwdHhsfDxFf/aAAwDAQACEQMRAD8A8ZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKlAAVyMgzVaEopNppPgmoyatI9pmEFARs8AAPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACqQBQGSFNt4Jz6RV0qeiTT84O0NPlmrjGyUYSl0rNaSbSznUeIps3HSu3Jzl86cY+TtrDpkKaSivvjkv6f4c+8vHy9TpDC2+TS9E7VSxKe79DJ3xbxjCMEkml+52ltS0rU+fBxPd/T5SzUk3vuv7Gg4rw5RguK6NfHp2sE6Xa6OABXBQ+aMIAFQCgK4B7QKAuwUPdoKArgoRYAAAAAAAAAAAAAAAAAAAAAAKgAoVSJlp0+pUfyRcvsdV0fs6Uvmq/LHHHnJew6DJk5fC+ZGc4x7ZyVKxnP8ABFy+iyXy6ZVTxol/6s9YsLGjSXyRSeMe7JNWySjrwsv2ND/zsHrf3OUdTBujy227cqy3ktK9zd2vakcZlP8AI3DdTXpa429vYy04PdNNen0LePSYcf4Y/fkuRhyv+kGz6DShNZTl5WTsbfQ4KOlY4xhGkoQkqkc8c5NtKeEmvcnNeiNTDBXwSF02PjbJmhYJC3ukTYzTKk5zRa216EOrFLnhHC943iaaU9vT0PQblLS9snlHd8G6jUVjc9jJ+HJruieWbWGTS5o5CUShma+XHo2YsGHKFM+aYwMFSuD1RPCmCuCuCuCewFuCjRdgYGwFmBguaKEHEFgAOAAAAAAAAAAAAAB0/athQrKcaqbkt44eMo5gm9Lu3SqRqLxz7ryi1o8ihlW7p8EMibi0nTOtqdr0ZfgbX1ZrLztacd4/MvbJ1dvVU4qpHiSzj0JVOob8tNhl3FfYprVZI98/n/R5pU6bKLw019iZYdE1vd4Xl+PzO9q2kJ8pFKVhBNbLC8EI6LBF3tJLWJrqiT0Hp1OMUklt5wbypTWMGG3gkkuDPKJKbtlN5U5W1/v6kCduk1gz1Kjxp5Faajlt4Sy229kly2cR1fvZpuFvGOFt8Sabz/tj6e7/ACPJzUUnInjg8j8qOuqUE92aTqVxplo88xa/c4+XdV293Vz7fDp4/SJdb9e1zzWwnjaS4z4yjyGrx2lJ1+fX3NTBFwfmZ0lt1R6nGTRtrTqEZwcW91wef/PJzqR/DHGt59XhJerJfRriSms7JvCl4z6Mm88N21m3pp3JJ+pv+qdddt41P+VZ2+/scredzXVV5dacF4jTbgv03f3LO47lzqtPhb/X0/Q06kZ2q1L3tXSK+u1M/FcIukjdUO47qm8xr1NuVKWtP6qWTrOg9Uo3rdKtGMKu7WNoz+no/Y831EmzuZU5wqx/FCSmvszji1jUuGcsGtyYpW3a9U+Tsu4e1nFOUWlH6HFzpYe256B3Jdu4s41tbpTb3t9spatm+HvFp5OB+G1z/wAnbUpNrj6nb4hGG9OMfTl/16GEqkZakfK/xlYU9tT48e5WUOaKG13Rao4WfXgtwZpzz4X5FuCTXsSaXoY8FMGXBRobTzaYmi0yNFuCDRBowgAongAAAAAAAAAAAAKooVTPUDo+g9W+G8VJNwe2nnB19CbklKmk4vfJ5hCeDo+i9wTUo0mlofy4Xg3tJrYSSjN0+irnw7vNHs7aE1w5LP1JlKHua626emnJZfobC3puOzNCzNk16GwpzwsFfisjutGMXKb0peWayp1mE6kaNONSc5KbilHnTFyaXnhHLaeRg5dIjd41Z/6dviGcTlnl/wAsPu937I8xcju+9L2r8FW/w/4TVK6+LqTeJpYjKK/Dv67+x582ZOszrdSNnDHbiiqp8t/d/tRc5luShckZzlKR0Ons9ErSUnHTJShBNSX8RrU9488Pl7EztzRJTpz4ksL2fqjnba6cacqXiUoy900mtvzOh6PY03hSVSjPZxlltS+xu4Lk0/lybGjzKUodcKvazR9ww01XFRUcYjtnfH82/lmnO77g7ZrSXxIfxf8Ayjz9GjiKtNxbjJNNcpmXrcbjkb9PT+CnrsLx5XKuG+P4MZIpQzt5exgTO17G7fnVqxrzjilF6llf9SS4SXpnyR0sLlZww4nlntX1+SPSbTpsfgwhKMXKMIxeYp7qKRwfd3Q8TcoRfr7I9Qo/kQes9P1waRqwyJvbLpn0FxneOfTPEXbtZ1bLZkepPL22S2SN/wBctJ03LUmt8L6HPpHHNDY9qMrU4/DlsKYKpGV0vXb28l7cVwssgo+5xUPfgwaCjiXuRa0eNL0PGkY2i3Be0WkGjk0RQAZpzAAAAAAAAAAAAAAABntk9S085WPr4MCOw7F6bGrU1Sf4eEW9Hi8TIuarkhOahFyZ3nQrdqnCUvxaVqRPqRzwsEmnRUflRk0extuduzDbt2Qo2iksSSa90Q7y1jHOEl9EbuMCLd6fqIZHuCds4XqFtnV8vKafun4/oef16TjJxaaw8brD+57TO0jLfBoes9BpVFmUcPxJPD+5DV6ZahJrho0cOqaioS6XXys8vwXQOkr9sNZcZNr3wjN0ztyMn87+yM+Hw3NuV0vqW3kildkTtjpnxqqcvwxab9zse46lKlBLH+1Llv6+CBbW1SlN6VFJLETVdavK02nKEEotJvLepeya2NaOPwcdRt/rb9zlDz5oyvhHUdrdUck018mMvMnt92VqWFvcTy4xnFvnho5lXEHH4MG95KS8Z2w0zr+j01FaU8Pb8jnjluTun7+1n20Nsoe/CsU+07aOJRpxz4zl/wBTf2VLSvH5GWknhbr9CQl6/wBGcXKlSRyc6jtXX0X+DNTnsZITztgwfFilyVt5rPP6nFx4sruPDdGq6/0iNWD+Xfw/Q8s6nZypTaxj3/sj3GqotbHE90dIck5xR3xS8RbH9CSXiw2vhro8wcscZ92+SxRfoTLmlKMmsGDD8s4yg06ZmSxtOmY9Ja0ZZSMcmRZzaSMckWl7LTmzm0QgAZZXAAAAAAAAAAAAAKpGWjRcnhE4Y5TaUUC61t3Ukox5bwj1rtLt6NGKnhubSyzVdo9FhFKbinL19Dvrd44RuYsC00K7k+3+xmavUX5YmSNv5wVdPBnVxsYKsyKcmZ6bMUkRakCVzyQ6z32OsDrBWUeEiBWjlmedT1MSmnwWIqi3DDZAvLTKwiPZWbhPUk9tucLc39Oin+LZe/ki3tNcyliK2wvPsSU/QsRwzb2o1XU3GDzvKTeUktv+TnrihUa1zxvwn6HRPjEINtvlrBdT6W3LNR6uGl4RJuka+g0cVJWcx/p8ONRrDz6HUdDw5ZNT1mtCU1ThhqOza9fJve37aSw+U+Dm+Ez6SMYqLo6ahTTM83GC4RTVpjnyay9uJS2ZRUXNlSMXN/Iy1LnU8Ik0DWWuzwzc0IbEsiUeCeVKCpGamiNfW6lFomQ+hjq4OEXTtFaMmpHlHcnT6kJPyvBy04npfddBuOUed3Mdy5mW6KkNZC0p+5FKMvZYyozOZZIsL5FDm0cmQAAZZWAAAAAAAAAAAAKo23Q7JzqRWG1nc1UeTtey6Kcs8s0/huGMp736HPLLbBs7/pVmoQSSxsT9bRdbwxEv0eTRlK3yYbdsvpz2IdzW9Cdo2NVfyaWxHGk5CKVl8a3qzDcZ5X5Gpd3plvksurqpJZjlL/OEWljpliEOSt7WcOZ49lj/ABEVdZ0PlY9lu/oIWEqi1TysrO/Jmn0SnjbPu/LZJ0auGS/D2SLHq8ZySSeSfUvKTeHJZW79vU1jsJQjppJLP4n5Rbb9Ka5ePovPrn0RFpGljwR7J066x8rTfHjl/wBjW3casnpzpi+Sy6Xw2tMnJZw/r5Mn+tcsJo8NHFjmvwkay6Rma22T59TtemWmmP0NVYPCNs7xaHGO7Zwzbnwi1Le40i6/vIpYTTNRTm5PzgkUunym8t4z7k12ejZIhFwgqRKLx41tTtl9lbJk9RUdjDZ7ExpPkrZJO+Snlk93JjhPJZd0sxyhXi47rc03U+ufDi8rdbnuPHKT8ohBydxNB3HTm08Pjx6nn9wt91+p0vWO6te2lHMXNwp7+S3lkttXye6rLCUavlEeWC1l2otkyozNZjZQqyhzOLIAAMorAAAAAAAAAAAAGSmtz0bsWltqa8nnlFnqHaMJaFnb0N74dFLHJorat1jOzgZKZZQRna2DfNGMWTkay8RsZEOrDJ0xumTiaS5orOcEm0zKejCUUsfVkh22ZZfBmpKKeSw58UWIyIN5Takki23pSllZx7vkk3Es7kWnX0PH5bnqvaaOHJSNrShGKxjPuZJqLXp4NY7r0Ik7/fk5+G3zZp4Jtk2p02CUVH/ucn9X+xko9IjnUyLTvMmztq+TyW9I01NpdmG5tmsKK2w+EYY6l+5uPiIrOimuDkstdo6xyUuSJa1N+d/c3NKOUav4UU9uf6E621LhnHLT5RDMk+UZ5U8F6kXwg/JWNMrWVnIsiajrvTqdSEspZwb5xNT1Kk2nhnTDKpWnRPDLz8OjxjrNhKnJp8I0zOx7jsaqk290cjVptPcs6mFStdENbi2ztLgtAKMrFMtZQMtIs5shAAyysAAAAAAAAAAAAZ6Et0ej9p15OK1ySXhHm1NG/wCjVKzkowzj13N34dJ7XFnHPDfCj2S2qJrZktROc6FSqJLW8vydLBbE80dsqRiTVMtUEYa1MmKJjnB44OakRTNfV2WCFV2RsLmi8Z4Ite3Tim2/bcswkjtGRpZ3bTaexDrVk/JOurPU8Zz9uTU3HT5Q3fC9Cyi7hlyZJTcVnO/7ESvcPJHqXCTWc49c8Mtr3Sk1jf7Hpq4JNMnW9Z5R0NpcLC9jl7dSe6TwvJMq3WhPHLf/ANIyRqY7lwdTSrambiEvl3OK6Vfamjqo1G8LJVzQ6osuFUisqe+STb1cGKL9S6MV4K75VMk+VTNjTqGWNUhUyTEruKKk4ozr1I9aKZmjNYMUyK7Ix4ZznW7JSi9vDPLuqrTJrHk9h6hHMWeT9xUmpyW/JpY5N4mXpNywM56TMbZcyxspMxpMoy0qyhA5shAAzCuAAAAAAAAADLSpOTwlkAsaXFHJlUZdHj4VnR9J7dnPDksI73o3R4U0lhAH0biscdsFRlajLKTpnS20EifBbFAUMhQZngjHcTwVByXZ5Hs1N1W8GuuJvbLeOOOfoAaGNJIsxM06OHnbhbN+TU31bU3GWy4/xlATxc8nbF2c7dUsvCX6ltG2y8Ya90Ad6NOE2SY5g8PHtvkyTpavmbW22OWwDyRsaabST9yRYpLdpfudLY3MWuQDlOKaLsm32T6k87IshNoAptJcE4exLp1fczqqAcWlZGUVZdCs/wDEXufqAQaOUkkYK8E0cf3H0qE05YwwCzpn5ixgPPL6zUW8M1bAI6qKjLgztZGMZ8Ki1lpUFQos/9k=&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;Grupo Primo&quot;,&quot;slug&quot;:&quot;grupo-primo-i3ksl6&quot;,&quot;body&quot;:&quot;Follow @thiago.nigro on Instagram&quot;,&quot;createdAt&quot;:&quot;2021-09-03T16:31:29.371Z&quot;,&quot;updatedAt&quot;:&quot;2021-09-03T16:31:29.371Z&quot;,&quot;tagList&quot;:[],&quot;description&quot;:&quot;Best investment and entrepreneur content&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;Grupo Primo&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;test&quot;,&quot;slug&quot;:&quot;test-cx0qju&quot;,&quot;body&quot;:&quot;test&quot;,&quot;createdAt&quot;:&quot;2021-09-03T16:30:41.764Z&quot;,&quot;updatedAt&quot;:&quot;2021-09-03T16:30:41.764Z&quot;,&quot;tagList&quot;:[&quot;test&quot;],&quot;description&quot;:&quot;test&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;Cat-Pimp&quot;,&quot;bio&quot;:&quot;tra-ta-ta&quot;,&quot;image&quot;:&quot;data:image/jpeg;base64,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&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;My post title&quot;,&quot;slug&quot;:&quot;my-post-title-jm8bt2&quot;,&quot;body&quot;:&quot;Simple automation project https://github.com/helenanull/cypress-example&quot;,&quot;createdAt&quot;:&quot;2021-09-03T16:06:28.605Z&quot;,&quot;updatedAt&quot;:&quot;2021-09-03T16:06:28.605Z&quot;,&quot;tagList&quot;:[&quot;test-automation&quot;,&quot;cypress&quot;],&quot;description&quot;:&quot;Cypress&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;cy950868076&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;My post title&quot;,&quot;slug&quot;:&quot;my-post-title-zt9fm2&quot;,&quot;body&quot;:&quot;Simple automation project https://github.com/helenanull/cypress-example&quot;,&quot;createdAt&quot;:&quot;2021-09-03T16:06:00.985Z&quot;,&quot;updatedAt&quot;:&quot;2021-09-03T16:06:00.985Z&quot;,&quot;tagList&quot;:[],&quot;description&quot;:&quot;Cypress&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;cy980796948&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;I need more rust in my life&quot;,&quot;slug&quot;:&quot;i-need-more-rust-in-my-life-918ovl&quot;,&quot;body&quot;:&quot;I need more rust in my life since my car is full of it. &quot;,&quot;createdAt&quot;:&quot;2021-09-03T15:48:55.970Z&quot;,&quot;updatedAt&quot;:&quot;2021-09-03T15:48:55.970Z&quot;,&quot;tagList&quot;:[],&quot;description&quot;:&quot;Rust&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;tonyqt&quot;,&quot;bio&quot;:&quot;is me... Mario&quot;,&quot;image&quot;:&quot;&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0}]
+  {&quot;title&quot;:&quot;#string&quot;,&quot;slug&quot;:&quot;#string&quot;,&quot;body&quot;:&quot;#string&quot;,&quot;//\&quot;createdAt\&quot;&quot;:&quot;#? isValueTime(_)&quot;,&quot;//\&quot;updatedAt\&quot;&quot;:&quot;#? isValueTime(_)&quot;,&quot;tagList&quot;:&quot;#array&quot;,&quot;description&quot;:&quot;#string&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;#string&quot;,&quot;bio&quot;:&quot;##string&quot;,&quot;image&quot;:&quot;#string&quot;,&quot;following&quot;:&quot;#boolean&quot;},&quot;favourited&quot;:&quot;#boolean&quot;,&quot;favouritesCount&quot;:&quot;#number&quot;}
+
+    $[0] | not equal | actual does not contain key - &#39;//&quot;createdAt&quot;&#39; (MAP:MAP)
+    {&quot;title&quot;:&quot;df&quot;,&quot;slug&quot;:&quot;df-lzs6wx&quot;,&quot;body&quot;:&quot;fdsf&quot;,&quot;createdAt&quot;:&quot;2021-09-03T16:55:07.818Z&quot;,&quot;updatedAt&quot;:&quot;2021-09-03T16:55:07.818Z&quot;,&quot;tagList&quot;:[],&quot;description&quot;:&quot;df&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;aaa71&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0}
+    {&quot;title&quot;:&quot;#string&quot;,&quot;slug&quot;:&quot;#string&quot;,&quot;body&quot;:&quot;#string&quot;,&quot;tagList&quot;:&quot;#array&quot;,&quot;description&quot;:&quot;#string&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;#string&quot;,&quot;bio&quot;:&quot;##string&quot;,&quot;image&quot;:&quot;#string&quot;,&quot;following&quot;:&quot;#boolean&quot;},&quot;//\&quot;createdAt\&quot;&quot;:&quot;#? isValueTime(_)&quot;,&quot;//\&quot;updatedAt\&quot;&quot;:&quot;#? isValueTime(_)&quot;,&quot;favourited&quot;:&quot;#boolean&quot;,&quot;favouritesCount&quot;:&quot;#number&quot;}
+
+
+classpath:conduitApp/feature/HomePage.feature:38
+</div>   
 
   
 

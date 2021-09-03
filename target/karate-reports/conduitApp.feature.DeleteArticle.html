@@ -30,13 +30,13 @@
     <div>Scenarios</div>
   </div>         
   <div id="nav-date">
-    <div>2021-09-01 02:06:41 PM</div>
+    <div>2021-09-03 06:10:08 PM</div>
   </div>        
 </div>
 
         <div class="nav-container">
           <div class="nav-item failed">
-            <a href="#[1:7]"><span>[1:7]</span> <span>Create and Delete new article</span></a>
+            <a href="#[1:8]"><span>[1:8]</span> <span>Create and Delete new article</span></a>
           </div>
         </div>
       </div>
@@ -50,29 +50,29 @@
           <span class="feature-description"></span>
         </div>
         <div class="scenario">
-          <div class="scenario-heading" id="[1:7]">
+          <div class="scenario-heading" id="[1:8]">
             <div class="heading-container">
               <div class="scenario-tags">
                 
               </div>
               <div class="scenario-keyword">
-                Scenario: <span>[1:7]</span>
+                Scenario: <span>[1:8]</span>
                 <span class="scenario-name">Create and Delete new article</span>
                 <span></span>
               </div>
             </div>
             <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>30221</span>
+              <span>ms:</span>&nbsp;<span>866</span>
             </div>
           </div>
           <div class="step-row">
-            <div class="step-container" id="[1:7]bg">
+            <div class="step-container" id="[1:8]bg">
               <div class="step-ref bg-step">&gt;&gt;</div>
               <div class="step-cell passed">Background:</div>
             </div>
             <div class="time-cell passed"></div>
           </div>
-          <div data-parent="[1:7]bg"><div>
+          <div data-parent="[1:8]bg"><div>
   
 
   
@@ -82,10 +82,10 @@
       <div class="step-ref bg-step">4</div>
       
       <div class="step-cell passed">
-        <span>Given</span>&nbsp;<span>url apiUrl</span>
+        <span>Given</span>&nbsp;<span>url &#39;http://conduit.productionready.io/api/&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -94,14 +94,14 @@
 
   
 
-  <div class="preformatted" data-parent="0.4">14:06:11.627 karate.env system property was: null 
+  <div class="preformatted" data-parent="0.4">18:10:07.756 karate.env system property was: null 
 </div>   
 
   
 
 </div>
 </div>
-          <div data-parent="[1:7]bg"><div>
+          <div data-parent="[1:8]bg"><div>
   
 
   
@@ -110,11 +110,11 @@
     <div class="step-container" id="0.5">
       <div class="step-ref bg-step">5</div>
       
-      <div class="step-cell failed">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>def tokenResponse = callonce read(&#39;classpath:helpers/CreateToken.feature&#39;)</span>
       </div>
     </div>
-    <div class="time-cell failed">30220</div>
+    <div class="time-cell passed">495</div>
   </div>
 
    
@@ -123,11 +123,7 @@
 
   
 
-  <div class="preformatted" data-parent="0.5">14:06:41.851 classpath:conduitApp/feature/DeleteArticle.feature:5
-* def tokenResponse = callonce read(&#39;classpath:helpers/CreateToken.feature&#39;)
-http call failed after 30178 milliseconds for url: https://conduit.productionready.io/api/users/login
-classpath:helpers/CreateToken.feature:8
-classpath:conduitApp/feature/DeleteArticle.feature:5
+  <div class="preformatted" data-parent="0.5">18:10:08.253 &lt;&lt; lock released, cached callonce: read(&#39;classpath:helpers/CreateToken.feature&#39;)
 </div>   
 
   <div>
@@ -138,7 +134,7 @@ classpath:conduitApp/feature/DeleteArticle.feature:5
         <div class="step-indent"></div>
         <div class="step-cell passed">helpers.CreateToken</div>
       </div>
-      <div class="time-cell passed">30183</div>
+      <div class="time-cell passed">484</div>
     </div>
     <div>
       <div><div>
@@ -151,10 +147,10 @@ classpath:conduitApp/feature/DeleteArticle.feature:5
       <div class="step-ref bg-step">4</div>
       <div class="step-indent"></div>
       <div class="step-cell passed">
-        <span>Given</span>&nbsp;<span>url apiUrl</span>
+        <span>Given</span>&nbsp;<span>url &#39;https://conduit.productionready.io/api/&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -163,7 +159,7 @@ classpath:conduitApp/feature/DeleteArticle.feature:5
 
   
 
-  <div class="preformatted" data-parent="0.5.0.call.0.4">14:06:11.638 &gt;&gt; lock acquired, begin callonce: read(&#39;classpath:helpers/CreateToken.feature&#39;)
+  <div class="preformatted" data-parent="0.5.0.call.0.4">18:10:07.762 &gt;&gt; lock acquired, begin callonce: read(&#39;classpath:helpers/CreateToken.feature&#39;)
 </div>   
 
   
@@ -201,24 +197,17 @@ classpath:conduitApp/feature/DeleteArticle.feature:5
       <div><div>
   
 
-  <div class="step-row" data-parent="0.5.0.call">
-    <div class="step-container">
-      <div class="step-ref passed"></div>
-      <div class="step-indent"></div>
-      <div class="step-cell comment">#Logging in via POST request</div>
-    </div>
-    <div class="time-cell comment"></div>            
-  </div>
+  
 
   <div class="step-row" data-parent="0.5.0.call">
-    <div class="step-container" id="0.5.0.call.0.7">
-      <div class="step-ref bg-step">7</div>
+    <div class="step-container" id="0.5.0.call.0.6">
+      <div class="step-ref bg-step">6</div>
       <div class="step-indent"></div>
       <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>request {&quot;user&quot;:{&quot;email&quot;:&quot;#(userEmail)&quot;, &quot;password&quot;:&quot;#(userPassword)&quot;}}</span>
+        <span>And</span>&nbsp;<span>request {&quot;user&quot;:{&quot;email&quot;:&quot;jackbuzzhealy1996@gmail.com&quot;,&quot;password&quot;:&quot;password&quot;}}</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -228,6 +217,68 @@ classpath:conduitApp/feature/DeleteArticle.feature:5
   
 
      
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.7">
+      <div class="step-ref bg-step">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">482</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5.0.call.0.7">18:10:07.776 request:
+1 &gt; POST https://conduit.productionready.io/api/users/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 70
+1 &gt; Host: conduit.productionready.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;user&quot;:{&quot;email&quot;:&quot;jackbuzzhealy1996@gmail.com&quot;,&quot;password&quot;:&quot;password&quot;}}
+
+18:10:08.251 response time in milliseconds: 474
+1 &lt; 200
+1 &lt; Date: Fri, 03 Sep 2021 17:10:08 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; cache-control: max-age=0, private, must-revalidate
+1 &lt; etag: W/&quot;08a000aad201e1a2ec0003fb10eda7c5&quot;
+1 &lt; status: 200 OK
+1 &lt; vary: Origin
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; x-powered-by: Phusion Passenger 4.0.60
+1 &lt; x-request-id: 4b956db3-f2bb-4928-b9e7-7a97b0938e11
+1 &lt; x-runtime: 0.088893
+1 &lt; x-xss-protection: 1; mode=block
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=PGGsHtK2E2U1SdggKOXXyzdim2l0LaoM%2FaLhGQZc6TfAnP7r0hp4fAgW8PZpw6VDHpQeda63CgpRQ65L0z%2BFcG%2Fc0D3MWJNHcuea9Nys4mLz0ahjFcP8FgndSxiL4IZn9DVi5dwIBx%2BadegD4A%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 689096fadd336580-LHR
+1 &lt; alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400, h3=&quot;:443&quot;; ma=86400
+{&quot;user&quot;:{&quot;id&quot;:217246,&quot;email&quot;:&quot;jackbuzzhealy1996@gmail.com&quot;,&quot;createdAt&quot;:&quot;2021-08-31T10:11:53.157Z&quot;,&quot;updatedAt&quot;:&quot;2021-08-31T10:32:42.058Z&quot;,&quot;username&quot;:&quot;jack-healy-001&quot;,&quot;bio&quot;:null,&quot;image&quot;:null,&quot;token&quot;:&quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MjE3MjQ2LCJ1c2VybmFtZSI6ImphY2staGVhbHktMDAxIiwiZXhwIjoxNjM1ODczMDA4fQ.CSKdlfVOmHAXn7W64MOzERQi05hkFbINAbSN_oce09E&quot;}}
+</div>   
 
   
 
@@ -242,54 +293,11 @@ classpath:conduitApp/feature/DeleteArticle.feature:5
     <div class="step-container" id="0.5.0.call.0.8">
       <div class="step-ref bg-step">8</div>
       <div class="step-indent"></div>
-      <div class="step-cell failed">
-        <span>When</span>&nbsp;<span>method POST</span>
-      </div>
-    </div>
-    <div class="time-cell failed">30180</div>
-  </div>
-
-   
-  
-  
-
-  
-
-  <div class="preformatted" data-parent="0.5.0.call.0.8">14:06:11.673 request:
-1 &gt; POST https://conduit.productionready.io/api/users/login
-1 &gt; Content-Type: application/json; charset=UTF-8
-1 &gt; Content-Length: 70
-1 &gt; Host: conduit.productionready.io
-1 &gt; Connection: Keep-Alive
-1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
-1 &gt; Accept-Encoding: gzip,deflate
-{&quot;user&quot;:{&quot;email&quot;:&quot;jackbuzzhealy1996@gmail.com&quot;,&quot;password&quot;:&quot;password&quot;}}
-
-14:06:41.850 java.net.SocketTimeoutException: Read timed out, http call failed after 30178 milliseconds for url: https://conduit.productionready.io/api/users/login
-14:06:41.851 classpath:helpers/CreateToken.feature:8
-When method POST
-http call failed after 30178 milliseconds for url: https://conduit.productionready.io/api/users/login
-classpath:helpers/CreateToken.feature:8
-</div>   
-
-  
-
-</div>
-</div>
-      <div><div>
-  
-
-  
-
-  <div class="step-row" data-parent="0.5.0.call">
-    <div class="step-container" id="0.5.0.call.0.9">
-      <div class="step-ref bg-step">9</div>
-      <div class="step-indent"></div>
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>Then</span>&nbsp;<span>status 200</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -307,24 +315,17 @@ classpath:helpers/CreateToken.feature:8
       <div><div>
   
 
-  <div class="step-row" data-parent="0.5.0.call">
-    <div class="step-container">
-      <div class="step-ref passed"></div>
-      <div class="step-indent"></div>
-      <div class="step-cell comment">#Retrieve unique user token</div>
-    </div>
-    <div class="time-cell comment"></div>            
-  </div>
+  
 
   <div class="step-row" data-parent="0.5.0.call">
-    <div class="step-container" id="0.5.0.call.0.11">
-      <div class="step-ref bg-step">11</div>
+    <div class="step-container" id="0.5.0.call.0.9">
+      <div class="step-ref bg-step">9</div>
       <div class="step-indent"></div>
-      <div class="step-cell skipped">
-        <span>*</span>&nbsp;<span>def authToken = response.user.token</span>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def token = response.user.token</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -344,7 +345,7 @@ classpath:helpers/CreateToken.feature:8
 
 </div>
 </div>
-          <div data-parent="[1:7]bg"><div>
+          <div data-parent="[1:8]bg"><div>
   
 
   
@@ -353,11 +354,11 @@ classpath:helpers/CreateToken.feature:8
     <div class="step-container" id="0.6">
       <div class="step-ref bg-step">6</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>def token = tokenResponse.authToken</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -385,14 +386,14 @@ classpath:helpers/CreateToken.feature:8
   </div>
 
   <div class="step-row">
-    <div class="step-container" id="0.9">
-      <div class="step-ref skipped">9</div>
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>Given</span>&nbsp;<span>header Authorization = &#39;Token &#39; + token</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -420,42 +421,14 @@ classpath:helpers/CreateToken.feature:8
   </div>
 
   <div class="step-row">
-    <div class="step-container" id="0.11">
-      <div class="step-ref skipped">11</div>
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>Given</span>&nbsp;<span>path &#39;articles&#39;</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="0.12">
-      <div class="step-ref skipped">12</div>
-      
-      <div class="step-cell skipped">
-        <span>And</span>&nbsp;<span>request {&quot;article&quot;: {&quot;tagList&quot;: [], &quot;title&quot;: &quot;Delete Article&quot;, &quot;description&quot;: &quot;This is another article which will be deleted&quot;, &quot;body&quot;: &quot;This is the body of another article which will be deleted&quot;}}</span>
-      </div>
-    </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -477,13 +450,13 @@ classpath:helpers/CreateToken.feature:8
 
   <div class="step-row">
     <div class="step-container" id="0.13">
-      <div class="step-ref skipped">13</div>
+      <div class="step-ref passed">13</div>
       
-      <div class="step-cell skipped">
-        <span>When</span>&nbsp;<span>method POST</span>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request {&quot;article&quot;: {&quot;tagList&quot;: [], &quot;title&quot;: &quot;Delete Article&quot;, &quot;description&quot;: &quot;This is another article which will be deleted&quot;, &quot;body&quot;: &quot;This is the body of another article which will be deleted&quot;}}</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -505,13 +478,13 @@ classpath:helpers/CreateToken.feature:8
 
   <div class="step-row">
     <div class="step-container" id="0.14">
-      <div class="step-ref skipped">14</div>
+      <div class="step-ref passed">14</div>
       
-      <div class="step-cell skipped">
-        <span>Then</span>&nbsp;<span>status 200</span>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">368</div>
   </div>
 
    
@@ -520,7 +493,40 @@ classpath:helpers/CreateToken.feature:8
 
   
 
-     
+  <div class="preformatted" data-parent="0.14">18:10:08.256 request:
+1 &gt; POST http://conduit.productionready.io/api/articles
+1 &gt; Authorization: Token null
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 180
+1 &gt; Host: conduit.productionready.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;article&quot;:{&quot;tagList&quot;:[],&quot;title&quot;:&quot;Delete Article&quot;,&quot;description&quot;:&quot;This is another article which will be deleted&quot;,&quot;body&quot;:&quot;This is the body of another article which will be deleted&quot;}}
+
+18:10:08.621 response time in milliseconds: 365
+1 &lt; 401
+1 &lt; Date: Fri, 03 Sep 2021 17:10:08 GMT
+1 &lt; Content-Type: text/html
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; cache-control: no-cache
+1 &lt; status: 401 Unauthorized
+1 &lt; vary: Origin
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; x-powered-by: Phusion Passenger 4.0.60
+1 &lt; x-request-id: b6e11ea2-3f24-4cf8-b8af-18302ee56983
+1 &lt; x-runtime: 0.003829
+1 &lt; x-xss-protection: 1; mode=block
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=Ulkv9YFvag3l9PEbjC%2FAbMoqUHe98zSUggkU%2FcEc3WaG4Gv9sYWzFMCwAUQYn%2FcxxODcKnwfn19vDapbrY0H5LqGshcAVXWpXky7r%2FwRSXBrKP5qoI5mmjk3mBZIH4Tdq9KfVb2E5P4xh%2Bw7uw%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 689096fdbcf10712-LHR
+1 &lt; alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400, h3=&quot;:443&quot;; ma=86400
+
+</div>   
 
   
 
@@ -533,13 +539,13 @@ classpath:helpers/CreateToken.feature:8
 
   <div class="step-row">
     <div class="step-container" id="0.15">
-      <div class="step-ref skipped">15</div>
+      <div class="step-ref failed">15</div>
       
-      <div class="step-cell skipped">
-        <span>*</span>&nbsp;<span>def articleId = response.article.slug</span>
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 200</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell failed">0</div>
   </div>
 
    
@@ -548,7 +554,12 @@ classpath:helpers/CreateToken.feature:8
 
   
 
-     
+  <div class="preformatted" data-parent="0.15">18:10:08.623 classpath:conduitApp/feature/DeleteArticle.feature:15
+Then status 200
+status code was: 401, expected: 200, response time in milliseconds: 365, url: http://conduit.productionready.io/api/articles, response: 
+
+classpath:conduitApp/feature/DeleteArticle.feature:15
+</div>   
 
   
 
@@ -560,11 +571,11 @@ classpath:helpers/CreateToken.feature:8
   
 
   <div class="step-row">
-    <div class="step-container" id="0.17">
-      <div class="step-ref skipped">17</div>
+    <div class="step-container" id="0.16">
+      <div class="step-ref skipped">16</div>
       
       <div class="step-cell skipped">
-        <span>Given</span>&nbsp;<span>params {limit : 10, offset : 0}</span>
+        <span>*</span>&nbsp;<span>def articleId = response.article.slug</span>
       </div>
     </div>
     <div class="time-cell skipped">0</div>
@@ -592,7 +603,7 @@ classpath:helpers/CreateToken.feature:8
       <div class="step-ref skipped">18</div>
       
       <div class="step-cell skipped">
-        <span>Given</span>&nbsp;<span>path &#39;articles&#39;</span>
+        <span>Given</span>&nbsp;<span>params {limit : 10, offset : 0}</span>
       </div>
     </div>
     <div class="time-cell skipped">0</div>
@@ -620,7 +631,7 @@ classpath:helpers/CreateToken.feature:8
       <div class="step-ref skipped">19</div>
       
       <div class="step-cell skipped">
-        <span>When</span>&nbsp;<span>method GET</span>
+        <span>Given</span>&nbsp;<span>path &#39;articles&#39;</span>
       </div>
     </div>
     <div class="time-cell skipped">0</div>
@@ -646,6 +657,34 @@ classpath:helpers/CreateToken.feature:8
   <div class="step-row">
     <div class="step-container" id="0.20">
       <div class="step-ref skipped">20</div>
+      
+      <div class="step-cell skipped">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.21">
+      <div class="step-ref skipped">21</div>
       
       <div class="step-cell skipped">
         <span>Then</span>&nbsp;<span>status 200</span>
@@ -679,8 +718,8 @@ classpath:helpers/CreateToken.feature:8
   </div>
 
   <div class="step-row">
-    <div class="step-container" id="0.22">
-      <div class="step-ref skipped">22</div>
+    <div class="step-container" id="0.23">
+      <div class="step-ref skipped">23</div>
       
       <div class="step-cell skipped">
         <span>And</span>&nbsp;<span>match response.articles[0].title == &#39;Delete Article&#39;</span>
@@ -714,39 +753,11 @@ classpath:helpers/CreateToken.feature:8
   </div>
 
   <div class="step-row">
-    <div class="step-container" id="0.25">
-      <div class="step-ref skipped">25</div>
-      
-      <div class="step-cell skipped">
-        <span>Given</span>&nbsp;<span>header Authorization = &#39;Token &#39; + token</span>
-      </div>
-    </div>
-    <div class="time-cell skipped">0</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
     <div class="step-container" id="0.26">
       <div class="step-ref skipped">26</div>
       
       <div class="step-cell skipped">
-        <span>Given</span>&nbsp;<span>path &#39;articles&#39;,articleId</span>
+        <span>Given</span>&nbsp;<span>header Authorization = &#39;Token &#39; + token</span>
       </div>
     </div>
     <div class="time-cell skipped">0</div>
@@ -774,7 +785,7 @@ classpath:helpers/CreateToken.feature:8
       <div class="step-ref skipped">27</div>
       
       <div class="step-cell skipped">
-        <span>When</span>&nbsp;<span>method DELETE</span>
+        <span>Given</span>&nbsp;<span>path &#39;articles&#39;, articleId</span>
       </div>
     </div>
     <div class="time-cell skipped">0</div>
@@ -802,7 +813,7 @@ classpath:helpers/CreateToken.feature:8
       <div class="step-ref skipped">28</div>
       
       <div class="step-cell skipped">
-        <span>Then</span>&nbsp;<span>status 200</span>
+        <span>When</span>&nbsp;<span>method DELETE</span>
       </div>
     </div>
     <div class="time-cell skipped">0</div>
@@ -826,11 +837,11 @@ classpath:helpers/CreateToken.feature:8
   
 
   <div class="step-row">
-    <div class="step-container" id="0.30">
-      <div class="step-ref skipped">30</div>
+    <div class="step-container" id="0.29">
+      <div class="step-ref skipped">29</div>
       
       <div class="step-cell skipped">
-        <span>Given</span>&nbsp;<span>params {limit : 10, offset : 0}</span>
+        <span>Then</span>&nbsp;<span>status 200</span>
       </div>
     </div>
     <div class="time-cell skipped">0</div>
@@ -858,7 +869,7 @@ classpath:helpers/CreateToken.feature:8
       <div class="step-ref skipped">31</div>
       
       <div class="step-cell skipped">
-        <span>Given</span>&nbsp;<span>path &#39;articles&#39;</span>
+        <span>Given</span>&nbsp;<span>params {limit : 10, offset : 0}</span>
       </div>
     </div>
     <div class="time-cell skipped">0</div>
@@ -886,7 +897,7 @@ classpath:helpers/CreateToken.feature:8
       <div class="step-ref skipped">32</div>
       
       <div class="step-cell skipped">
-        <span>When</span>&nbsp;<span>method GET</span>
+        <span>Given</span>&nbsp;<span>path &#39;articles&#39;</span>
       </div>
     </div>
     <div class="time-cell skipped">0</div>
@@ -912,6 +923,34 @@ classpath:helpers/CreateToken.feature:8
   <div class="step-row">
     <div class="step-container" id="0.33">
       <div class="step-ref skipped">33</div>
+      
+      <div class="step-cell skipped">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.34">
+      <div class="step-ref skipped">34</div>
       
       <div class="step-cell skipped">
         <span>Then</span>&nbsp;<span>status 200</span>
@@ -945,8 +984,8 @@ classpath:helpers/CreateToken.feature:8
   </div>
 
   <div class="step-row">
-    <div class="step-container" id="0.35">
-      <div class="step-ref skipped">35</div>
+    <div class="step-container" id="0.36">
+      <div class="step-ref skipped">36</div>
       
       <div class="step-cell skipped">
         <span>And</span>&nbsp;<span>match response.articles[0].title != &#39;Delete Article&#39;</span>

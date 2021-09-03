@@ -30,13 +30,13 @@
     <div>Scenarios</div>
   </div>         
   <div id="nav-date">
-    <div>2021-09-01 02:06:08 PM</div>
+    <div>2021-09-03 06:10:06 PM</div>
   </div>        
 </div>
 
         <div class="nav-container">
           <div class="nav-item failed">
-            <a href="#[1:6]"><span>[1:6]</span> <span>Create new article</span></a>
+            <a href="#[1:8]"><span>[1:8]</span> <span>Create new article</span></a>
           </div>
         </div>
       </div>
@@ -50,29 +50,29 @@
           <span class="feature-description"></span>
         </div>
         <div class="scenario">
-          <div class="scenario-heading" id="[1:6]">
+          <div class="scenario-heading" id="[1:8]">
             <div class="heading-container">
               <div class="scenario-tags">
                 
               </div>
               <div class="scenario-keyword">
-                Scenario: <span>[1:6]</span>
+                Scenario: <span>[1:8]</span>
                 <span class="scenario-name">Create new article</span>
                 <span></span>
               </div>
             </div>
             <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>3473</span>
+              <span>ms:</span>&nbsp;<span>8464</span>
             </div>
           </div>
           <div class="step-row">
-            <div class="step-container" id="[1:6]bg">
+            <div class="step-container" id="[1:8]bg">
               <div class="step-ref bg-step">&gt;&gt;</div>
               <div class="step-cell passed">Background:</div>
             </div>
             <div class="time-cell passed"></div>
           </div>
-          <div data-parent="[1:6]bg"><div>
+          <div data-parent="[1:8]bg"><div>
   
 
   
@@ -82,7 +82,7 @@
       <div class="step-ref bg-step">4</div>
       
       <div class="step-cell passed">
-        <span>Given</span>&nbsp;<span>url apiUrl</span>
+        <span>Given</span>&nbsp;<span>url &#39;http://conduit.productionready.io/api/&#39;</span>
       </div>
     </div>
     <div class="time-cell passed">1</div>
@@ -94,14 +94,14 @@
 
   
 
-  <div class="preformatted" data-parent="0.4">14:06:04.936 karate.env system property was: null 
+  <div class="preformatted" data-parent="0.4">18:09:58.025 karate.env system property was: null 
 </div>   
 
   
 
 </div>
 </div>
-          <div data-parent="[1:6]bg"><div>
+          <div data-parent="[1:8]bg"><div>
   
 
   
@@ -110,11 +110,11 @@
     <div class="step-container" id="0.5">
       <div class="step-ref bg-step">5</div>
       
-      <div class="step-cell failed">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>def tokenResponse = callonce read(&#39;classpath:helpers/CreateToken.feature&#39;)</span>
       </div>
     </div>
-    <div class="time-cell failed">3472</div>
+    <div class="time-cell passed">1757</div>
   </div>
 
    
@@ -123,12 +123,7 @@
 
   
 
-  <div class="preformatted" data-parent="0.5">14:06:08.554 classpath:conduitApp/feature/Articles.feature:5
-* def tokenResponse = callonce read(&#39;classpath:helpers/CreateToken.feature&#39;)
-status code was: 503, expected: 200, response time in milliseconds: 1048, url: https://conduit.productionready.io/api/users/login, response: 
-&lt;h1&gt;This website is under heavy load&lt;/h1&gt;&lt;p&gt;We&#39;re sorry, too many people are accessing this website at the same time. We&#39;re working on this problem. Please try again later.&lt;/p&gt;
-classpath:helpers/CreateToken.feature:9
-classpath:conduitApp/feature/Articles.feature:5
+  <div class="preformatted" data-parent="0.5">18:09:59.847 &lt;&lt; lock released, cached callonce: read(&#39;classpath:helpers/CreateToken.feature&#39;)
 </div>   
 
   <div>
@@ -139,7 +134,7 @@ classpath:conduitApp/feature/Articles.feature:5
         <div class="step-indent"></div>
         <div class="step-cell passed">helpers.CreateToken</div>
       </div>
-      <div class="time-cell passed">3380</div>
+      <div class="time-cell passed">1732</div>
     </div>
     <div>
       <div><div>
@@ -152,10 +147,10 @@ classpath:conduitApp/feature/Articles.feature:5
       <div class="step-ref bg-step">4</div>
       <div class="step-indent"></div>
       <div class="step-cell passed">
-        <span>Given</span>&nbsp;<span>url apiUrl</span>
+        <span>Given</span>&nbsp;<span>url &#39;https://conduit.productionready.io/api/&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -164,7 +159,7 @@ classpath:conduitApp/feature/Articles.feature:5
 
   
 
-  <div class="preformatted" data-parent="0.5.0.call.0.4">14:06:05.113 &gt;&gt; lock acquired, begin callonce: read(&#39;classpath:helpers/CreateToken.feature&#39;)
+  <div class="preformatted" data-parent="0.5.0.call.0.4">18:09:58.103 &gt;&gt; lock acquired, begin callonce: read(&#39;classpath:helpers/CreateToken.feature&#39;)
 </div>   
 
   
@@ -184,7 +179,7 @@ classpath:conduitApp/feature/Articles.feature:5
         <span>Given</span>&nbsp;<span>path &#39;users/login&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -202,24 +197,17 @@ classpath:conduitApp/feature/Articles.feature:5
       <div><div>
   
 
-  <div class="step-row" data-parent="0.5.0.call">
-    <div class="step-container">
-      <div class="step-ref passed"></div>
-      <div class="step-indent"></div>
-      <div class="step-cell comment">#Logging in via POST request</div>
-    </div>
-    <div class="time-cell comment"></div>            
-  </div>
+  
 
   <div class="step-row" data-parent="0.5.0.call">
-    <div class="step-container" id="0.5.0.call.0.7">
-      <div class="step-ref bg-step">7</div>
+    <div class="step-container" id="0.5.0.call.0.6">
+      <div class="step-ref bg-step">6</div>
       <div class="step-indent"></div>
       <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>request {&quot;user&quot;:{&quot;email&quot;:&quot;#(userEmail)&quot;, &quot;password&quot;:&quot;#(userPassword)&quot;}}</span>
+        <span>And</span>&nbsp;<span>request {&quot;user&quot;:{&quot;email&quot;:&quot;jackbuzzhealy1996@gmail.com&quot;,&quot;password&quot;:&quot;password&quot;}}</span>
       </div>
     </div>
-    <div class="time-cell passed">210</div>
+    <div class="time-cell passed">70</div>
   </div>
 
    
@@ -229,6 +217,68 @@ classpath:conduitApp/feature/Articles.feature:5
   
 
      
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.7">
+      <div class="step-ref bg-step">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1652</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5.0.call.0.7">18:09:59.023 request:
+1 &gt; POST https://conduit.productionready.io/api/users/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 70
+1 &gt; Host: conduit.productionready.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;user&quot;:{&quot;email&quot;:&quot;jackbuzzhealy1996@gmail.com&quot;,&quot;password&quot;:&quot;password&quot;}}
+
+18:09:59.832 response time in milliseconds: 807
+1 &lt; 200
+1 &lt; Date: Fri, 03 Sep 2021 17:09:59 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; cache-control: max-age=0, private, must-revalidate
+1 &lt; etag: W/&quot;556bad833caee5267cd4e4191b643574&quot;
+1 &lt; status: 200 OK
+1 &lt; vary: Origin
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; x-powered-by: Phusion Passenger 4.0.60
+1 &lt; x-request-id: 4c653b31-ad5b-427e-b407-19158ebb16e6
+1 &lt; x-runtime: 0.089622
+1 &lt; x-xss-protection: 1; mode=block
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=VelIORJ%2BRDZMP92etdUB2pXheSvLD6B9s6kOB8X%2Blrw%2FMZy1jL%2BFjg%2BD260quMDYVFuhw%2BbX%2FT0SxeN9b%2BDSTECe1lKyi3Mk5Caw3IgitF7KuCDiKK8XgZprP4gCiQiFNxDFrE%2FHaGnDTF8GWg%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 689096c62cd00070-LHR
+1 &lt; alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400, h3=&quot;:443&quot;; ma=86400
+{&quot;user&quot;:{&quot;id&quot;:217246,&quot;email&quot;:&quot;jackbuzzhealy1996@gmail.com&quot;,&quot;createdAt&quot;:&quot;2021-08-31T10:11:53.157Z&quot;,&quot;updatedAt&quot;:&quot;2021-08-31T10:32:42.058Z&quot;,&quot;username&quot;:&quot;jack-healy-001&quot;,&quot;bio&quot;:null,&quot;image&quot;:null,&quot;token&quot;:&quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MjE3MjQ2LCJ1c2VybmFtZSI6ImphY2staGVhbHktMDAxIiwiZXhwIjoxNjM1ODcyOTk5fQ.wAJMO1QkuT_ZiBWgncY8AznHepy90hgfnI3-aTsNx4g&quot;}}
+</div>   
 
   
 
@@ -244,10 +294,10 @@ classpath:conduitApp/feature/Articles.feature:5
       <div class="step-ref bg-step">8</div>
       <div class="step-indent"></div>
       <div class="step-cell passed">
-        <span>When</span>&nbsp;<span>method POST</span>
+        <span>Then</span>&nbsp;<span>status 200</span>
       </div>
     </div>
-    <div class="time-cell passed">3165</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -256,33 +306,7 @@ classpath:conduitApp/feature/Articles.feature:5
 
   
 
-  <div class="preformatted" data-parent="0.5.0.call.0.8">14:06:07.495 request:
-1 &gt; POST https://conduit.productionready.io/api/users/login
-1 &gt; Content-Type: application/json; charset=UTF-8
-1 &gt; Content-Length: 70
-1 &gt; Host: conduit.productionready.io
-1 &gt; Connection: Keep-Alive
-1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
-1 &gt; Accept-Encoding: gzip,deflate
-{&quot;user&quot;:{&quot;email&quot;:&quot;jackbuzzhealy1996@gmail.com&quot;,&quot;password&quot;:&quot;password&quot;}}
-
-14:06:08.547 response time in milliseconds: 1048
-1 &lt; 503
-1 &lt; Date: Wed, 01 Sep 2021 13:06:08 GMT
-1 &lt; Content-Type: text/html; charset=UTF-8
-1 &lt; Transfer-Encoding: chunked
-1 &lt; Connection: keep-alive
-1 &lt; cache-control: no-cache, no-store, must-revalidate
-1 &lt; status: 503 Service Unavailable
-1 &lt; CF-Cache-Status: DYNAMIC
-1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
-1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=ylnggNChdbnBbD3BBb5ZipMVy%2BJRa2ebOQBb%2FsQAgikb5Hl37fyhrNmN9bkg%2B591Lcm3FHCVZ16Mu2F2SraBBfT1jLHV23ziNTocm5epEdxCqVkDTOiXCHqekuvT7klZWCzNhkLuWmRi3PScKA%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
-1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
-1 &lt; Server: cloudflare
-1 &lt; CF-RAY: 687eb6d05f0ae64c-LHR
-1 &lt; alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400, h3=&quot;:443&quot;; ma=86400
-&lt;h1&gt;This website is under heavy load&lt;/h1&gt;&lt;p&gt;We&#39;re sorry, too many people are accessing this website at the same time. We&#39;re working on this problem. Please try again later.&lt;/p&gt;
-</div>   
+     
 
   
 
@@ -297,51 +321,11 @@ classpath:conduitApp/feature/Articles.feature:5
     <div class="step-container" id="0.5.0.call.0.9">
       <div class="step-ref bg-step">9</div>
       <div class="step-indent"></div>
-      <div class="step-cell failed">
-        <span>Then</span>&nbsp;<span>status 200</span>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def token = response.user.token</span>
       </div>
     </div>
-    <div class="time-cell failed">0</div>
-  </div>
-
-   
-  
-  
-
-  
-
-  <div class="preformatted" data-parent="0.5.0.call.0.9">14:06:08.552 classpath:helpers/CreateToken.feature:9
-Then status 200
-status code was: 503, expected: 200, response time in milliseconds: 1048, url: https://conduit.productionready.io/api/users/login, response: 
-&lt;h1&gt;This website is under heavy load&lt;/h1&gt;&lt;p&gt;We&#39;re sorry, too many people are accessing this website at the same time. We&#39;re working on this problem. Please try again later.&lt;/p&gt;
-classpath:helpers/CreateToken.feature:9
-</div>   
-
-  
-
-</div>
-</div>
-      <div><div>
-  
-
-  <div class="step-row" data-parent="0.5.0.call">
-    <div class="step-container">
-      <div class="step-ref passed"></div>
-      <div class="step-indent"></div>
-      <div class="step-cell comment">#Retrieve unique user token</div>
-    </div>
-    <div class="time-cell comment"></div>            
-  </div>
-
-  <div class="step-row" data-parent="0.5.0.call">
-    <div class="step-container" id="0.5.0.call.0.11">
-      <div class="step-ref bg-step">11</div>
-      <div class="step-indent"></div>
-      <div class="step-cell skipped">
-        <span>*</span>&nbsp;<span>def authToken = response.user.token</span>
-      </div>
-    </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">9</div>
   </div>
 
    
@@ -361,6 +345,34 @@ classpath:helpers/CreateToken.feature:9
 
 </div>
 </div>
+          <div data-parent="[1:8]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def token = tokenResponse.authToken</span>
+      </div>
+    </div>
+    <div class="time-cell passed">8</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
           <div><div>
   
 
@@ -374,14 +386,14 @@ classpath:helpers/CreateToken.feature:9
   </div>
 
   <div class="step-row">
-    <div class="step-container" id="0.8">
-      <div class="step-ref skipped">8</div>
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>Given</span>&nbsp;<span>header Authorization = &#39;Token &#39; + token</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">27</div>
   </div>
 
    
@@ -409,70 +421,14 @@ classpath:helpers/CreateToken.feature:9
   </div>
 
   <div class="step-row">
-    <div class="step-container" id="0.10">
-      <div class="step-ref skipped">10</div>
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>Given</span>&nbsp;<span>path &#39;articles&#39;</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="0.11">
-      <div class="step-ref skipped">11</div>
-      
-      <div class="step-cell skipped">
-        <span>And</span>&nbsp;<span>request {&quot;article&quot;: {&quot;tagList&quot;: [], &quot;title&quot;: &quot;Another Article&quot;, &quot;description&quot;: &quot;This is another article&quot;, &quot;body&quot;: &quot;This is the body of another article&quot;}}</span>
-      </div>
-    </div>
-    <div class="time-cell skipped">0</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="0.12">
-      <div class="step-ref skipped">12</div>
-      
-      <div class="step-cell skipped">
-        <span>When</span>&nbsp;<span>method POST</span>
-      </div>
-    </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -494,13 +450,13 @@ classpath:helpers/CreateToken.feature:9
 
   <div class="step-row">
     <div class="step-container" id="0.13">
-      <div class="step-ref skipped">13</div>
+      <div class="step-ref passed">13</div>
       
-      <div class="step-cell skipped">
-        <span>Then</span>&nbsp;<span>status 200</span>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request {&quot;article&quot;:{&quot;tagList&quot;: [], &quot;title&quot;:&quot;Another Article&quot;,&quot;description&quot;:&quot;This is another article&quot;,&quot;body&quot;:&quot;This is the body of another article&quot;}}</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -510,6 +466,100 @@ classpath:helpers/CreateToken.feature:9
   
 
      
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">6670</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.14">18:09:59.887 request:
+1 &gt; POST http://conduit.productionready.io/api/articles
+1 &gt; Authorization: Token null
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 137
+1 &gt; Host: conduit.productionready.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;article&quot;:{&quot;tagList&quot;:[],&quot;title&quot;:&quot;Another Article&quot;,&quot;description&quot;:&quot;This is another article&quot;,&quot;body&quot;:&quot;This is the body of another article&quot;}}
+
+18:10:06.554 response time in milliseconds: 6667
+1 &lt; 401
+1 &lt; Date: Fri, 03 Sep 2021 17:10:06 GMT
+1 &lt; Content-Type: text/html
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; cache-control: no-cache
+1 &lt; status: 401 Unauthorized
+1 &lt; vary: Origin
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; x-powered-by: Phusion Passenger 4.0.60
+1 &lt; x-request-id: f5ca3b24-f7bc-45f5-85bf-64d2dc3c9a65
+1 &lt; x-runtime: 0.003750
+1 &lt; x-xss-protection: 1; mode=block
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=CAXsIytDogUHd10ES9cLD71MIIS6sGbekm5c%2FnW4YF8lukgGLJtIiYBlHAoNW%2FHTemJOn0An8Wi%2BNkyU9lXcHcoEroEWjwKaSuWB9KJq%2B%2BBUnSah9IReHqraPp0dapVWu4Fa6Z0cL0ZHbOw4ew%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 689096c96e63e680-LHR
+1 &lt; alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400, h3=&quot;:443&quot;; ma=86400
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref failed">15</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.15">18:10:06.556 classpath:conduitApp/feature/Articles.feature:15
+Then status 200
+status code was: 401, expected: 200, response time in milliseconds: 6667, url: http://conduit.productionready.io/api/articles, response: 
+
+classpath:conduitApp/feature/Articles.feature:15
+</div>   
 
   
 
@@ -528,8 +578,8 @@ classpath:helpers/CreateToken.feature:9
   </div>
 
   <div class="step-row">
-    <div class="step-container" id="0.15">
-      <div class="step-ref skipped">15</div>
+    <div class="step-container" id="0.17">
+      <div class="step-ref skipped">17</div>
       
       <div class="step-cell skipped">
         <span>And</span>&nbsp;<span>match response.article.title == &#39;Another Article&#39;</span>
