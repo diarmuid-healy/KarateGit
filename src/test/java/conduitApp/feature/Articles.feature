@@ -8,7 +8,7 @@ Feature: Articles
         Given header Authorization = 'Token ' + token
         #Creating a new article
         Given path 'articles'
-        And request {"article": {"tagList": [], "title": "Another Article", "description": "This is another article", "body": "This is the body of another article"}}
+        And request {"article": {"tagList": [], "title": "Another Article", "description": "This is another article", "body":"This is the body of another article"}}
         When method POST
         Then status 200
         #Checking to see if there is an article named 'Another Article'

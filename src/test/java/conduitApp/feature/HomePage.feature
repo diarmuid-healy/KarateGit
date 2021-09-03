@@ -22,6 +22,7 @@ Feature: Tests for the home page
         And match response.tags =="#string"
         
     Scenario:  Get 10 articles from the API
+        * def timeValidator = read('classpath:helper/timeValidator.js')
         Given params {limit : 10, offset : 0}
         Given path 'articles'
         When method Get
@@ -33,3 +34,25 @@ Feature: Tests for the home page
         And match response.articlesCount == 500
         #Are there '100' articles? = Y
         And match response.articlesCount != 100
+        #Scehma Validation
+        And match each responnse.articles ==
+        """
+            {
+                "title":"#string",
+                "slug":"#string",
+                "body":"#string",
+                "createdAt":"#? isValueTime(_)",
+                "updatedAt":"#? isValueTime(_)",
+                "tagList":"#array",
+                "description":"#string",
+                "author":
+                {
+                    "username":"#string",
+                    "bio":"##string",
+                    "image":"#string",
+                    "following":"#boolean"
+                },
+                "favourited":"#boolean",
+                "favouritesCount":"#number",
+            }
+        """
