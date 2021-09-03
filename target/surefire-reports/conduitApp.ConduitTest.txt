@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: conduitApp.ConduitTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 86.331 s <<< FAILURE! - in conduitApp.ConduitTest
+testAll[1][1]  Time elapsed: 10.44 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+status code was: 503, expected: 200, response time in milliseconds: 1048, url: https://conduit.productionready.io/api/users/login, response: 
+<h1>This website is under heavy load</h1><p>We're sorry, too many people are accessing this website at the same time. We're working on this problem. Please try again later.</p>
+classpath:helpers/CreateToken.feature:9
+classpath:conduitApp/feature/Articles.feature:5
+
+testAll[2][1]  Time elapsed: 30.968 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+http call failed after 30178 milliseconds for url: https://conduit.productionready.io/api/users/login
+classpath:helpers/CreateToken.feature:8
+classpath:conduitApp/feature/DeleteArticle.feature:5
+
+testAll[3][1]  Time elapsed: 5.78 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+status code was: 503, expected: 200, response time in milliseconds: 510, url: https://conduit.productionready.io/api/users/login, response: 
+<h1>This website is under heavy load</h1><p>We're sorry, too many people are accessing this website at the same time. We're working on this problem. Please try again later.</p>
+classpath:helpers/CreateToken.feature:9
+classpath:conduitApp/feature/HomePage.feature:5
+
+testAll[3][2]  Time elapsed: 36.051 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+http call failed after 30132 milliseconds for url: https://conduit.productionready.io/api/users/login
+classpath:helpers/CreateToken.feature:8
+classpath:conduitApp/feature/HomePage.feature:5
+

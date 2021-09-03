@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="conduitApp.ConduitTest" time="86.331" tests="4" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\diarmuid.healy\OneDrive - Accenture\Desktop\KarateGit\Udemy\myproject\target\test-classes;C:\Users\diarmuid.healy\OneDrive - Accenture\Desktop\KarateGit\Udemy\myproject\target\classes;C:\Users\diarmuid.healy\.m2\repository\com\intuit\karate\karate-junit5\1.1.0\karate-junit5-1.1.0.jar;C:\Users\diarmuid.healy\.m2\repository\com\intuit\karate\karate-core\1.1.0\karate-core-1.1.0.jar;C:\Users\diarmuid.healy\.m2\repository\org\graalvm\js\js-scriptengine\21.2.0\js-scriptengine-21.2.0.jar;C:\Users\diarmuid.healy\.m2\repository\org\graalvm\sdk\graal-sdk\21.2.0\graal-sdk-21.2.0.jar;C:\Users\diarmuid.healy\.m2\repository\org\graalvm\js\js\21.2.0\js-21.2.0.jar;C:\Users\diarmuid.healy\.m2\repository\org\graalvm\regex\regex\21.2.0\regex-21.2.0.jar;C:\Users\diarmuid.healy\.m2\repository\org\graalvm\truffle\truffle-api\21.2.0\truffle-api-21.2.0.jar;C:\Users\diarmuid.healy\.m2\repository\com\ibm\icu\icu4j\69.1\icu4j-69.1.jar;C:\Users\diarmuid.healy\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\diarmuid.healy\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\diarmuid.healy\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\diarmuid.healy\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\diarmuid.healy\.m2\repository\com\jayway\jsonpath\json-path\2.6.0\json-path-2.6.0.jar;C:\Users\diarmuid.healy\.m2\repository\net\minidev\json-smart\2.4.7\json-smart-2.4.7.jar;C:\Users\diarmuid.healy\.m2\repository\net\minidev\accessors-smart\2.4.7\accessors-smart-2.4.7.jar;C:\Users\diarmuid.healy\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar;C:\Users\diarmuid.healy\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\diarmuid.healy\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\diarmuid.healy\.m2\repository\org\yaml\snakeyaml\1.29\snakeyaml-1.29.jar;C:\Users\diarmuid.healy\.m2\repository\de\siegmar\fastcsv\2.0.0\fastcsv-2.0.0.jar;C:\Users\diarmuid.healy\.m2\repository\info\picocli\picocli\4.6.1\picocli-4.6.1.jar;C:\Users\diarmuid.healy\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\diarmuid.healy\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\diarmuid.healy\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\diarmuid.healy\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\diarmuid.healy\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\diarmuid.healy\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\DIARMU~1.HEA\AppData\Local\Temp\surefire3232587198279600297\surefirebooter7707687286189572073.jar C:\Users\diarmuid.healy\AppData\Local\Temp\surefire3232587198279600297 2021-09-01T14-05-54_176-jvmRun1 surefire7146837222896474970tmp surefire_06850679102069014534tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\diarmuid.healy\OneDrive - Accenture\Desktop\KarateGit\Udemy\myproject\target\test-classes;C:\Users\diarmuid.healy\OneDrive - Accenture\Desktop\KarateGit\Udemy\myproject\target\classes;C:\Users\diarmuid.healy\.m2\repository\com\intuit\karate\karate-junit5\1.1.0\karate-junit5-1.1.0.jar;C:\Users\diarmuid.healy\.m2\repository\com\intuit\karate\karate-core\1.1.0\karate-core-1.1.0.jar;C:\Users\diarmuid.healy\.m2\repository\org\graalvm\js\js-scriptengine\21.2.0\js-scriptengine-21.2.0.jar;C:\Users\diarmuid.healy\.m2\repository\org\graalvm\sdk\graal-sdk\21.2.0\graal-sdk-21.2.0.jar;C:\Users\diarmuid.healy\.m2\repository\org\graalvm\js\js\21.2.0\js-21.2.0.jar;C:\Users\diarmuid.healy\.m2\repository\org\graalvm\regex\regex\21.2.0\regex-21.2.0.jar;C:\Users\diarmuid.healy\.m2\repository\org\graalvm\truffle\truffle-api\21.2.0\truffle-api-21.2.0.jar;C:\Users\diarmuid.healy\.m2\repository\com\ibm\icu\icu4j\69.1\icu4j-69.1.jar;C:\Users\diarmuid.healy\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\diarmuid.healy\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\diarmuid.healy\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\diarmuid.healy\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\diarmuid.healy\.m2\repository\com\jayway\jsonpath\json-path\2.6.0\json-path-2.6.0.jar;C:\Users\diarmuid.healy\.m2\repository\net\minidev\json-smart\2.4.7\json-smart-2.4.7.jar;C:\Users\diarmuid.healy\.m2\repository\net\minidev\accessors-smart\2.4.7\accessors-smart-2.4.7.jar;C:\Users\diarmuid.healy\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar;C:\Users\diarmuid.healy\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\diarmuid.healy\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\diarmuid.healy\.m2\repository\org\yaml\snakeyaml\1.29\snakeyaml-1.29.jar;C:\Users\diarmuid.healy\.m2\repository\de\siegmar\fastcsv\2.0.0\fastcsv-2.0.0.jar;C:\Users\diarmuid.healy\.m2\repository\info\picocli\picocli\4.6.1\picocli-4.6.1.jar;C:\Users\diarmuid.healy\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\diarmuid.healy\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\diarmuid.healy\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\diarmuid.healy\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\diarmuid.healy\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\diarmuid.healy\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\diarmuid.healy"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_291\jre"/>
+    <property name="basedir" value="C:\Users\diarmuid.healy\OneDrive - Accenture\Desktop\KarateGit\Udemy\myproject"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\DIARMU~1.HEA\AppData\Local\Temp\surefire3232587198279600297\surefirebooter7707687286189572073.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_291\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_291-b10"/>
+    <property name="user.name" value="diarmuid.healy"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\diarmuid.healy\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\DIARMU~1.HEA\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_291"/>
+    <property name="user.dir" value="C:\Users\diarmuid.healy\OneDrive - Accenture\Desktop\KarateGit\Udemy\myproject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python39\Scripts\;C:\Python39\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Symantec\VIP Access Client\;C:\Program Files (x86)\PuTTY\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files (x86)\Common Files\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Common Files\Pulse Secure\VC142.CRT\X86\;C:\Program Files\Java\jdk1.8.0_291\bin;C:\Program Files\apache-maven-3.8.1\bin;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Users\diarmuid.healy\AppData\Local\Microsoft\WindowsApps;C:\Users\diarmuid.healy\AppData\Local\Programs\Git\cmd;C:\Users\diarmuid.healy\OneDrive - Accenture\Desktop\Maven\apache-maven-3.8.1\bin;;C:\Users\diarmuid.healy\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\diarmuid.healy\AppData\Roaming\npm;C:\Users\diarmuid.healy\AppData\Local\Yarn\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.291-b10"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testAll[1][1]" classname="conduitApp.ConduitTest" time="10.44">
+    <failure message="status code was: 503, expected: 200, response time in milliseconds: 1048, url: https://conduit.productionready.io/api/users/login, response: &#10;&lt;h1&gt;This website is under heavy load&lt;/h1&gt;&lt;p&gt;We&apos;re sorry, too many people are accessing this website at the same time. We&apos;re working on this problem. Please try again later.&lt;/p&gt;&#10;classpath:helpers/CreateToken.feature:9&#10;classpath:conduitApp/feature/Articles.feature:5" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+status code was: 503, expected: 200, response time in milliseconds: 1048, url: https://conduit.productionready.io/api/users/login, response: 
+<h1>This website is under heavy load</h1><p>We're sorry, too many people are accessing this website at the same time. We're working on this problem. Please try again later.</p>
+classpath:helpers/CreateToken.feature:9
+classpath:conduitApp/feature/Articles.feature:5
+]]></failure>
+    <system-out><![CDATA[14:06:01.002 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:06:04.927 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:06:05.113 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:helpers/CreateToken.feature')
+14:06:07.495 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit.productionready.io/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 70
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"jackbuzzhealy1996@gmail.com","password":"password"}}
+
+14:06:08.546 [main] DEBUG com.intuit.karate - response time in milliseconds: 1048
+1 < 503
+1 < Date: Wed, 01 Sep 2021 13:06:08 GMT
+1 < Content-Type: text/html; charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < cache-control: no-cache, no-store, must-revalidate
+1 < status: 503 Service Unavailable
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ylnggNChdbnBbD3BBb5ZipMVy%2BJRa2ebOQBb%2FsQAgikb5Hl37fyhrNmN9bkg%2B591Lcm3FHCVZ16Mu2F2SraBBfT1jLHV23ziNTocm5epEdxCqVkDTOiXCHqekuvT7klZWCzNhkLuWmRi3PScKA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 687eb6d05f0ae64c-LHR
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+<h1>This website is under heavy load</h1><p>We're sorry, too many people are accessing this website at the same time. We're working on this problem. Please try again later.</p>
+14:06:08.552 [main] ERROR com.intuit.karate - classpath:helpers/CreateToken.feature:9
+Then status 200
+status code was: 503, expected: 200, response time in milliseconds: 1048, url: https://conduit.productionready.io/api/users/login, response: 
+<h1>This website is under heavy load</h1><p>We're sorry, too many people are accessing this website at the same time. We're working on this problem. Please try again later.</p>
+classpath:helpers/CreateToken.feature:9
+14:06:08.554 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/Articles.feature:5
+* def tokenResponse = callonce read('classpath:helpers/CreateToken.feature')
+status code was: 503, expected: 200, response time in milliseconds: 1048, url: https://conduit.productionready.io/api/users/login, response: 
+<h1>This website is under heavy load</h1><p>We're sorry, too many people are accessing this website at the same time. We're working on this problem. Please try again later.</p>
+classpath:helpers/CreateToken.feature:9
+classpath:conduitApp/feature/Articles.feature:5
+---------------------------------------------------------
+feature: classpath:conduitApp/feature/Articles.feature
+scenarios:  1 | passed:  0 | failed:  1 | time: 3.4731
+---------------------------------------------------------
+
+]]></system-out>
+  </testcase>
+  <testcase name="testAll[2][1]" classname="conduitApp.ConduitTest" time="30.968">
+    <failure message="http call failed after 30178 milliseconds for url: https://conduit.productionready.io/api/users/login&#10;classpath:helpers/CreateToken.feature:8&#10;classpath:conduitApp/feature/DeleteArticle.feature:5" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: 
+http call failed after 30178 milliseconds for url: https://conduit.productionready.io/api/users/login
+classpath:helpers/CreateToken.feature:8
+classpath:conduitApp/feature/DeleteArticle.feature:5
+</failure>
+    <system-out><![CDATA[14:06:11.626 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:06:11.637 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:helpers/CreateToken.feature')
+14:06:11.673 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit.productionready.io/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 70
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"jackbuzzhealy1996@gmail.com","password":"password"}}
+
+14:06:41.849 [main] ERROR com.intuit.karate - java.net.SocketTimeoutException: Read timed out, http call failed after 30178 milliseconds for url: https://conduit.productionready.io/api/users/login
+14:06:41.850 [main] ERROR com.intuit.karate - classpath:helpers/CreateToken.feature:8
+When method POST
+http call failed after 30178 milliseconds for url: https://conduit.productionready.io/api/users/login
+classpath:helpers/CreateToken.feature:8
+14:06:41.851 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/DeleteArticle.feature:5
+* def tokenResponse = callonce read('classpath:helpers/CreateToken.feature')
+http call failed after 30178 milliseconds for url: https://conduit.productionready.io/api/users/login
+classpath:helpers/CreateToken.feature:8
+classpath:conduitApp/feature/DeleteArticle.feature:5
+---------------------------------------------------------
+feature: classpath:conduitApp/feature/DeleteArticle.feature
+scenarios:  1 | passed:  0 | failed:  1 | time: 30.2209
+---------------------------------------------------------
+
+]]></system-out>
+  </testcase>
+  <testcase name="testAll[3][1]" classname="conduitApp.ConduitTest" time="5.78">
+    <failure message="status code was: 503, expected: 200, response time in milliseconds: 510, url: https://conduit.productionready.io/api/users/login, response: &#10;&lt;h1&gt;This website is under heavy load&lt;/h1&gt;&lt;p&gt;We&apos;re sorry, too many people are accessing this website at the same time. We&apos;re working on this problem. Please try again later.&lt;/p&gt;&#10;classpath:helpers/CreateToken.feature:9&#10;classpath:conduitApp/feature/HomePage.feature:5" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+status code was: 503, expected: 200, response time in milliseconds: 510, url: https://conduit.productionready.io/api/users/login, response: 
+<h1>This website is under heavy load</h1><p>We're sorry, too many people are accessing this website at the same time. We're working on this problem. Please try again later.</p>
+classpath:helpers/CreateToken.feature:9
+classpath:conduitApp/feature/HomePage.feature:5
+]]></failure>
+    <system-out><![CDATA[14:06:42.492 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:06:42.501 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:helpers/CreateToken.feature')
+14:06:42.544 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit.productionready.io/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 70
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"jackbuzzhealy1996@gmail.com","password":"password"}}
+
+14:06:43.054 [main] DEBUG com.intuit.karate - response time in milliseconds: 510
+1 < 503
+1 < Date: Wed, 01 Sep 2021 13:06:42 GMT
+1 < Content-Type: text/html; charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < cache-control: no-cache, no-store, must-revalidate
+1 < status: 503 Service Unavailable
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=sr4LPBPsH%2F%2BypLz%2BPuW7luiXA4zhHXCARRTr0kTePh%2FvP44odGvYaAkYCweEEQl3ILlqpf8%2BZiU58qLgAVyfPBmx6Hzb76ht0Rq%2B9vuVK5pM21lTOuhBLfzy0EHYGlerJGOt3UGWUnUapBsRtg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 687eb7a7fb94002a-LHR
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+<h1>This website is under heavy load</h1><p>We're sorry, too many people are accessing this website at the same time. We're working on this problem. Please try again later.</p>
+14:06:43.057 [main] ERROR com.intuit.karate - classpath:helpers/CreateToken.feature:9
+Then status 200
+status code was: 503, expected: 200, response time in milliseconds: 510, url: https://conduit.productionready.io/api/users/login, response: 
+<h1>This website is under heavy load</h1><p>We're sorry, too many people are accessing this website at the same time. We're working on this problem. Please try again later.</p>
+classpath:helpers/CreateToken.feature:9
+14:06:43.057 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/HomePage.feature:5
+* def tokenResponse = callonce read('classpath:helpers/CreateToken.feature')
+status code was: 503, expected: 200, response time in milliseconds: 510, url: https://conduit.productionready.io/api/users/login, response: 
+<h1>This website is under heavy load</h1><p>We're sorry, too many people are accessing this website at the same time. We're working on this problem. Please try again later.</p>
+classpath:helpers/CreateToken.feature:9
+classpath:conduitApp/feature/HomePage.feature:5
+]]></system-out>
+  </testcase>
+  <testcase name="testAll[3][2]" classname="conduitApp.ConduitTest" time="36.051">
+    <failure message="http call failed after 30132 milliseconds for url: https://conduit.productionready.io/api/users/login&#10;classpath:helpers/CreateToken.feature:8&#10;classpath:conduitApp/feature/HomePage.feature:5" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: 
+http call failed after 30132 milliseconds for url: https://conduit.productionready.io/api/users/login
+classpath:helpers/CreateToken.feature:8
+classpath:conduitApp/feature/HomePage.feature:5
+</failure>
+    <system-out><![CDATA[14:06:43.067 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:06:43.072 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:helpers/CreateToken.feature')
+14:06:43.081 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit.productionready.io/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 70
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"jackbuzzhealy1996@gmail.com","password":"password"}}
+
+14:07:13.211 [main] ERROR com.intuit.karate - java.net.SocketTimeoutException: Read timed out, http call failed after 30132 milliseconds for url: https://conduit.productionready.io/api/users/login
+14:07:13.212 [main] ERROR com.intuit.karate - classpath:helpers/CreateToken.feature:8
+When method POST
+http call failed after 30132 milliseconds for url: https://conduit.productionready.io/api/users/login
+classpath:helpers/CreateToken.feature:8
+14:07:13.212 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/HomePage.feature:5
+* def tokenResponse = callonce read('classpath:helpers/CreateToken.feature')
+http call failed after 30132 milliseconds for url: https://conduit.productionready.io/api/users/login
+classpath:helpers/CreateToken.feature:8
+classpath:conduitApp/feature/HomePage.feature:5
+---------------------------------------------------------
+feature: classpath:conduitApp/feature/HomePage.feature
+scenarios:  2 | passed:  0 | failed:  2 | time: 30.7043
+---------------------------------------------------------
+
+Karate version: 1.1.0
+======================================================
+elapsed:  73.42 | threads:    1 | thread time: 64.40 
+features:     3 | skipped:    0 | efficiency: 0.88
+scenarios:    4 | passed:     0 | failed: 4
+======================================================
+>>> failed features:
+status code was: 503, expected: 200, response time in milliseconds: 1048, url: https://conduit.productionready.io/api/users/login, response: 
+<h1>This website is under heavy load</h1><p>We're sorry, too many people are accessing this website at the same time. We're working on this problem. Please try again later.</p>
+classpath:helpers/CreateToken.feature:9
+classpath:conduitApp/feature/Articles.feature:5
+status code was: 503, expected: 200, response time in milliseconds: 510, url: https://conduit.productionready.io/api/users/login, response: 
+<h1>This website is under heavy load</h1><p>We're sorry, too many people are accessing this website at the same time. We're working on this problem. Please try again later.</p>
+classpath:helpers/CreateToken.feature:9
+classpath:conduitApp/feature/HomePage.feature:5
+http call failed after 30132 milliseconds for url: https://conduit.productionready.io/api/users/login
+classpath:helpers/CreateToken.feature:8
+classpath:conduitApp/feature/HomePage.feature:5
+http call failed after 30178 milliseconds for url: https://conduit.productionready.io/api/users/login
+classpath:helpers/CreateToken.feature:8
+classpath:conduitApp/feature/DeleteArticle.feature:5
+<<<
+
+HTML report: (paste into browser to view) | Karate version: 1.1.0
+file:///C:/Users/diarmuid.healy/OneDrive%20-%20Accenture/Desktop/KarateGit/Udemy/myproject/target/karate-reports/karate-summary.html
+===================================================================
+
+]]></system-out>
+  </testcase>
+</testsuite>
