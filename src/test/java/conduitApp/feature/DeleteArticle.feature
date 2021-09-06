@@ -1,7 +1,7 @@
 Feature: Articles
 
     Background: Define url
-        Given url 'http://conduit.productionready.io/api/'
+        Given url 'https://conduit.productionready.io/api/'
         * def tokenResponse = callonce read('classpath:helpers/CreateToken.feature')
         * def token = tokenResponse.authToken
         

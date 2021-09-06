@@ -30,7 +30,7 @@
     <div>Scenarios</div>
   </div>         
   <div id="nav-date">
-    <div>2021-09-03 06:10:06 PM</div>
+    <div>2021-09-06 08:36:12 PM</div>
   </div>        
 </div>
 
@@ -62,7 +62,7 @@
               </div>
             </div>
             <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>8464</span>
+              <span>ms:</span>&nbsp;<span>3082</span>
             </div>
           </div>
           <div class="step-row">
@@ -82,10 +82,10 @@
       <div class="step-ref bg-step">4</div>
       
       <div class="step-cell passed">
-        <span>Given</span>&nbsp;<span>url &#39;http://conduit.productionready.io/api/&#39;</span>
+        <span>Given</span>&nbsp;<span>url &#39;https://conduit.productionready.io/api/&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -94,7 +94,7 @@
 
   
 
-  <div class="preformatted" data-parent="0.4">18:09:58.025 karate.env system property was: null 
+  <div class="preformatted" data-parent="0.4">20:36:09.788 karate.env system property was: null 
 </div>   
 
   
@@ -114,7 +114,7 @@
         <span>*</span>&nbsp;<span>def tokenResponse = callonce read(&#39;classpath:helpers/CreateToken.feature&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">1757</div>
+    <div class="time-cell passed">2546</div>
   </div>
 
    
@@ -123,7 +123,7 @@
 
   
 
-  <div class="preformatted" data-parent="0.5">18:09:59.847 &lt;&lt; lock released, cached callonce: read(&#39;classpath:helpers/CreateToken.feature&#39;)
+  <div class="preformatted" data-parent="0.5">20:36:12.444 &lt;&lt; lock released, cached callonce: read(&#39;classpath:helpers/CreateToken.feature&#39;)
 </div>   
 
   <div>
@@ -134,7 +134,7 @@
         <div class="step-indent"></div>
         <div class="step-cell passed">helpers.CreateToken</div>
       </div>
-      <div class="time-cell passed">1732</div>
+      <div class="time-cell passed">2472</div>
     </div>
     <div>
       <div><div>
@@ -159,7 +159,7 @@
 
   
 
-  <div class="preformatted" data-parent="0.5.0.call.0.4">18:09:58.103 &gt;&gt; lock acquired, begin callonce: read(&#39;classpath:helpers/CreateToken.feature&#39;)
+  <div class="preformatted" data-parent="0.5.0.call.0.4">20:36:09.926 &gt;&gt; lock acquired, begin callonce: read(&#39;classpath:helpers/CreateToken.feature&#39;)
 </div>   
 
   
@@ -179,7 +179,7 @@
         <span>Given</span>&nbsp;<span>path &#39;users/login&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -207,7 +207,7 @@
         <span>And</span>&nbsp;<span>request {&quot;user&quot;:{&quot;email&quot;:&quot;jackbuzzhealy1996@gmail.com&quot;,&quot;password&quot;:&quot;password&quot;}}</span>
       </div>
     </div>
-    <div class="time-cell passed">70</div>
+    <div class="time-cell passed">146</div>
   </div>
 
    
@@ -235,7 +235,7 @@
         <span>When</span>&nbsp;<span>method POST</span>
       </div>
     </div>
-    <div class="time-cell passed">1652</div>
+    <div class="time-cell passed">2299</div>
   </div>
 
    
@@ -244,7 +244,7 @@
 
   
 
-  <div class="preformatted" data-parent="0.5.0.call.0.7">18:09:59.023 request:
+  <div class="preformatted" data-parent="0.5.0.call.0.7">20:36:11.609 request:
 1 &gt; POST https://conduit.productionready.io/api/users/login
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 70
@@ -254,30 +254,30 @@
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;user&quot;:{&quot;email&quot;:&quot;jackbuzzhealy1996@gmail.com&quot;,&quot;password&quot;:&quot;password&quot;}}
 
-18:09:59.832 response time in milliseconds: 807
+20:36:12.401 response time in milliseconds: 786
 1 &lt; 200
-1 &lt; Date: Fri, 03 Sep 2021 17:09:59 GMT
+1 &lt; Date: Mon, 06 Sep 2021 19:36:12 GMT
 1 &lt; Content-Type: application/json; charset=utf-8
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Connection: keep-alive
 1 &lt; cache-control: max-age=0, private, must-revalidate
-1 &lt; etag: W/&quot;556bad833caee5267cd4e4191b643574&quot;
+1 &lt; etag: W/&quot;600daf436e81769030fb105ed80f03fe&quot;
 1 &lt; status: 200 OK
 1 &lt; vary: Origin
 1 &lt; x-content-type-options: nosniff
 1 &lt; x-frame-options: SAMEORIGIN
 1 &lt; x-powered-by: Phusion Passenger 4.0.60
-1 &lt; x-request-id: 4c653b31-ad5b-427e-b407-19158ebb16e6
-1 &lt; x-runtime: 0.089622
+1 &lt; x-request-id: 43def550-298c-4095-8783-740f5ce216f1
+1 &lt; x-runtime: 0.081583
 1 &lt; x-xss-protection: 1; mode=block
 1 &lt; CF-Cache-Status: DYNAMIC
 1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
-1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=VelIORJ%2BRDZMP92etdUB2pXheSvLD6B9s6kOB8X%2Blrw%2FMZy1jL%2BFjg%2BD260quMDYVFuhw%2BbX%2FT0SxeN9b%2BDSTECe1lKyi3Mk5Caw3IgitF7KuCDiKK8XgZprP4gCiQiFNxDFrE%2FHaGnDTF8GWg%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=vRT4p21eJ44lI5ZkVO%2F%2F1oYUVop0ct3gO6hH9rAobEEeRuS3sEeN2hbkOl7zP6Jqnx%2FFhpD7IYoqSOcnOT6nH6NluYLFfkm%2FGV1yICoUPWztXd2W8TUrQU26sKIjV4Q5rThLoS%2FHrGtFsmLgmQ%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; Server: cloudflare
-1 &lt; CF-RAY: 689096c62cd00070-LHR
-1 &lt; alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400, h3=&quot;:443&quot;; ma=86400
-{&quot;user&quot;:{&quot;id&quot;:217246,&quot;email&quot;:&quot;jackbuzzhealy1996@gmail.com&quot;,&quot;createdAt&quot;:&quot;2021-08-31T10:11:53.157Z&quot;,&quot;updatedAt&quot;:&quot;2021-08-31T10:32:42.058Z&quot;,&quot;username&quot;:&quot;jack-healy-001&quot;,&quot;bio&quot;:null,&quot;image&quot;:null,&quot;token&quot;:&quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MjE3MjQ2LCJ1c2VybmFtZSI6ImphY2staGVhbHktMDAxIiwiZXhwIjoxNjM1ODcyOTk5fQ.wAJMO1QkuT_ZiBWgncY8AznHepy90hgfnI3-aTsNx4g&quot;}}
+1 &lt; CF-RAY: 68aa25139c7c5452-LHR
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-27=&quot;:443&quot;; ma=86400
+{&quot;user&quot;:{&quot;id&quot;:217246,&quot;email&quot;:&quot;jackbuzzhealy1996@gmail.com&quot;,&quot;createdAt&quot;:&quot;2021-08-31T10:11:53.157Z&quot;,&quot;updatedAt&quot;:&quot;2021-08-31T10:32:42.058Z&quot;,&quot;username&quot;:&quot;jack-healy-001&quot;,&quot;bio&quot;:null,&quot;image&quot;:null,&quot;token&quot;:&quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MjE3MjQ2LCJ1c2VybmFtZSI6ImphY2staGVhbHktMDAxIiwiZXhwIjoxNjM2MTQwOTcyfQ.MjpFt5zBrP3fiFwRIvxavWDApBiRGWZGsuwrVfVEeaM&quot;}}
 </div>   
 
   
@@ -325,7 +325,7 @@
         <span>*</span>&nbsp;<span>def token = response.user.token</span>
       </div>
     </div>
-    <div class="time-cell passed">9</div>
+    <div class="time-cell passed">25</div>
   </div>
 
    
@@ -358,7 +358,7 @@
         <span>*</span>&nbsp;<span>def token = tokenResponse.authToken</span>
       </div>
     </div>
-    <div class="time-cell passed">8</div>
+    <div class="time-cell passed">18</div>
   </div>
 
    
@@ -393,7 +393,7 @@
         <span>Given</span>&nbsp;<span>header Authorization = &#39;Token &#39; + token</span>
       </div>
     </div>
-    <div class="time-cell passed">27</div>
+    <div class="time-cell passed">56</div>
   </div>
 
    
@@ -453,7 +453,7 @@
       <div class="step-ref passed">13</div>
       
       <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>request {&quot;article&quot;:{&quot;tagList&quot;: [], &quot;title&quot;:&quot;Another Article&quot;,&quot;description&quot;:&quot;This is another article&quot;,&quot;body&quot;:&quot;This is the body of another article&quot;}}</span>
+        <span>And</span>&nbsp;<span>request {&quot;article&quot;:{&quot;tagList&quot;: [], &quot;title&quot;:&quot;Article&quot;,&quot;description&quot;:&quot;This is another article&quot;,&quot;body&quot;:&quot;This is the body of another article&quot;}}</span>
       </div>
     </div>
     <div class="time-cell passed">0</div>
@@ -484,7 +484,7 @@
         <span>When</span>&nbsp;<span>method POST</span>
       </div>
     </div>
-    <div class="time-cell passed">6670</div>
+    <div class="time-cell passed">458</div>
   </div>
 
    
@@ -493,20 +493,20 @@
 
   
 
-  <div class="preformatted" data-parent="0.14">18:09:59.887 request:
-1 &gt; POST http://conduit.productionready.io/api/articles
+  <div class="preformatted" data-parent="0.14">20:36:12.527 request:
+1 &gt; POST https://conduit.productionready.io/api/articles
 1 &gt; Authorization: Token null
 1 &gt; Content-Type: application/json; charset=UTF-8
-1 &gt; Content-Length: 137
+1 &gt; Content-Length: 129
 1 &gt; Host: conduit.productionready.io
 1 &gt; Connection: Keep-Alive
 1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
 1 &gt; Accept-Encoding: gzip,deflate
-{&quot;article&quot;:{&quot;tagList&quot;:[],&quot;title&quot;:&quot;Another Article&quot;,&quot;description&quot;:&quot;This is another article&quot;,&quot;body&quot;:&quot;This is the body of another article&quot;}}
+{&quot;article&quot;:{&quot;tagList&quot;:[],&quot;title&quot;:&quot;Article&quot;,&quot;description&quot;:&quot;This is another article&quot;,&quot;body&quot;:&quot;This is the body of another article&quot;}}
 
-18:10:06.554 response time in milliseconds: 6667
+20:36:12.977 response time in milliseconds: 449
 1 &lt; 401
-1 &lt; Date: Fri, 03 Sep 2021 17:10:06 GMT
+1 &lt; Date: Mon, 06 Sep 2021 19:36:12 GMT
 1 &lt; Content-Type: text/html
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Connection: keep-alive
@@ -516,15 +516,16 @@
 1 &lt; x-content-type-options: nosniff
 1 &lt; x-frame-options: SAMEORIGIN
 1 &lt; x-powered-by: Phusion Passenger 4.0.60
-1 &lt; x-request-id: f5ca3b24-f7bc-45f5-85bf-64d2dc3c9a65
-1 &lt; x-runtime: 0.003750
+1 &lt; x-request-id: 496f3179-ec23-4266-86dd-ed703de3023b
+1 &lt; x-runtime: 0.004099
 1 &lt; x-xss-protection: 1; mode=block
 1 &lt; CF-Cache-Status: DYNAMIC
-1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=CAXsIytDogUHd10ES9cLD71MIIS6sGbekm5c%2FnW4YF8lukgGLJtIiYBlHAoNW%2FHTemJOn0An8Wi%2BNkyU9lXcHcoEroEWjwKaSuWB9KJq%2B%2BBUnSah9IReHqraPp0dapVWu4Fa6Z0cL0ZHbOw4ew%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=08mEQyiXlzU6C5fTB0QTi8j7s5Wvo4RahTc7Ak8J%2FIjqrvKBEOP%2FNoi7ojPgsswEU%2BC0Xg0buI9uU3TpLpW0TSgww4xWbhx4Xm9FchQBXgdEoyc1bDn8hGHyk5EClO62wuorjb87TqtOzUBR%2FA%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; Server: cloudflare
-1 &lt; CF-RAY: 689096c96e63e680-LHR
-1 &lt; alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400, h3=&quot;:443&quot;; ma=86400
+1 &lt; CF-RAY: 68aa2516cdade64c-LHR
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-27=&quot;:443&quot;; ma=86400
 
 </div>   
 
@@ -554,9 +555,9 @@
 
   
 
-  <div class="preformatted" data-parent="0.15">18:10:06.556 classpath:conduitApp/feature/Articles.feature:15
+  <div class="preformatted" data-parent="0.15">20:36:12.982 classpath:conduitApp/feature/Articles.feature:15
 Then status 200
-status code was: 401, expected: 200, response time in milliseconds: 6667, url: http://conduit.productionready.io/api/articles, response: 
+status code was: 401, expected: 200, response time in milliseconds: 449, url: https://conduit.productionready.io/api/articles, response: 
 
 classpath:conduitApp/feature/Articles.feature:15
 </div>   

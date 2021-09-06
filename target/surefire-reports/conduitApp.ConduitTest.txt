@@ -1,117 +1,21 @@
 -------------------------------------------------------------------------------
 Test set: conduitApp.ConduitTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 40.048 s <<< FAILURE! - in conduitApp.ConduitTest
-testAll[1][1]  Time elapsed: 11 s  <<< FAILURE!
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 54.417 s <<< FAILURE! - in conduitApp.ConduitTest
+testSample[1][1]  Time elapsed: 35.439 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: 
-status code was: 401, expected: 200, response time in milliseconds: 6667, url: http://conduit.productionready.io/api/articles, response: 
+http call failed after 30029 milliseconds for url: http://conduit.productionready.io/api/tags
+classpath:conduitApp/feature/HomePage.feature:10
 
-classpath:conduitApp/feature/Articles.feature:15
-
-testAll[2][1]  Time elapsed: 1.219 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: 
-status code was: 401, expected: 200, response time in milliseconds: 365, url: http://conduit.productionready.io/api/articles, response: 
-
-classpath:conduitApp/feature/DeleteArticle.feature:15
-
-testAll[3][1]  Time elapsed: 16.682 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: 
-match failed: CONTAINS
-  $ | actual does not contain expected | actual array does not contain expected item - public (LIST:STRING)
-  ["?m?t?ur","?n?l","J?p?n?s?","h?nt??","?ld/Y?ung","??LF","M?tur?","b?nd?g?","??g ?ss","Thr??s?m?","g??","T??n","F?m?l? ?rg?sm","?ubl??","B?g ??ts","??g D??k","?b?n?","L?sb??n","?art??n","russ??n"]
-  'public'
-
-    $[19] | not equal (STRING:STRING)
-    'russ??n'
-    'public'
-
-    $[18] | not equal (STRING:STRING)
-    '?art??n'
-    'public'
-
-    $[17] | not equal (STRING:STRING)
-    'L?sb??n'
-    'public'
-
-    $[16] | not equal (STRING:STRING)
-    '?b?n?'
-    'public'
-
-    $[15] | not equal (STRING:STRING)
-    '??g D??k'
-    'public'
-
-    $[14] | not equal (STRING:STRING)
-    'B?g ??ts'
-    'public'
-
-    $[13] | not equal (STRING:STRING)
-    '?ubl??'
-    'public'
-
-    $[12] | not equal (STRING:STRING)
-    'F?m?l? ?rg?sm'
-    'public'
-
-    $[11] | not equal (STRING:STRING)
-    'T??n'
-    'public'
-
-    $[10] | not equal (STRING:STRING)
-    'g??'
-    'public'
-
-    $[9] | not equal (STRING:STRING)
-    'Thr??s?m?'
-    'public'
-
-    $[8] | not equal (STRING:STRING)
-    '??g ?ss'
-    'public'
-
-    $[7] | not equal (STRING:STRING)
-    'b?nd?g?'
-    'public'
-
-    $[6] | not equal (STRING:STRING)
-    'M?tur?'
-    'public'
-
-    $[5] | not equal (STRING:STRING)
-    '??LF'
-    'public'
-
-    $[4] | not equal (STRING:STRING)
-    '?ld/Y?ung'
-    'public'
-
-    $[3] | not equal (STRING:STRING)
-    'h?nt??'
-    'public'
-
-    $[2] | not equal (STRING:STRING)
-    'J?p?n?s?'
-    'public'
-
-    $[1] | not equal (STRING:STRING)
-    '?n?l'
-    'public'
-
-    $[0] | not equal (STRING:STRING)
-    '?m?t?ur'
-    'public'
-
-classpath:conduitApp/feature/HomePage.feature:14
-
-testAll[3][2]  Time elapsed: 8.521 s  <<< FAILURE!
+testSample[1][2]  Time elapsed: 17.853 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: 
 match failed: EACH_EQUALS
   $ | match each failed at index 0 (LIST:MAP)
-  [{"title":"df","slug":"df-lzs6wx","body":"fdsf","createdAt":"2021-09-03T16:55:07.818Z","updatedAt":"2021-09-03T16:55:07.818Z","tagList":[],"description":"df","author":{"username":"aaa71","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"iPhone 13","slug":"iphone-13-dm10ze","body":"hello world React => Redux","createdAt":"2021-09-03T16:53:01.928Z","updatedAt":"2021-09-03T16:56:10.948Z","tagList":[],"description":"iPhone 13 with 4 back camera ","author":{"username":"aaa71","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"bubalo gansito","slug":"bubalo-gansito-nkbiks","body":"muy ricas, quieroooooo!","createdAt":"2021-09-03T16:50:53.019Z","updatedAt":"2021-09-03T16:50:53.019Z","tagList":[],"description":"golosinas","author":{"username":"Diana Rubi","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"bubalo gansito","slug":"bubalo-gansito-auxfu7","body":"muy ricas, quieroooooo!","createdAt":"2021-09-03T16:42:08.283Z","updatedAt":"2021-09-03T16:42:08.283Z","tagList":[],"description":"golosinas","author":{"username":"Diana Rubi","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"da-da","slug":"da-da-3mve4e","body":"bla-bla","createdAt":"2021-09-03T16:33:23.350Z","updatedAt":"2021-09-03T16:33:23.350Z","tagList":["red","gerl","beer"],"description":"who-who","author":{"username":"Cat-Pimp","bio":"tra-ta-ta","image":"data:image/jpeg;base64,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","following":false},"favorited":false,"favoritesCount":0},{"title":"Grupo Primo","slug":"grupo-primo-i3ksl6","body":"Follow @thiago.nigro on Instagram","createdAt":"2021-09-03T16:31:29.371Z","updatedAt":"2021-09-03T16:31:29.371Z","tagList":[],"description":"Best investment and entrepreneur content","author":{"username":"Grupo Primo","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"test","slug":"test-cx0qju","body":"test","createdAt":"2021-09-03T16:30:41.764Z","updatedAt":"2021-09-03T16:30:41.764Z","tagList":["test"],"description":"test","author":{"username":"Cat-Pimp","bio":"tra-ta-ta","image":"data:image/jpeg;base64,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","following":false},"favorited":false,"favoritesCount":0},{"title":"My post title","slug":"my-post-title-jm8bt2","body":"Simple automation project https://github.com/helenanull/cypress-example","createdAt":"2021-09-03T16:06:28.605Z","updatedAt":"2021-09-03T16:06:28.605Z","tagList":["test-automation","cypress"],"description":"Cypress","author":{"username":"cy950868076","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"My post title","slug":"my-post-title-zt9fm2","body":"Simple automation project https://github.com/helenanull/cypress-example","createdAt":"2021-09-03T16:06:00.985Z","updatedAt":"2021-09-03T16:06:00.985Z","tagList":[],"description":"Cypress","author":{"username":"cy980796948","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"I need more rust in my life","slug":"i-need-more-rust-in-my-life-918ovl","body":"I need more rust in my life since my car is full of it. ","createdAt":"2021-09-03T15:48:55.970Z","updatedAt":"2021-09-03T15:48:55.970Z","tagList":[],"description":"Rust","author":{"username":"tonyqt","bio":"is me... Mario","image":"","following":false},"favorited":false,"favoritesCount":0}]
+  [{"title":"sdftrsdf","slug":"sdftrsdf-bl0rhq","body":"sdfsdf","createdAt":"2021-09-06T19:25:27.859Z","updatedAt":"2021-09-06T19:25:27.859Z","tagList":["sdfsdfdsf"],"description":"sdfdsf","author":{"username":"iamellythedog","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"a","slug":"a-hlyf1l","body":"d","createdAt":"2021-09-06T19:22:54.644Z","updatedAt":"2021-09-06T19:22:54.644Z","tagList":["a"],"description":"s","author":{"username":"iamellythedog","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"asd","slug":"asd-mz87j2","body":"asdasd","createdAt":"2021-09-06T19:22:24.252Z","updatedAt":"2021-09-06T19:22:24.252Z","tagList":["asdasd"],"description":"asdasd","author":{"username":"iamellythedog","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Grupo Primo","slug":"grupo-primo-4h3h7j","body":"Follow @thiago.nigro on Instagram","createdAt":"2021-09-06T19:15:42.253Z","updatedAt":"2021-09-06T19:15:42.253Z","tagList":[],"description":"Best investment and entrepreneur content","author":{"username":"Grupo Primo","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"someArticle","slug":"somearticle-j3ffee","body":"TEst","createdAt":"2021-09-06T19:11:17.080Z","updatedAt":"2021-09-06T19:11:17.080Z","tagList":[],"description":"Test","author":{"username":"SilverRings","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Raynald Westerling","slug":"raynald-westerling-1euuah","body":"Fear cuts deeper than swords.","createdAt":"2021-09-06T19:05:30.346Z","updatedAt":"2021-09-06T19:05:30.346Z","tagList":[],"description":"Myr","author":{"username":"dev112my","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"someArticle","slug":"somearticle-wnb1cf","body":"TEst","createdAt":"2021-09-06T19:02:31.633Z","updatedAt":"2021-09-06T19:02:31.633Z","tagList":[],"description":"Test","author":{"username":"SilverRings","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"someArticle","slug":"somearticle-cdkiax","body":"TEst","createdAt":"2021-09-06T19:00:13.887Z","updatedAt":"2021-09-06T19:00:13.887Z","tagList":[],"description":"Test","author":{"username":"SilverRings","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"someArticle","slug":"somearticle-ql7gif","body":"TEst","createdAt":"2021-09-06T18:56:24.528Z","updatedAt":"2021-09-06T18:56:24.528Z","tagList":[],"description":"Test","author":{"username":"SilverRings","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"someArticle","slug":"somearticle-ju9dy9","body":"TEst","createdAt":"2021-09-06T18:55:05.791Z","updatedAt":"2021-09-06T18:55:05.791Z","tagList":[],"description":"Test","author":{"username":"SilverRings","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0}]
   {"title":"#string","slug":"#string","body":"#string","//\"createdAt\"":"#? isValueTime(_)","//\"updatedAt\"":"#? isValueTime(_)","tagList":"#array","description":"#string","author":{"username":"#string","bio":"##string","image":"#string","following":"#boolean"},"favourited":"#boolean","favouritesCount":"#number"}
 
     $[0] | not equal | actual does not contain key - '//"createdAt"' (MAP:MAP)
-    {"title":"df","slug":"df-lzs6wx","body":"fdsf","createdAt":"2021-09-03T16:55:07.818Z","updatedAt":"2021-09-03T16:55:07.818Z","tagList":[],"description":"df","author":{"username":"aaa71","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0}
+    {"title":"sdftrsdf","slug":"sdftrsdf-bl0rhq","body":"sdfsdf","createdAt":"2021-09-06T19:25:27.859Z","updatedAt":"2021-09-06T19:25:27.859Z","tagList":["sdfsdfdsf"],"description":"sdfdsf","author":{"username":"iamellythedog","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0}
     {"title":"#string","slug":"#string","body":"#string","tagList":"#array","description":"#string","author":{"username":"#string","bio":"##string","image":"#string","following":"#boolean"},"//\"createdAt\"":"#? isValueTime(_)","//\"updatedAt\"":"#? isValueTime(_)","favourited":"#boolean","favouritesCount":"#number"}
 
 

@@ -41,8 +41,8 @@ Feature: Tests for the home page
                 "title":"#string",
                 "slug":"#string",
                 "body":"#string",
-                //"createdAt":"#? isValueTime(_)",
-                //"updatedAt":"#? isValueTime(_)",
+                "createdAt":"#? isValueTime(_)",
+                "updatedAt":"#? isValueTime(_)",
                 "tagList":"#array",
                 "description":"#string",
                 "author":
